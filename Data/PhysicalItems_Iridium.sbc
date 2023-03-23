@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+	
+        <PhysicalItem xsi:type="MyObjectBuilder_PhysicalItemDefinition">
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Iridium</SubtypeId>
+            </Id>
+            <DisplayName>Iridium Ore</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Iridium.dds</Icon>
+            <Size>
+                <X>0.036</X>
+                <Y>0.036</Y>
+                <Z>0.036</Z>
+            </Size>
+            <Mass>10</Mass>
+            <Volume>0.67</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>20000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </PhysicalItem>
+		
+        <PhysicalItem xsi:type="MyObjectBuilder_PhysicalItemDefinition">
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>PureIridium</SubtypeId>
+            </Id>
+            <DisplayName>Iridium Ingot</DisplayName>
+            <Description>An ultra rare cosmic ore. Very Expensive</Description>
+            <Icon>Textures\GUI\Icons\PureIridium.dds</Icon>
+            <Size>
+                <X>0.001</X>
+                <Y>0.001</Y>
+                <Z>0.001</Z>
+            </Size>
+            <Mass>20</Mass>
+            <Volume>.25</Volume>
+            <Model>Models\Ingots\PureIridium.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MinimalPricePerUnit>0</MinimalPricePerUnit>
+            <MinimumOrderAmount>0</MinimumOrderAmount>
+            <MaximumOrderAmount>0</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>0</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>0</MaximumAcquisitionAmount>
+        </PhysicalItem>
+		
+    </PhysicalItems>
+	
+</Definitions>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Tech2x</SubtypeId>
+            </Id>
+            <DisplayName>Common Tech</DisplayName>
+            <Icon>Textures\tech2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="90" TypeId="Ingot" SubtypeId="Iron"/>
+                <Item Amount="80" TypeId="Ingot" SubtypeId="Silicon"/>
+                <Item Amount="32" TypeId="Ingot" SubtypeId="Cobalt"/>
+                <Item Amount="24" TypeId="Ingot" SubtypeId="Silver"/>
+                <Item Amount="16" TypeId="Ingot" SubtypeId="Gold"/>
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Tech2x"/>
+            <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Tech4x</SubtypeId>
+            </Id>
+            <DisplayName>Rare Tech</DisplayName>
+            <Icon>Textures\tech4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Component" SubtypeId="Tech2x"/>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium"/>
+                
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
+            <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Tech8x</SubtypeId>
+            </Id>
+            <DisplayName>Exotic Tech</DisplayName>
+            <Icon>Textures\tech8x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Component" SubtypeId="Tech4x"/>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum"/>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="PureIridium"/>
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
+            <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>StoneOreToIngotIncinerate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="2.4" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="4.0" TypeId="Ingot" SubtypeId="Silicon" />
+            </Results>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+		<Blueprint>
+		  <Id>
+			<TypeId>BlueprintDefinition</TypeId>
+			<SubtypeId>IridiumOreToIngot</SubtypeId>
+		  </Id>
+		  <DisplayName>Pure Iridium</DisplayName>
+		  <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+		  <Prerequisites>
+			<Item Amount="1" TypeId="Ore" SubtypeId="Iridium" />
+		  </Prerequisites>
+		  <Result Amount="0.0025" TypeId="Ingot" SubtypeId="PureIridium" />
+		  <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+		</Blueprint>
+		
+		<Blueprint>
+		  <Id>
+			<TypeId>BlueprintDefinition</TypeId>
+			<SubtypeId>IridiatedUranium</SubtypeId>
+		  </Id>
+		  <DisplayName>Iridiated Uranium</DisplayName>
+		  <Icon>Textures\IrUr.dds</Icon>
+		  <Prerequisites>
+		   <Item Amount="45" TypeId="Ingot" SubtypeId="PureIridium"/>
+		   <Item Amount="15" TypeId="Ingot" SubtypeId="Uranium"/>
+		  </Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="IridiatedUranium"/>
+		   <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+		  </Blueprint>
+	  
+	</Blueprints>
+</Definitions>
