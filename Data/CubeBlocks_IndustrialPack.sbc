@@ -8,7 +8,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LargeBlockLargeIndustrialContainer2x</SubtypeId>
             </Id>
-            <DisplayName>Enhanced Large Ind. Cargo Container</DisplayName>
+            <DisplayName>Enhanced Large I. Cargo Container</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\CargoContainer2x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -458,7 +458,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial2x</SubtypeId>
       </Id>
-      <DisplayName>Enhanced Large I. Hydrogen Thruster</DisplayName>
+      <DisplayName>Enhanced I. Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
       <Icon>Textures\HydrogenThrusterIndustrialSmall2x.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -762,7 +762,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LargeBlockLargeIndustrialContainer4x</SubtypeId>
             </Id>
-            <DisplayName>Proficient Large Ind. Cargo Container</DisplayName>
+            <DisplayName>Proficient Large I. Cargo Container</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\CargoContainer4x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -774,15 +774,15 @@
             <Model>Models\Cubes\Large\CargoContainer.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="45"/>
-                <Component Subtype="InteriorPlate" Count="675"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="MetalGrid" Count="54"/>
-                <Component Subtype="SmallTube" Count="135"/>
-                <Component Subtype="Motor" Count="45"/>
-                <Component Subtype="Display" Count="3"/>
-                <Component Subtype="Computer" Count="18"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="InteriorPlate" Count="135"/>
+                <Component Subtype="InteriorPlate" Count="600"/>
+                <Component Subtype="Construction" Count="120"/>
+                <Component Subtype="MetalGrid" Count="48"/>
+                <Component Subtype="SmallTube" Count="120"/>
+                <Component Subtype="Motor" Count="40"/>
+                <Component Subtype="Display" Count="2"/>
+                <Component Subtype="Computer" Count="16"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="InteriorPlate" Count="120"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -858,12 +858,12 @@
             <Model>Models\Cubes\Large\HydrogenTankIndustrial.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="38"/>
-                <Component Subtype="SteelPlate" Count="360"/>
-                <Component Subtype="LargeTube" Count="180"/>
-                <Component Subtype="SmallTube" Count="135"/>
-                <Component Subtype="Computer" Count="18"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="SteelPlate" Count="270"/>
+                <Component Subtype="SteelPlate" Count="320"/>
+                <Component Subtype="LargeTube" Count="160"/>
+                <Component Subtype="SmallTube" Count="120"/>
+                <Component Subtype="Computer" Count="16"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="SteelPlate" Count="240"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -940,13 +940,13 @@
             <Model>Models\Cubes\Large\AdvancedAssemblerIndustrial.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="30"/>
-                <Component Subtype="SteelPlate" Count="270"/>
-                <Component Subtype="Construction" Count="180"/>
-                <Component Subtype="Motor" Count="45"/>
-                <Component Subtype="Display" Count="23"/>
-                <Component Subtype="MetalGrid" Count="23"/>
-                <Component Subtype="Computer" Count="360"/>
-                <Component Subtype="SteelPlate" Count="45"/>
+                <Component Subtype="SteelPlate" Count="240"/>
+                <Component Subtype="Construction" Count="160"/>
+                <Component Subtype="Motor" Count="40"/>
+                <Component Subtype="Display" Count="20"/>
+                <Component Subtype="MetalGrid" Count="20"/>
+                <Component Subtype="Computer" Count="320"/>
+                <Component Subtype="SteelPlate" Count="40"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -1213,7 +1213,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial4x</SubtypeId>
       </Id>
-      <DisplayName>Proficient Large I. Hydrogen Thruster</DisplayName>
+      <DisplayName>Proficient I. Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
       <Icon>Textures\HydrogenThrusterIndustrialSmall4x.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -1520,7 +1520,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LargeBlockLargeIndustrialContainer8x</SubtypeId>
             </Id>
-            <DisplayName>Elite Large Ind. Cargo Container</DisplayName>
+            <DisplayName>Elite Large I. Cargo Container</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\CargoContainer8x.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -1532,15 +1532,15 @@
             <Model>Models\Cubes\Large\CargoContainer.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="45"/>
-                <Component Subtype="InteriorPlate" Count="1013"/>
-                <Component Subtype="Construction" Count="203"/>
-                <Component Subtype="MetalGrid" Count="81"/>
-                <Component Subtype="SmallTube" Count="203"/>
-                <Component Subtype="Motor" Count="68"/>
-                <Component Subtype="Display" Count="4"/>
-                <Component Subtype="Computer" Count="27"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="InteriorPlate" Count="203"/>
+                <Component Subtype="InteriorPlate" Count="750"/>
+                <Component Subtype="Construction" Count="150"/>
+                <Component Subtype="MetalGrid" Count="60"/>
+                <Component Subtype="SmallTube" Count="150"/>
+                <Component Subtype="Motor" Count="50"/>
+                <Component Subtype="Display" Count="3"/>
+                <Component Subtype="Computer" Count="20"/>
+                <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="InteriorPlate" Count="150"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -1616,12 +1616,12 @@
             <Model>Models\Cubes\Large\HydrogenTankIndustrial.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="38"/>
-                <Component Subtype="SteelPlate" Count="540"/>
-                <Component Subtype="LargeTube" Count="270"/>
-                <Component Subtype="SmallTube" Count="203"/>
-                <Component Subtype="Computer" Count="27"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="SteelPlate" Count="405"/>
+                <Component Subtype="SteelPlate" Count="400"/>
+                <Component Subtype="LargeTube" Count="200"/>
+                <Component Subtype="SmallTube" Count="150"/>
+                <Component Subtype="Computer" Count="20"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="SteelPlate" Count="300"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -1698,13 +1698,13 @@
             <Model>Models\Cubes\Large\AdvancedAssemblerIndustrial.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="30"/>
-                <Component Subtype="SteelPlate" Count="405"/>
-                <Component Subtype="Construction" Count="270"/>
-                <Component Subtype="Motor" Count="68"/>
-                <Component Subtype="Display" Count="34"/>
-                <Component Subtype="MetalGrid" Count="34"/>
-                <Component Subtype="Computer" Count="540"/>
-                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="SteelPlate" Count="300"/>
+                <Component Subtype="Construction" Count="200"/>
+                <Component Subtype="Motor" Count="50"/>
+                <Component Subtype="Display" Count="25"/>
+                <Component Subtype="MetalGrid" Count="25"/>
+                <Component Subtype="Computer" Count="400"/>
+                <Component Subtype="SteelPlate" Count="50"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -1971,7 +1971,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial8x</SubtypeId>
       </Id>
-      <DisplayName>Elite Large I. Hydrogen Thruster</DisplayName>
+      <DisplayName>Elite I. Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
       <Icon>Textures\HydrogenThrusterIndustrialSmall8x.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -2070,7 +2070,7 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial8x</SubtypeId>
         </Id>
-        <DisplayName>Elite Large I. Thruster</DisplayName>
+        <DisplayName>Elite Large I. Hydrogen Thruster</DisplayName>
         <GuiVisible>false</GuiVisible>
         <Icon>Textures\HydrogenThrusterIndustrialLarge8x.dds</Icon>
         <Description>Description_HydrogenThrust</Description>
@@ -2173,7 +2173,7 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial8x</SubtypeId>
         </Id>
-        <DisplayName>Elite I. Thruster</DisplayName>
+        <DisplayName>Elite I. Hydrogen Thruster</DisplayName>
         <GuiVisible>false</GuiVisible>
         <Icon>Textures\HydrogenThrusterIndustrialSmall8x.dds</Icon>
         <Description>Description_HydrogenThrust</Description>
