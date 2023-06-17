@@ -9,11 +9,17 @@
             <DisplayName>Common Tech</DisplayName>
             <Icon>Textures\tech2x.dds</Icon>
             <Prerequisites>
-                <Item Amount="90" TypeId="Ingot" SubtypeId="Iron"/>
-                <Item Amount="80" TypeId="Ingot" SubtypeId="Silicon"/>
-                <Item Amount="32" TypeId="Ingot" SubtypeId="Cobalt"/>
-                <Item Amount="24" TypeId="Ingot" SubtypeId="Silver"/>
-                <Item Amount="16" TypeId="Ingot" SubtypeId="Gold"/>
+                <!-- <Item Amount="90" TypeId="Ingot" SubtypeId="Iron"/> -->
+                <!-- <Item Amount="80" TypeId="Ingot" SubtypeId="Silicon"/> -->
+                <!-- <Item Amount="32" TypeId="Ingot" SubtypeId="Cobalt"/> -->
+                <!-- <Item Amount="24" TypeId="Ingot" SubtypeId="Silver"/> -->
+                <!-- <Item Amount="16" TypeId="Ingot" SubtypeId="Gold"/> -->
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Iron"/>
+		<Item Amount="30" TypeId="Ingot" SubtypeId="Nickel" />
+		<Item Amount="80" TypeId="Ingot" SubtypeId="Silicon"/>
+                <Item Amount="28" TypeId="Ingot" SubtypeId="Cobalt"/>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Silver"/>
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Gold"/>
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech2x"/>
             <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
@@ -26,12 +32,18 @@
             <DisplayName>Rare Tech</DisplayName>
             <Icon>Textures\tech4x.dds</Icon>
             <Prerequisites>
-                <Item Amount="5" TypeId="Component" SubtypeId="Tech2x"/>
+                <!-- <Item Amount="5" TypeId="Component" SubtypeId="Tech2x"/> -->
+                <Item Amount="400" TypeId="Ingot" SubtypeId="Iron"/>
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="350" TypeId="Ingot" SubtypeId="Silicon"/>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Cobalt"/>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Silver"/>
+                <Item Amount="80" TypeId="Ingot" SubtypeId="Gold"/>
                 <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium"/>
                 
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
-            <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
         </Blueprint>
         <Blueprint>
             <Id>
@@ -41,12 +53,19 @@
             <DisplayName>Exotic Tech</DisplayName>
             <Icon>Textures\tech8x.dds</Icon>
             <Prerequisites>
-                <Item Amount="5" TypeId="Component" SubtypeId="Tech4x"/>
-                <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum"/>
-				<Item Amount="10" TypeId="Ingot" SubtypeId="PureIridium"/>
+                <!-- <Item Amount="5" TypeId="Component" SubtypeId="Tech4x"/> -->
+                <Item Amount="2000" TypeId="Ingot" SubtypeId="Iron"/>
+		<Item Amount="500" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="2000" TypeId="Ingot" SubtypeId="Silicon"/>
+                <Item Amount="1500" TypeId="Ingot" SubtypeId="Cobalt"/>
+                <Item Amount="1600" TypeId="Ingot" SubtypeId="Silver"/>
+                <Item Amount="1200" TypeId="Ingot" SubtypeId="Gold"/>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Uranium"/>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Platinum"/>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="PureIridium"/>
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
-            <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>2400</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -89,8 +108,8 @@
 		  <DisplayName>Iridiated Uranium</DisplayName>
 		  <Icon>Textures\IrUr.dds</Icon>
 		  <Prerequisites>
-		   <Item Amount="45" TypeId="Ingot" SubtypeId="PureIridium"/>
-		   <Item Amount="15" TypeId="Ingot" SubtypeId="Uranium"/>
+		   <Item Amount="10" TypeId="Ingot" SubtypeId="PureIridium"/>
+		   <Item Amount="125" TypeId="Ingot" SubtypeId="Uranium"/>
 		  </Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="IridiatedUranium"/>
 		   <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>

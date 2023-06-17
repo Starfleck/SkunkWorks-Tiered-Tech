@@ -89,13 +89,13 @@
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="30"/>
-                <Component Subtype="SteelPlate" Count="2475"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="LargeTube" Count="45"/>
-                <Component Subtype="Motor" Count="36"/>
-                <Component Subtype="MetalGrid" Count="45"/>
-                <Component Subtype="Computer" Count="45"/>
-                <Component Subtype="SteelPlate" Count="225"/>
+                <Component Subtype="SteelPlate" Count="2200"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="LargeTube" Count="40"/>
+                <Component Subtype="Motor" Count="32"/>
+                <Component Subtype="MetalGrid" Count="40"/>
+                <Component Subtype="Computer" Count="40"/>
+                <Component Subtype="SteelPlate" Count="200"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <Center x="1" y="0" z="1"/>
@@ -161,13 +161,13 @@
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="30"/>
-                <Component Subtype="SteelPlate" Count="3713"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="LargeTube" Count="68"/>
-                <Component Subtype="Motor" Count="54"/>
-                <Component Subtype="MetalGrid" Count="68"/>
-                <Component Subtype="Computer" Count="68"/>
-                <Component Subtype="SteelPlate" Count="338"/>
+                <Component Subtype="SteelPlate" Count="2750"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="LargeTube" Count="50"/>
+                <Component Subtype="Motor" Count="40"/>
+                <Component Subtype="MetalGrid" Count="50"/>
+                <Component Subtype="Computer" Count="50"/>
+                <Component Subtype="SteelPlate" Count="250"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <Center x="1" y="0" z="1"/>

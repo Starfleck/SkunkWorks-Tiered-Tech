@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- deactivating this so that it doesn't override Starfleck's econ mod 
     <Definition xsi:type="MyObjectBuilder_FactionTypeDefinition">
         <Id Type="MyObjectBuilder_FactionTypeDefinition" Subtype="Trader" />
 
@@ -91,6 +92,6 @@
 
         <MaxContractCount>15</MaxContractCount>
 
-    </Definition>
+    </Definition> -->
 </Definitions>
 

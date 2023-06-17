@@ -13,22 +13,21 @@
                 <Y>0.7</Y>
                 <Z>0.4</Z>
             </Size>
-            <Mass>50</Mass>
-            <Volume>5</Volume>
+            <Mass>4</Mass>
+            <Volume>6</Volume>
             <Model>Models\Components\gravity_generator_components_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>500</MaxIntegrity>
+            <MaxIntegrity>3500</MaxIntegrity>
             <DropProbability>0.5</DropProbability>
-            <Health>1000</Health>
-            <MinimalPricePerUnit>100000</MinimalPricePerUnit>
-            <MinimumOfferAmount>10</MinimumOfferAmount>
-            <MaximumOfferAmount>500</MaximumOfferAmount>
-            <MinimumOrderAmount>10</MinimumOrderAmount>
-            <MaximumOrderAmount>500</MaximumOrderAmount>
+            <Health>3500</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>50000</MaximumOfferAmount>
+            <MinimumOrderAmount>10000</MinimumOrderAmount>
+            <MaximumOrderAmount>500000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
 
-            <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+            <MinimumAcquisitionAmount>2000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
         </Component>
         <Component>
             <Id>
@@ -42,22 +41,21 @@
                 <Y>0.7</Y>
                 <Z>0.4</Z>
             </Size>
-            <Mass>60</Mass>
-            <Volume>5</Volume>
+            <Mass>2</Mass>
+            <Volume>3</Volume>
             <Model>Models\Components\gravity_generator_components_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>500</MaxIntegrity>
+            <MaxIntegrity>5000</MaxIntegrity>
             <DropProbability>0.5</DropProbability>
-            <Health>2000</Health>
-            <MinimalPricePerUnit>200000</MinimalPricePerUnit>
-            <MinimumOfferAmount>5</MinimumOfferAmount>
-            <MaximumOfferAmount>250</MaximumOfferAmount>
-            <MinimumOrderAmount>5</MinimumOrderAmount>
-            <MaximumOrderAmount>250</MaximumOrderAmount>
+            <Health>5000</Health>
+            <MinimumOfferAmount>50</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>500</MinimumOrderAmount>
+            <MaximumOrderAmount>25000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
 
-            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
         </Component>
         <Component>
             <Id>
@@ -71,22 +69,21 @@
                 <Y>0.7</Y>
                 <Z>0.4</Z>
             </Size>
-            <Mass>70</Mass>
-            <Volume>5</Volume>
+            <Mass>1</Mass>
+            <Volume>2</Volume>
             <Model>Models\Components\gravity_generator_components_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>500</MaxIntegrity>
+            <MaxIntegrity>6500</MaxIntegrity>
             <DropProbability>0.5</DropProbability>
-            <Health>4000</Health>
-            <MinimalPricePerUnit>400000</MinimalPricePerUnit>
-            <MinimumOfferAmount>2</MinimumOfferAmount>
-            <MaximumOfferAmount>125</MaximumOfferAmount>
-            <MinimumOrderAmount>2</MinimumOrderAmount>
-            <MaximumOrderAmount>125</MaximumOrderAmount>
+            <Health>6500</Health>
+            <MinimumOfferAmount>30</MinimumOfferAmount>
+            <MaximumOfferAmount>60</MaximumOfferAmount>
+            <MinimumOrderAmount>500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
 
-            <MinimumAcquisitionAmount>5</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>25</MaximumAcquisitionAmount>
+            <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>200</MaximumAcquisitionAmount>
         </Component>
 		
         <Component>
@@ -108,15 +105,14 @@
             <IconSymbol>IU</IconSymbol>
             <DropProbability>0.5</DropProbability>
             <Health>2000</Health>
-            <MinimalPricePerUnit>400000</MinimalPricePerUnit>
-            <MinimumOfferAmount>2</MinimumOfferAmount>
-            <MaximumOfferAmount>125</MaximumOfferAmount>
-            <MinimumOrderAmount>2</MinimumOrderAmount>
-            <MaximumOrderAmount>125</MaximumOrderAmount>
+            <MinimumOfferAmount>5</MinimumOfferAmount>
+            <MaximumOfferAmount>90</MaximumOfferAmount>
+            <MinimumOrderAmount>300</MinimumOrderAmount>
+            <MaximumOrderAmount>8000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
 
-            <MinimumAcquisitionAmount>5</MinimumAcquisitionAmount>
-            <MaximumAcquisitionAmount>25</MaximumAcquisitionAmount>
+            <MinimumAcquisitionAmount>15</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>150</MaximumAcquisitionAmount>
         </Component>		
     </Components>
 </Definitions>
