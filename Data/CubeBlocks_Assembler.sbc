@@ -92,13 +92,13 @@
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="30"/>
-                <Component Subtype="SteelPlate" Count="270"/>
-                <Component Subtype="Construction" Count="180"/>
-                <Component Subtype="Motor" Count="45"/>
-                <Component Subtype="Display" Count="23"/>
-                <Component Subtype="MetalGrid" Count="23"/>
-                <Component Subtype="Computer" Count="360"/>
-                <Component Subtype="SteelPlate" Count="45"/>
+                <Component Subtype="SteelPlate" Count="240"/>
+                <Component Subtype="Construction" Count="160"/>
+                <Component Subtype="Motor" Count="40"/>
+                <Component Subtype="Display" Count="20"/>
+                <Component Subtype="MetalGrid" Count="20"/>
+                <Component Subtype="Computer" Count="320"/>
+                <Component Subtype="SteelPlate" Count="40"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -166,13 +166,13 @@
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="30"/>
-                <Component Subtype="SteelPlate" Count="405"/>
-                <Component Subtype="Construction" Count="270"/>
-                <Component Subtype="Motor" Count="68"/>
-                <Component Subtype="Display" Count="34"/>
-                <Component Subtype="MetalGrid" Count="34"/>
-                <Component Subtype="Computer" Count="540"/>
-                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="SteelPlate" Count="300"/>
+                <Component Subtype="Construction" Count="200"/>
+                <Component Subtype="Motor" Count="50"/>
+                <Component Subtype="Display" Count="25"/>
+                <Component Subtype="MetalGrid" Count="25"/>
+                <Component Subtype="Computer" Count="400"/>
+                <Component Subtype="SteelPlate" Count="50"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
