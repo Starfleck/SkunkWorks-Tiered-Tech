@@ -110,7 +110,7 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockLargeHydrogenThrust2x</SubtypeId>
             </Id>
-            <DisplayName>Enhanced Hydrogen Thruster</DisplayName>
+            <DisplayName>Enhanced Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\HydrogenThrusterLarge2x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -313,7 +313,7 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockLargeHydrogenThrust2x</SubtypeId>
             </Id>
-            <DisplayName>Enhanced Hydrogen Thruster</DisplayName>
+            <DisplayName>Enhanced Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\HydrogenThrusterLarge2x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -432,12 +432,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="3"/>
-                <Component Subtype="SteelPlate" Count="5"/>
-                <Component Subtype="Construction" Count="23"/>
-                <Component Subtype="MetalGrid" Count="9"/>
-                <Component Subtype="LargeTube" Count="5"/>
-                <Component Subtype="Construction" Count="12"/>
-                <Component Subtype="SteelPlate" Count="12"/>
+                <Component Subtype="SteelPlate" Count="4"/>
+                <Component Subtype="Construction" Count="20"/>
+                <Component Subtype="MetalGrid" Count="8"/>
+                <Component Subtype="LargeTube" Count="4"/>
+                <Component Subtype="Construction" Count="10"/>
+                <Component Subtype="SteelPlate" Count="10"/>
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0"/>
             <MountPoints>
@@ -520,7 +520,7 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockLargeHydrogenThrust4x</SubtypeId>
             </Id>
-            <DisplayName>Proficient Hydrogen Thruster</DisplayName>
+            <DisplayName>Proficient Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\HydrogenThrusterLarge4x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -534,12 +534,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="7"/>
-                <Component Subtype="SteelPlate" Count="45"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="MetalGrid" Count="50"/>
-                <Component Subtype="LargeTube" Count="23"/>
-                <Component Subtype="Construction" Count="23"/>
-                <Component Subtype="SteelPlate" Count="23"/>
+                <Component Subtype="SteelPlate" Count="40"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="MetalGrid" Count="44"/>
+                <Component Subtype="LargeTube" Count="20"/>
+                <Component Subtype="Construction" Count="20"/>
+                <Component Subtype="SteelPlate" Count="20"/>
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0"/>
             <Center x="1" y="1" z="2"/>
@@ -635,12 +635,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="10"/>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="MetalGrid" Count="90"/>
-                <Component Subtype="LargeTube" Count="18"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="SteelPlate" Count="23"/>
+                <Component Subtype="SteelPlate" Count="30"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="MetalGrid" Count="80"/>
+                <Component Subtype="LargeTube" Count="16"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="SteelPlate" Count="20"/>
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0"/>
             <MountPoints>
@@ -723,7 +723,7 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockLargeHydrogenThrust4x</SubtypeId>
             </Id>
-            <DisplayName>Proficient Hydrogen Thruster</DisplayName>
+            <DisplayName>Proficient Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\HydrogenThrusterLarge4x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -737,12 +737,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="225"/>
-                <Component Subtype="Construction" Count="338"/>
-                <Component Subtype="MetalGrid" Count="563"/>
-                <Component Subtype="LargeTube" Count="90"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="SteelPlate" Count="113"/>
+                <Component Subtype="SteelPlate" Count="200"/>
+                <Component Subtype="Construction" Count="300"/>
+                <Component Subtype="MetalGrid" Count="500"/>
+                <Component Subtype="LargeTube" Count="80"/>
+                <Component Subtype="Construction" Count="60"/>
+                <Component Subtype="SteelPlate" Count="100"/>
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0"/>
             <Center x="1" y="1" z="2"/>
@@ -842,12 +842,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="3"/>
-                <Component Subtype="SteelPlate" Count="7"/>
-                <Component Subtype="Construction" Count="34"/>
-                <Component Subtype="MetalGrid" Count="14"/>
-                <Component Subtype="LargeTube" Count="7"/>
-                <Component Subtype="Construction" Count="17"/>
-                <Component Subtype="SteelPlate" Count="17"/>
+                <Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="Construction" Count="25"/>
+                <Component Subtype="MetalGrid" Count="10"/>
+                <Component Subtype="LargeTube" Count="5"/>
+                <Component Subtype="Construction" Count="13"/>
+                <Component Subtype="SteelPlate" Count="13"/>
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0"/>
             <MountPoints>
@@ -930,7 +930,7 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockLargeHydrogenThrust8x</SubtypeId>
             </Id>
-            <DisplayName>Elite Hydrogen Thruster</DisplayName>
+            <DisplayName>Elite Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\HydrogenThrusterLarge8x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -944,12 +944,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="7"/>
-                <Component Subtype="SteelPlate" Count="68"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="MetalGrid" Count="75"/>
-                <Component Subtype="LargeTube" Count="34"/>
-                <Component Subtype="Construction" Count="34"/>
-                <Component Subtype="SteelPlate" Count="34"/>
+                <Component Subtype="SteelPlate" Count="50"/>
+                <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="MetalGrid" Count="55"/>
+                <Component Subtype="LargeTube" Count="25"/>
+                <Component Subtype="Construction" Count="25"/>
+                <Component Subtype="SteelPlate" Count="25"/>
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0"/>
             <Center x="1" y="1" z="2"/>
@@ -1045,12 +1045,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="10"/>
-                <Component Subtype="SteelPlate" Count="51"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="MetalGrid" Count="135"/>
-                <Component Subtype="LargeTube" Count="27"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="SteelPlate" Count="34"/>
+                <Component Subtype="SteelPlate" Count="38"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="MetalGrid" Count="100"/>
+                <Component Subtype="LargeTube" Count="20"/>
+                <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="SteelPlate" Count="25"/>
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0"/>
             <MountPoints>
@@ -1133,7 +1133,7 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockLargeHydrogenThrust8x</SubtypeId>
             </Id>
-            <DisplayName>Elite Hydrogen Thruster</DisplayName>
+            <DisplayName>Elite Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\HydrogenThrusterLarge8x.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
@@ -1147,12 +1147,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="338"/>
-                <Component Subtype="Construction" Count="507"/>
-                <Component Subtype="MetalGrid" Count="844"/>
-                <Component Subtype="LargeTube" Count="135"/>
-                <Component Subtype="Construction" Count="102"/>
-                <Component Subtype="SteelPlate" Count="169"/>
+                <Component Subtype="SteelPlate" Count="250"/>
+                <Component Subtype="Construction" Count="375"/>
+                <Component Subtype="MetalGrid" Count="625"/>
+                <Component Subtype="LargeTube" Count="100"/>
+                <Component Subtype="Construction" Count="75"/>
+                <Component Subtype="SteelPlate" Count="125"/>
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0"/>
             <Center x="1" y="1" z="2"/>
