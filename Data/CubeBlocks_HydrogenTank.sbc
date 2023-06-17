@@ -142,6 +142,7 @@
             <DestroyEffect>Explosion_Missile</DestroyEffect>
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>25</PCU>
+            <IsAirTight>true</IsAirTight>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -295,6 +296,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <IsAirTight>true</IsAirTight>
         </Definition>
 
 
@@ -317,12 +319,12 @@
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="38"/>
-                <Component Subtype="SteelPlate" Count="360"/>
-                <Component Subtype="LargeTube" Count="180"/>
-                <Component Subtype="SmallTube" Count="135"/>
-                <Component Subtype="Computer" Count="18"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="SteelPlate" Count="270"/>
+                <Component Subtype="SteelPlate" Count="320"/>
+                <Component Subtype="LargeTube" Count="160"/>
+                <Component Subtype="SmallTube" Count="120"/>
+                <Component Subtype="Computer" Count="16"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="SteelPlate" Count="240"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -390,12 +392,12 @@
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="135"/>
-                <Component Subtype="LargeTube" Count="90"/>
-                <Component Subtype="SmallTube" Count="135"/>
-                <Component Subtype="Computer" Count="18"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="SteelPlate" Count="45"/>
+                <Component Subtype="SteelPlate" Count="120"/>
+                <Component Subtype="LargeTube" Count="80"/>
+                <Component Subtype="SmallTube" Count="120"/>
+                <Component Subtype="Computer" Count="16"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="SteelPlate" Count="40"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -439,6 +441,7 @@
             <DestroyEffect>Explosion_Missile</DestroyEffect>
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>25</PCU>
+            <IsAirTight>true</IsAirTight>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -458,12 +461,12 @@
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="135"/>
-                <Component Subtype="LargeTube" Count="90"/>
-                <Component Subtype="SmallTube" Count="135"/>
-                <Component Subtype="Computer" Count="18"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="SteelPlate" Count="45"/>
+                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="LargeTube" Count="40" />
+                <Component Subtype="SmallTube" Count="60" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -543,12 +546,12 @@
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="4"/>
-                <Component Subtype="SteelPlate" Count="14"/>
-                <Component Subtype="LargeTube" Count="5"/>
-                <Component Subtype="SmallTube" Count="9"/>
-                <Component Subtype="Computer" Count="18"/>
-                <Component Subtype="Construction" Count="14"/>
-                <Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="LargeTube" Count="2" />
+                <Component Subtype="SmallTube" Count="4" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="SteelPlate" Count="2" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -592,6 +595,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <IsAirTight>true</IsAirTight>
         </Definition>
 
 
@@ -614,12 +618,12 @@
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="38"/>
-                <Component Subtype="SteelPlate" Count="540"/>
-                <Component Subtype="LargeTube" Count="270"/>
-                <Component Subtype="SmallTube" Count="203"/>
-                <Component Subtype="Computer" Count="27"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="SteelPlate" Count="405"/>
+                <Component Subtype="SteelPlate" Count="400"/>
+                <Component Subtype="LargeTube" Count="200"/>
+                <Component Subtype="SmallTube" Count="150"/>
+                <Component Subtype="Computer" Count="20"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="SteelPlate" Count="300"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -687,12 +691,12 @@
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="203"/>
-                <Component Subtype="LargeTube" Count="135"/>
-                <Component Subtype="SmallTube" Count="203"/>
-                <Component Subtype="Computer" Count="27"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="SteelPlate" Count="150"/>
+                <Component Subtype="LargeTube" Count="100"/>
+                <Component Subtype="SmallTube" Count="150"/>
+                <Component Subtype="Computer" Count="20"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="SteelPlate" Count="50"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -736,6 +740,7 @@
             <DestroyEffect>Explosion_Missile</DestroyEffect>
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>25</PCU>
+            <IsAirTight>true</IsAirTight>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -755,12 +760,12 @@
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="203"/>
-                <Component Subtype="LargeTube" Count="135"/>
-                <Component Subtype="SmallTube" Count="203"/>
-                <Component Subtype="Computer" Count="27"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="SteelPlate" Count="75"/>
+                <Component Subtype="LargeTube" Count="50"/>
+                <Component Subtype="SmallTube" Count="75"/>
+                <Component Subtype="Computer" Count="10"/>
+                <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="SteelPlate" Count="25"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -840,12 +845,12 @@
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="4"/>
-                <Component Subtype="SteelPlate" Count="21"/>
-                <Component Subtype="LargeTube" Count="7"/>
-                <Component Subtype="SmallTube" Count="14"/>
-                <Component Subtype="Computer" Count="27"/>
-                <Component Subtype="Construction" Count="21"/>
-                <Component Subtype="SteelPlate" Count="7"/>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="LargeTube" Count="3" />
+                <Component Subtype="SmallTube" Count="5" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -889,6 +894,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <IsAirTight>true</IsAirTight>
         </Definition>
     </CubeBlocks>
 </Definitions>
