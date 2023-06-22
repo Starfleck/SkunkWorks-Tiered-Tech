@@ -1,7 +1,53 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <EntityContainers>
-
+	<!-- Defining Tools Inventory Components -->
+    <EntityContainers>	
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>LargeShipGrinder8x</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LargeShipGrinder8x" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>		
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>SmallBlockDrill4x</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SmallBlockDrill4x" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>LargeBlockDrill4x</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LargeBlockDrill4x" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>SmallBlockDrill8x</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SmallBlockDrill8x" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>LargeBlockDrill8x</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="LargeBlockDrill8x" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>		
+		<!-- Tiered Safe Zones? -->
         <Container>
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
@@ -33,10 +79,46 @@
         </Container>
         
     </EntityContainers>
-
+		<!-- Define the Above Components, Below. For example, change the <Size> "x" variable for drill inventory -->
     <EntityComponents>
-
+       <!-- Tools adjustments -->
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LargeShipGrinder8x</SubtypeId>
+            </Id>
+            <Size x="125" y="1" z="1" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SmallBlockDrill4x</SubtypeId>
+            </Id>
+            <Size x="90" y="1" z="1" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LargeBlockDrill4x</SubtypeId>
+            </Id>
+            <Size x="135" y="1" z="1" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SmallBlockDrill8x</SubtypeId>
+            </Id>
+            <Size x="120" y="1" z="1" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LargeBlockDrill8x</SubtypeId>
+            </Id>
+            <Size x="180" y="1" z="1" />
+        </EntityComponent>
+	<!-- Safe zones lol. -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
                 <SubtypeId>SafeZoneBlock2x</SubtypeId>
