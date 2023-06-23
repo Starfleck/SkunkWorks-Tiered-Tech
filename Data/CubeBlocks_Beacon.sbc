@@ -49,7 +49,7 @@
             <!-- Beacon properties -->
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>100000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
             <Flare>BeaconLarge</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
 
@@ -96,7 +96,7 @@
 
             <!-- Beacon properties -->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>100000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
             <Flare>BeaconSmall</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
             <!-- End Beacon Props-->
@@ -125,12 +125,12 @@
             <Model>Models\Cubes\Large\beacon.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="90" />
-                <Component Subtype="Construction" Count="67" />
-                <Component Subtype="LargeTube" Count="45" />
-                <Component Subtype="Computer" Count="22" />
-                <Component Subtype="RadioCommunication" Count="90" />
-                <Component Subtype="SteelPlate" Count="90" />
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="LargeTube" Count="40" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="RadioCommunication" Count="80" />
+                <Component Subtype="SteelPlate" Count="80" />
             </Components>
             <CriticalComponent Subtype="RadioCommunication" Index="0" />
             <MountPoints>
@@ -156,7 +156,7 @@
             <!-- Beacon properties -->
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>300000</MaxBroadcastRadius>
             <Flare>BeaconLarge</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
 
@@ -182,12 +182,12 @@
             <Model>Models\Cubes\Small\beacon.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="3" />
-                <Component Subtype="Construction" Count="3" />
-                <Component Subtype="SmallTube" Count="3" />
-                <Component Subtype="Computer" Count="3" />
-                <Component Subtype="RadioCommunication" Count="9" />
-                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="RadioCommunication" Count="8" />
+                <Component Subtype="SteelPlate" Count="2" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <BuildProgressModels>
@@ -203,7 +203,7 @@
 
             <!-- Beacon properties -->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>300000</MaxBroadcastRadius>
             <Flare>BeaconSmall</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
             <!-- End Beacon Props-->
@@ -233,12 +233,12 @@
             <Model>Models\Cubes\Large\beacon.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="135" />
-                <Component Subtype="Construction" Count="101" />
-                <Component Subtype="LargeTube" Count="67" />
-                <Component Subtype="Computer" Count="33" />
-                <Component Subtype="RadioCommunication" Count="135" />
-                <Component Subtype="SteelPlate" Count="135" />
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="Construction" Count="75" />
+                <Component Subtype="LargeTube" Count="50" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="RadioCommunication" Count="100" />
+                <Component Subtype="SteelPlate" Count="100" />
             </Components>
             <CriticalComponent Subtype="RadioCommunication" Index="0" />
             <MountPoints>
@@ -290,12 +290,12 @@
             <Model>Models\Cubes\Small\beacon.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="6"/>
-                <Component Subtype="SteelPlate" Count="4" />
-                <Component Subtype="Construction" Count="4" />
-                <Component Subtype="SmallTube" Count="4" />
-                <Component Subtype="Computer" Count="4" />
-                <Component Subtype="RadioCommunication" Count="13" />
-                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="3" />
+                <Component Subtype="SmallTube" Count="3" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="RadioCommunication" Count="10" />
+                <Component Subtype="SteelPlate" Count="3" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <BuildProgressModels>
