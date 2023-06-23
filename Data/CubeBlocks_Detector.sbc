@@ -45,7 +45,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>45</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>260</MaximumRange>
+            <MaximumRange>400</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -95,7 +95,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>21</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>90</MaximumRange>
+            <MaximumRange>180</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -121,12 +121,12 @@
             <Model>Models\Cubes\Large\OreDetector.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="40"/>
-                <Component Subtype="SteelPlate" Count="68"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="Motor" Count="12"/>
-                <Component Subtype="Computer" Count="57"/>
-                <Component Subtype="Detector" Count="45"/>
-                <Component Subtype="SteelPlate" Count="45"/>
+                <Component Subtype="SteelPlate" Count="60"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="Motor" Count="10"/>
+                <Component Subtype="Computer" Count="50"/>
+                <Component Subtype="Detector" Count="40"/>
+                <Component Subtype="SteelPlate" Count="40"/>
             </Components>
             <CriticalComponent Subtype="Detector" Index="0"/>
             <Center x="0" y="0" z="1"/>
@@ -148,7 +148,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>68</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>450</MaximumRange>
+            <MaximumRange>600</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -172,12 +172,12 @@
             <Model>Models\Cubes\Small\OreDetector.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="12"/>
-                <Component Subtype="SteelPlate" Count="3"/>
-                <Component Subtype="Construction" Count="5"/>
-                <Component Subtype="Motor" Count="3"/>
-                <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="Detector" Count="3"/>
-                <Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="SteelPlate" Count="2"/>
+                <Component Subtype="Construction" Count="4"/>
+                <Component Subtype="Motor" Count="2"/>
+                <Component Subtype="Computer" Count="2"/>
+                <Component Subtype="Detector" Count="2"/>
+                <Component Subtype="SteelPlate" Count="4"/>
             </Components>
             <CriticalComponent Subtype="Detector" Index="0"/>
             <Center x="0" y="0" z="1"/>
@@ -198,7 +198,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>32</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>150</MaximumRange>
+            <MaximumRange>270</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -224,12 +224,12 @@
             <Model>Models\Cubes\Large\OreDetector.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="40"/>
-                <Component Subtype="SteelPlate" Count="102"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="Motor" Count="17"/>
-                <Component Subtype="Computer" Count="85"/>
-                <Component Subtype="Detector" Count="68"/>
-                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="SteelPlate" Count="75"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="Motor" Count="13"/>
+                <Component Subtype="Computer" Count="63"/>
+                <Component Subtype="Detector" Count="50"/>
+                <Component Subtype="SteelPlate" Count="50"/>
             </Components>
             <CriticalComponent Subtype="Detector" Index="0"/>
             <Center x="0" y="0" z="1"/>
@@ -275,12 +275,12 @@
             <Model>Models\Cubes\Small\OreDetector.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="12"/>
-                <Component Subtype="SteelPlate" Count="4"/>
-                <Component Subtype="Construction" Count="7"/>
-                <Component Subtype="Motor" Count="4"/>
-                <Component Subtype="Computer" Count="4"/>
-                <Component Subtype="Detector" Count="4"/>
-                <Component Subtype="SteelPlate" Count="7"/>
+                <Component Subtype="SteelPlate" Count="3"/>
+                <Component Subtype="Construction" Count="5"/>
+                <Component Subtype="Motor" Count="3"/>
+                <Component Subtype="Computer" Count="3"/>
+                <Component Subtype="Detector" Count="3"/>
+                <Component Subtype="SteelPlate" Count="5"/>
             </Components>
             <CriticalComponent Subtype="Detector" Index="0"/>
             <Center x="0" y="0" z="1"/>
@@ -301,7 +301,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>48</BuildTimeSeconds>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaximumRange>270</MaximumRange>
+            <MaximumRange>360</MaximumRange>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
