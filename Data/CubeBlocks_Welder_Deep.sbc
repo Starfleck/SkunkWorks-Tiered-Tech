@@ -126,7 +126,7 @@
         </Definition>
 
         <!--Elite Deep Welder-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+        <!-- <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
                 <SubtypeId>LargeShipWelder8x</SubtypeId>
@@ -163,7 +163,6 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
                     <PlacementMode>OutsideVoxel</PlacementMode>
                     <MaxAllowed>0.2</MaxAllowed>
@@ -185,13 +184,8 @@
             <BlockPairName>ShipWelder8x</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>true</Public>
+            <Public>false</Public>
             <BuildTimeSeconds>81</BuildTimeSeconds>
-            <InventorySize>
-                <X>4</X>
-                <Y>4</Y>
-                <Z>4</Z>
-            </InventorySize>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <Flare>ShipWelderLarge</Flare>
@@ -200,7 +194,6 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>16</SensorRadius>
             <SensorOffset>7</SensorOffset>
-			<!-- TRIED THIS, DOESN'T WORK - <WelderSpeedMultiplier>0.3</WelderSpeedMultiplier> -->
             <ParticleOffset>
                 <X>0</X>
                 <Y>0</Y>
@@ -208,6 +201,6 @@
             </ParticleOffset>
             <PCU>150</PCU>
 
-        </Definition>
+        </Definition> -->
     </CubeBlocks>
 </Definitions>
