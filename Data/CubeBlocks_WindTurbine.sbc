@@ -50,7 +50,7 @@
             <DamagedSound>ParticleElectrical</DamagedSound>
 
             <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-            <MaxPowerOutput>0.8</MaxPowerOutput>
+            <MaxPowerOutput>1.6</MaxPowerOutput>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
             <IsAirTight>false</IsAirTight>
 
@@ -97,12 +97,12 @@
             <Model>Models\Cubes\Large\WindTurbine.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="15"/>
-                <Component Subtype="InteriorPlate" Count="23"/>
-                <Component Subtype="Motor" Count="18"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="Girder" Count="54"/>
-                <Component Subtype="Computer" Count="5"/>
-                <Component Subtype="InteriorPlate" Count="68"/>
+                <Component Subtype="InteriorPlate" Count="20"/>
+                <Component Subtype="Motor" Count="16"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="Girder" Count="48"/>
+                <Component Subtype="Computer" Count="4"/>
+                <Component Subtype="InteriorPlate" Count="60"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -124,7 +124,7 @@
             <DamagedSound>ParticleElectrical</DamagedSound>
 
             <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-            <MaxPowerOutput>1.6</MaxPowerOutput>
+            <MaxPowerOutput>2.4</MaxPowerOutput>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
             <IsAirTight>false</IsAirTight>
 
@@ -172,12 +172,12 @@
             <Model>Models\Cubes\Large\WindTurbine.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="15"/>
-                <Component Subtype="InteriorPlate" Count="34"/>
-                <Component Subtype="Motor" Count="27"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="Girder" Count="81"/>
-                <Component Subtype="Computer" Count="7"/>
-                <Component Subtype="InteriorPlate" Count="102"/>
+                <Component Subtype="InteriorPlate" Count="25"/>
+                <Component Subtype="Motor" Count="20"/>
+                <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="Girder" Count="60"/>
+                <Component Subtype="Computer" Count="5"/>
+                <Component Subtype="InteriorPlate" Count="75"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
