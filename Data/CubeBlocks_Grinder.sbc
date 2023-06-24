@@ -68,7 +68,7 @@
             <Flare></Flare>
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>2.6250</SensorRadius>
+            <SensorRadius>3.8</SensorRadius>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
 
@@ -137,7 +137,7 @@
             <Flare></Flare>
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>3.5000</SensorRadius>
+            <SensorRadius>5.4</SensorRadius>
             <PCU>100</PCU>
 
         </Definition>
@@ -163,13 +163,13 @@
             <UsesDeformation>false</UsesDeformation>
             <Components>
                 <Component Subtype="Tech4x" Count="90"/>
-                <Component Subtype="SteelPlate" Count="23"/>
-                <Component Subtype="Construction" Count="34"/>
-                <Component Subtype="SmallTube" Count="9"/>
-                <Component Subtype="Motor" Count="9"/>
-                <Component Subtype="Computer" Count="5"/>
-                <Component Subtype="Construction" Count="5"/>
-                <Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="SteelPlate" Count="20"/>
+                <Component Subtype="Construction" Count="30"/>
+                <Component Subtype="SmallTube" Count="8"/>
+                <Component Subtype="Motor" Count="8"/>
+                <Component Subtype="Computer" Count="4"/>
+                <Component Subtype="Construction" Count="4"/>
+                <Component Subtype="SteelPlate" Count="4"/>
             </Components>
             <CriticalComponent Subtype="Motor" Index="0"/>
             <BuildProgressModels>
@@ -209,7 +209,7 @@
             <Flare></Flare>
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>4.5938</SensorRadius>
+            <SensorRadius>4.6</SensorRadius>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
 
@@ -234,13 +234,13 @@
             <UsesDeformation>false</UsesDeformation>
             <Components>
                 <Component Subtype="Tech4x" Count="120"/>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="57"/>
-                <Component Subtype="LargeTube" Count="3"/>
-                <Component Subtype="Motor" Count="9"/>
-                <Component Subtype="Computer" Count="5"/>
-                <Component Subtype="Construction" Count="12"/>
-                <Component Subtype="SteelPlate" Count="12"/>
+                <Component Subtype="SteelPlate" Count="30"/>
+                <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="LargeTube" Count="2"/>
+                <Component Subtype="Motor" Count="8"/>
+                <Component Subtype="Computer" Count="4"/>
+                <Component Subtype="Construction" Count="10"/>
+                <Component Subtype="SteelPlate" Count="10"/>
             </Components>
             <CriticalComponent Subtype="Motor" Index="0"/>
             <BuildProgressModels>
@@ -278,7 +278,7 @@
             <Flare></Flare>
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>6.1250</SensorRadius>
+            <SensorRadius>6.6</SensorRadius>
             <PCU>100</PCU>
 
         </Definition>
@@ -304,13 +304,13 @@
             <UsesDeformation>false</UsesDeformation>
             <Components>
                 <Component Subtype="Tech8x" Count="90"/>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="51"/>
-                <Component Subtype="SmallTube" Count="14"/>
-                <Component Subtype="Motor" Count="14"/>
-                <Component Subtype="Computer" Count="7"/>
-                <Component Subtype="Construction" Count="7"/>
-                <Component Subtype="SteelPlate" Count="7"/>
+                <Component Subtype="SteelPlate" Count="25"/>
+                <Component Subtype="Construction" Count="43"/>
+                <Component Subtype="SmallTube" Count="10"/>
+                <Component Subtype="Motor" Count="10"/>
+                <Component Subtype="Computer" Count="5"/>
+                <Component Subtype="Construction" Count="5"/>
+                <Component Subtype="SteelPlate" Count="5"/>
             </Components>
             <CriticalComponent Subtype="Motor" Index="0"/>
             <BuildProgressModels>
@@ -350,7 +350,7 @@
             <Flare></Flare>
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>8.0391</SensorRadius>
+            <SensorRadius>5.4</SensorRadius>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
 
@@ -375,13 +375,13 @@
             <UsesDeformation>false</UsesDeformation>
             <Components>
                 <Component Subtype="Tech8x" Count="120"/>
-                <Component Subtype="SteelPlate" Count="51"/>
-                <Component Subtype="Construction" Count="85"/>
-                <Component Subtype="LargeTube" Count="4"/>
-                <Component Subtype="Motor" Count="14"/>
-                <Component Subtype="Computer" Count="7"/>
-                <Component Subtype="Construction" Count="17"/>
-                <Component Subtype="SteelPlate" Count="17"/>
+                <Component Subtype="SteelPlate" Count="37"/>
+                <Component Subtype="Construction" Count="62"/>
+                <Component Subtype="LargeTube" Count="3"/>
+                <Component Subtype="Motor" Count="10"/>
+                <Component Subtype="Computer" Count="5"/>
+                <Component Subtype="Construction" Count="13"/>
+                <Component Subtype="SteelPlate" Count="13"/>
             </Components>
             <CriticalComponent Subtype="Motor" Index="0"/>
             <BuildProgressModels>
@@ -419,7 +419,7 @@
             <Flare></Flare>
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>10.7188</SensorRadius>
+            <SensorRadius>7.6</SensorRadius>
             <PCU>100</PCU>
 
         </Definition>
