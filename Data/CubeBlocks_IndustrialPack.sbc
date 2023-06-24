@@ -139,7 +139,7 @@
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
             <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
             <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
-            <Capacity>30000000</Capacity>
+            <Capacity>60000000</Capacity>
             <InventoryMaxVolume>0.75</InventoryMaxVolume>
             <InventorySize>
                 <X>2</X>
@@ -160,6 +160,12 @@
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <LeakPercent>0.0025</LeakPercent>
+            <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+            <GasExplosionNeededVolumeToReachMaxRadius>48000000</GasExplosionNeededVolumeToReachMaxRadius>
+            <GasExplosionDamageMultiplier>0.00018</GasExplosionDamageMultiplier>
+            <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
+            <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
             <TieredUpdateTimes>
                 <unsignedInt>100</unsignedInt>
                 <unsignedInt>300</unsignedInt>
@@ -893,7 +899,7 @@
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
             <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
             <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
-            <Capacity>60000000</Capacity>
+            <Capacity>90000000</Capacity>
             <InventoryMaxVolume>0.75</InventoryMaxVolume>
             <InventorySize>
                 <X>2</X>
@@ -914,6 +920,12 @@
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <LeakPercent>0.0025</LeakPercent>
+            <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+            <GasExplosionNeededVolumeToReachMaxRadius>63000000</GasExplosionNeededVolumeToReachMaxRadius>
+            <GasExplosionDamageMultiplier>0.0002</GasExplosionDamageMultiplier>
+            <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
+            <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
             <TieredUpdateTimes>
                 <unsignedInt>100</unsignedInt>
                 <unsignedInt>300</unsignedInt>
@@ -1672,6 +1684,12 @@
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>25</PCU>
+            <LeakPercent>0.0025</LeakPercent>
+            <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+            <GasExplosionNeededVolumeToReachMaxRadius>72000000</GasExplosionNeededVolumeToReachMaxRadius>
+            <GasExplosionDamageMultiplier>0.00021</GasExplosionDamageMultiplier>
+            <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
+            <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
             <TieredUpdateTimes>
                 <unsignedInt>100</unsignedInt>
                 <unsignedInt>300</unsignedInt>
