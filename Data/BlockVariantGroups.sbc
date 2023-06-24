@@ -391,6 +391,32 @@
         </BlockVariantGroup>
 
 
+        <BlockVariantGroup> <!-- Warfare2 ions -->
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ModularThrusterGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLarge.dds</Icon>
+            <DisplayName>DisplayName_Block_LargeModularThruster</DisplayName>
+            <Description>Description_IonThrust</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThruster" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThruster" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThruster" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThruster" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThruster2x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThruster2x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThruster2x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThruster2x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThruster4x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThruster4x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThruster4x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThruster4x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThruster8x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThruster8x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThruster8x" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThruster8x" />
+            </Blocks>
+        </BlockVariantGroup>
+
+
         <!-- Ship Tools-->
 
         <BlockVariantGroup>
