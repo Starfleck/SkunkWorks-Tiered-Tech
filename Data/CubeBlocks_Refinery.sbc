@@ -46,7 +46,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>135</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>11.2500</InventoryMaxVolume>
+            <InventoryMaxVolume>10</InventoryMaxVolume>
             <InventorySize>
                 <X>2.5</X>
                 <Y>2.5</Y>
@@ -57,8 +57,8 @@
             <BlueprintClasses>
                 <Class>Ingots</Class>
             </BlueprintClasses>
-            <RefineSpeed>2.2750</RefineSpeed>
-            <MaterialEfficiency>1.05</MaterialEfficiency>
+            <RefineSpeed>4</RefineSpeed>
+            <MaterialEfficiency>1.1</MaterialEfficiency>
             <OreAmountPerPullRequest>20000</OreAmountPerPullRequest>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <Center x="1" y="0" z="0"/>
@@ -117,7 +117,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>203</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>14.0625</InventoryMaxVolume>
+            <InventoryMaxVolume>14</InventoryMaxVolume>
             <InventorySize>
                 <X>2.5</X>
                 <Y>2.5</Y>
@@ -129,8 +129,8 @@
                 <Class>Ingots</Class>
 				<Class>Iridium</Class>
             </BlueprintClasses>
-            <RefineSpeed>3.9813</RefineSpeed>
-            <MaterialEfficiency>1.1</MaterialEfficiency>
+            <RefineSpeed>6</RefineSpeed>
+            <MaterialEfficiency>1.15</MaterialEfficiency>
             <OreAmountPerPullRequest>40000</OreAmountPerPullRequest>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <Center x="1" y="0" z="0"/>
@@ -189,7 +189,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>304</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>17.5781</InventoryMaxVolume>
+            <InventoryMaxVolume>18</InventoryMaxVolume>
             <InventorySize>
                 <X>2.5</X>
                 <Y>2.5</Y>
@@ -201,7 +201,7 @@
                 <Class>Ingots</Class>
 				<Class>Iridium</Class>
             </BlueprintClasses>
-            <RefineSpeed>6.9672</RefineSpeed>
+            <RefineSpeed>8</RefineSpeed>
             <MaterialEfficiency>1.2</MaterialEfficiency>
             <OreAmountPerPullRequest>80000</OreAmountPerPullRequest>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
