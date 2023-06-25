@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
-        <!--        Tech 4x-->
+        <!--        AGR Tier 2-->
         <!--Small Small Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
@@ -49,7 +49,7 @@
             <BuildTimeSeconds>45</BuildTimeSeconds>
 
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>2</MaxPowerOutput>
+            <MaxPowerOutput>1.5</MaxPowerOutput>
 
             <InventorySize>
                 <X>0.5</X>
@@ -139,7 +139,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>59</MaxPowerOutput>
+            <MaxPowerOutput>44.25</MaxPowerOutput>
 
             <InventorySize>
                 <X>1</X>
@@ -224,7 +224,7 @@
             <BuildTimeSeconds>90</BuildTimeSeconds>
 
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>60</MaxPowerOutput>
+            <MaxPowerOutput>45</MaxPowerOutput>
 
             <InventorySize>
                 <X>1</X>
@@ -312,7 +312,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>225</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>1200</MaxPowerOutput>
+            <MaxPowerOutput>900</MaxPowerOutput>
             <InventorySize>
                 <X>2</X>
                 <Y>2</Y>
@@ -350,7 +350,7 @@
             <IsAirTight>false</IsAirTight>
         </Definition>
 
-        <!--        Tier 8-->
+        <!--        IrUr Tier 3-->
         <!--Small Small Reactor-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
