@@ -826,12 +826,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="3"/>
-                <Component Subtype="SteelPlate" Count="3"/>
-                <Component Subtype="Construction" Count="3"/>
-                <Component Subtype="LargeTube" Count="3"/>
-                <Component Subtype="Thrust" Count="3"/>
-                <Component Subtype="Construction" Count="3"/>
-                <Component Subtype="SteelPlate" Count="3"/>
+                <Component Subtype="SteelPlate" Count="2"/>
+                <Component Subtype="Construction" Count="2"/>
+                <Component Subtype="LargeTube" Count="2"/>
+                <Component Subtype="Thrust" Count="2"/>
+                <Component Subtype="Construction" Count="2"/>
+                <Component Subtype="SteelPlate" Count="2"/>
             </Components>
             <CriticalComponent Subtype="Thrust" Index="0"/>
             <MountPoints>
@@ -924,12 +924,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="7"/>
-                <Component Subtype="SteelPlate" Count="3"/>
-                <Component Subtype="Construction" Count="3"/>
-                <Component Subtype="LargeTube" Count="12"/>
-                <Component Subtype="Thrust" Count="27"/>
-                <Component Subtype="Construction" Count="3"/>
-                <Component Subtype="SteelPlate" Count="9"/>
+                <Component Subtype="SteelPlate" Count="2"/>
+                <Component Subtype="Construction" Count="2"/>
+                <Component Subtype="LargeTube" Count="10"/>
+                <Component Subtype="Thrust" Count="24"/>
+                <Component Subtype="Construction" Count="2"/>
+                <Component Subtype="SteelPlate" Count="8"/>
             </Components>
             <CriticalComponent Subtype="Thrust" Index="0"/>
             <MountPoints>
@@ -1021,12 +1021,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="10"/>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="LargeTube" Count="18"/>
-                <Component Subtype="Thrust" Count="180"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="SteelPlate" Count="23"/>
+                <Component Subtype="SteelPlate" Count="30"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="LargeTube" Count="16"/>
+                <Component Subtype="Thrust" Count="160"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="SteelPlate" Count="20"/>
             </Components>
             <CriticalComponent Subtype="Thrust" Index="0"/>
             <MountPoints>
@@ -1119,12 +1119,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="225"/>
-                <Component Subtype="Construction" Count="158"/>
-                <Component Subtype="LargeTube" Count="90"/>
-                <Component Subtype="Thrust" Count="2160"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="SteelPlate" Count="113"/>
+                <Component Subtype="SteelPlate" Count="200"/>
+                <Component Subtype="Construction" Count="140"/>
+                <Component Subtype="LargeTube" Count="80"/>
+                <Component Subtype="Thrust" Count="1920"/>
+                <Component Subtype="Construction" Count="60"/>
+                <Component Subtype="SteelPlate" Count="100"/>
             </Components>
             <CriticalComponent Subtype="Thrust" Index="0"/>
             <MountPoints>
@@ -1220,12 +1220,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="3"/>
-                <Component Subtype="SteelPlate" Count="4"/>
-                <Component Subtype="Construction" Count="4"/>
-                <Component Subtype="LargeTube" Count="4"/>
-                <Component Subtype="Thrust" Count="4"/>
-                <Component Subtype="Construction" Count="4"/>
-                <Component Subtype="SteelPlate" Count="4"/>
+                <Component Subtype="SteelPlate" Count="3"/>
+                <Component Subtype="Construction" Count="3"/>
+                <Component Subtype="LargeTube" Count="3"/>
+                <Component Subtype="Thrust" Count="3"/>
+                <Component Subtype="Construction" Count="3"/>
+                <Component Subtype="SteelPlate" Count="3"/>
             </Components>
             <CriticalComponent Subtype="Thrust" Index="0"/>
             <MountPoints>
@@ -1318,12 +1318,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="7"/>
-                <Component Subtype="SteelPlate" Count="4"/>
-                <Component Subtype="Construction" Count="4"/>
-                <Component Subtype="LargeTube" Count="17"/>
-                <Component Subtype="Thrust" Count="41"/>
-                <Component Subtype="Construction" Count="4"/>
-                <Component Subtype="SteelPlate" Count="14"/>
+                <Component Subtype="SteelPlate" Count="3"/>
+                <Component Subtype="Construction" Count="3"/>
+                <Component Subtype="LargeTube" Count="13"/>
+                <Component Subtype="Thrust" Count="30"/>
+                <Component Subtype="Construction" Count="2"/>
+                <Component Subtype="SteelPlate" Count="10"/>
             </Components>
             <CriticalComponent Subtype="Thrust" Index="0"/>
             <MountPoints>
@@ -1415,12 +1415,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="10"/>
-                <Component Subtype="SteelPlate" Count="51"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="LargeTube" Count="27"/>
-                <Component Subtype="Thrust" Count="270"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="SteelPlate" Count="34"/>
+                <Component Subtype="SteelPlate" Count="38"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="LargeTube" Count="20"/>
+                <Component Subtype="Thrust" Count="200"/>
+                <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="SteelPlate" Count="25"/>
             </Components>
             <CriticalComponent Subtype="Thrust" Index="0"/>
             <MountPoints>
@@ -1513,12 +1513,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="338"/>
-                <Component Subtype="Construction" Count="237"/>
-                <Component Subtype="LargeTube" Count="135"/>
-                <Component Subtype="Thrust" Count="3240"/>
-                <Component Subtype="Construction" Count="102"/>
-                <Component Subtype="SteelPlate" Count="169"/>
+                <Component Subtype="SteelPlate" Count="250"/>
+                <Component Subtype="Construction" Count="175"/>
+                <Component Subtype="LargeTube" Count="100"/>
+                <Component Subtype="Thrust" Count="2400"/>
+                <Component Subtype="Construction" Count="75"/>
+                <Component Subtype="SteelPlate" Count="125"/>
             </Components>
             <CriticalComponent Subtype="Thrust" Index="0"/>
             <MountPoints>
