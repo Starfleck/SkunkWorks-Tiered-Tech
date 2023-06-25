@@ -46,7 +46,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>120</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>6</InventoryMaxVolume>
+            <InventoryMaxVolume>8</InventoryMaxVolume>
             <InventorySize>
                 <X>1</X>
                 <Y>1</Y>
@@ -54,7 +54,7 @@
             </InventorySize>
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>1.12</OperationalPowerConsumption>
-            <AssemblySpeed>2</AssemblySpeed>
+            <AssemblySpeed>4</AssemblySpeed>
             <BlueprintClasses>
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
@@ -120,7 +120,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>180</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>7.5</InventoryMaxVolume>
+            <InventoryMaxVolume>10</InventoryMaxVolume>
             <InventorySize>
                 <X>1</X>
                 <Y>1</Y>
@@ -144,7 +144,7 @@
             <ActionSound>BlockAssemblerProcess</ActionSound>
             <DestroyEffect>Explosion_Missile</DestroyEffect>
             <DestroySound>WepSmallMissileExpl</DestroySound>
-            <AssemblySpeed>4</AssemblySpeed>
+            <AssemblySpeed>6</AssemblySpeed>
             <PCU>40</PCU>
             <IsAirTight>true</IsAirTight>
         </Definition>
@@ -194,7 +194,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>270</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>9.3750</InventoryMaxVolume>
+            <InventoryMaxVolume>12</InventoryMaxVolume>
             <InventorySize>
                 <X>1</X>
                 <Y>1</Y>
