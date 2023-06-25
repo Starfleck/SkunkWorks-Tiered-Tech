@@ -476,7 +476,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerConstruction_3.mwm" />
             </BuildProgressModels>
             <InventorySize>
-              <X>15</X>
+              <X>30</X>
               <Y>7.5</Y>
               <Z>7.5</Z>
             </InventorySize>
@@ -1238,7 +1238,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerConstruction_3.mwm" />
             </BuildProgressModels>
              <InventorySize>
-               <X>30</X>
+               <X>45</X>
                <Y>7.5</Y>
                <Z>7.5</Z>
              </InventorySize>
