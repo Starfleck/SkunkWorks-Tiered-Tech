@@ -157,6 +157,7 @@
                 <unsignedInt>300</unsignedInt>
                 <unsignedInt>600</unsignedInt>
             </TieredUpdateTimes>
+            <IsAirTight>true</IsAirTight>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
@@ -328,6 +329,7 @@
                 <unsignedInt>300</unsignedInt>
                 <unsignedInt>600</unsignedInt>
             </TieredUpdateTimes>
+            <IsAirTight>true</IsAirTight>
         </Definition>
 
 <!--        Tier 1-->
