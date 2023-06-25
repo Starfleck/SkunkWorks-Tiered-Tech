@@ -53,7 +53,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>10</PCU>
             <InventorySize>
-                <X>15</X>
+                <X>30</X>
                 <Y>7.5</Y>
                 <Z>7.5</Z>
             </InventorySize>
@@ -107,7 +107,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>5</X>
+                <X>10</X>
                 <Y>2.5</Y>
                 <Z>2.5</Z>
             </InventorySize>
@@ -165,7 +165,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>10</PCU>
             <InventorySize>
-                <X>30</X>
+                <X>45</X>
                 <Y>7.5</Y>
                 <Z>7.5</Z>
             </InventorySize>
@@ -219,7 +219,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>10</X>
+                <X>15</X>
                 <Y>2.5</Y>
                 <Z>2.5</Z>
             </InventorySize>
