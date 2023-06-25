@@ -54,7 +54,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>5</X>
+                <X>10</X>
                 <Y>2.5</Y>
                 <Z>2.5</Z>
             </InventorySize>
@@ -108,7 +108,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>1</X>
+                <X>2</X>
                 <Y>0.5</Y>
                 <Z>0.5</Z>
             </InventorySize>
@@ -168,7 +168,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>10</X>
+                <X>15</X>
                 <Y>2.5</Y>
                 <Z>2.5</Z>
             </InventorySize>
@@ -223,7 +223,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>2</X>
+                <X>3</X>
                 <Y>0.5</Y>
                 <Z>0.5</Z>
             </InventorySize>
