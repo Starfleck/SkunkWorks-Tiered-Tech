@@ -20,14 +20,14 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="25"/>
-                <Component Subtype="SteelPlate" Count="3"/>
-                <Component Subtype="Construction" Count="23"/>
-                <Component Subtype="MetalGrid" Count="5"/>
-                <Component Subtype="LargeTube" Count="3"/>
-                <Component Subtype="Reactor" Count="7"/>
-                <Component Subtype="Motor" Count="3"/>
-                <Component Subtype="Computer" Count="23"/>
-                <Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="SteelPlate" Count="2"/>
+                <Component Subtype="Construction" Count="20"/>
+                <Component Subtype="MetalGrid" Count="4"/>
+                <Component Subtype="LargeTube" Count="2"/>
+                <Component Subtype="Reactor" Count="6"/>
+                <Component Subtype="Motor" Count="2"/>
+                <Component Subtype="Computer" Count="20"/>
+                <Component Subtype="SteelPlate" Count="4"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -49,7 +49,7 @@
             <BuildTimeSeconds>45</BuildTimeSeconds>
 
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>1.5313</MaxPowerOutput>
+            <MaxPowerOutput>2</MaxPowerOutput>
 
             <InventorySize>
                 <X>0.5</X>
@@ -106,14 +106,14 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="90"/>
-                <Component Subtype="Construction" Count="21"/>
-                <Component Subtype="MetalGrid" Count="21"/>
-                <Component Subtype="LargeTube" Count="7"/>
-                <Component Subtype="Reactor" Count="214"/>
-                <Component Subtype="Motor" Count="12"/>
-                <Component Subtype="Computer" Count="57"/>
-                <Component Subtype="SteelPlate" Count="45"/>
+                <Component Subtype="SteelPlate" Count="80"/>
+                <Component Subtype="Construction" Count="18"/>
+                <Component Subtype="MetalGrid" Count="18"/>
+                <Component Subtype="LargeTube" Count="6"/>
+                <Component Subtype="Reactor" Count="190"/>
+                <Component Subtype="Motor" Count="10"/>
+                <Component Subtype="Computer" Count="50"/>
+                <Component Subtype="SteelPlate" Count="40"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -139,7 +139,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>45.1719</MaxPowerOutput>
+            <MaxPowerOutput>59</MaxPowerOutput>
 
             <InventorySize>
                 <X>1</X>
@@ -194,14 +194,14 @@
             <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="113"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="MetalGrid" Count="9"/>
-                <Component Subtype="LargeTube" Count="18"/>
-                <Component Subtype="Reactor" Count="225"/>
-                <Component Subtype="Motor" Count="14"/>
-                <Component Subtype="Computer" Count="57"/>
-                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="SteelPlate" Count="100"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="MetalGrid" Count="8"/>
+                <Component Subtype="LargeTube" Count="16"/>
+                <Component Subtype="Reactor" Count="200"/>
+                <Component Subtype="Motor" Count="12"/>
+                <Component Subtype="Computer" Count="50"/>
+                <Component Subtype="SteelPlate" Count="60"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -224,7 +224,7 @@
             <BuildTimeSeconds>90</BuildTimeSeconds>
 
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>45.9375</MaxPowerOutput>
+            <MaxPowerOutput>60</MaxPowerOutput>
 
             <InventorySize>
                 <X>1</X>
@@ -280,15 +280,15 @@
             <Model>Models\Cubes\Large\GeneratorLarge.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="250"/>
-                <Component Subtype="SteelPlate" Count="1800"/>
-                <Component Subtype="Construction" Count="158"/>
-                <Component Subtype="MetalGrid" Count="90"/>
-                <Component Subtype="LargeTube" Count="90"/>
-                <Component Subtype="Superconductor" Count="225"/>
-                <Component Subtype="Reactor" Count="4500"/>
-                <Component Subtype="Motor" Count="45"/>
-                <Component Subtype="Computer" Count="169"/>
-                <Component Subtype="SteelPlate" Count="450"/>
+                <Component Subtype="SteelPlate" Count="1600"/>
+                <Component Subtype="Construction" Count="140"/>
+                <Component Subtype="MetalGrid" Count="80"/>
+                <Component Subtype="LargeTube" Count="80"/>
+                <Component Subtype="Superconductor" Count="200"/>
+                <Component Subtype="Reactor" Count="4000"/>
+                <Component Subtype="Motor" Count="40"/>
+                <Component Subtype="Computer" Count="150"/>
+                <Component Subtype="SteelPlate" Count="400"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -312,7 +312,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>225</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>918.7500</MaxPowerOutput>
+            <MaxPowerOutput>1200</MaxPowerOutput>
             <InventorySize>
                 <X>2</X>
                 <Y>2</Y>
@@ -369,14 +369,14 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="20"/>
-                <Component Subtype="SteelPlate" Count="4"/>
-                <Component Subtype="Construction" Count="34"/>
-                <Component Subtype="MetalGrid" Count="7"/>
-                <Component Subtype="LargeTube" Count="4"/>
-                <Component Subtype="Reactor" Count="11"/>
-                <Component Subtype="Motor" Count="4"/>
-                <Component Subtype="Computer" Count="34"/>
-                <Component Subtype="SteelPlate" Count="7"/>
+                <Component Subtype="SteelPlate" Count="3"/>
+                <Component Subtype="Construction" Count="25"/>
+                <Component Subtype="MetalGrid" Count="5"/>
+                <Component Subtype="LargeTube" Count="3"/>
+                <Component Subtype="Reactor" Count="8"/>
+                <Component Subtype="Motor" Count="3"/>
+                <Component Subtype="Computer" Count="25"/>
+                <Component Subtype="SteelPlate" Count="5"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -398,7 +398,7 @@
             <BuildTimeSeconds>100</BuildTimeSeconds>
 
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>2.6797</MaxPowerOutput>
+            <MaxPowerOutput>3</MaxPowerOutput>
 
             <InventorySize>
                 <X>0.5</X>
@@ -458,14 +458,14 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="135"/>
-                <Component Subtype="Construction" Count="31"/>
-                <Component Subtype="MetalGrid" Count="31"/>
-                <Component Subtype="LargeTube" Count="11"/>
-                <Component Subtype="Reactor" Count="321"/>
-                <Component Subtype="Motor" Count="17"/>
-                <Component Subtype="Computer" Count="85"/>
-                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="SteelPlate" Count="100"/>
+                <Component Subtype="Construction" Count="23"/>
+                <Component Subtype="MetalGrid" Count="23"/>
+                <Component Subtype="LargeTube" Count="8"/>
+                <Component Subtype="Reactor" Count="238"/>
+                <Component Subtype="Motor" Count="13"/>
+                <Component Subtype="Computer" Count="63"/>
+                <Component Subtype="SteelPlate" Count="50"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -491,7 +491,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>79.0508</MaxPowerOutput>
+            <MaxPowerOutput>88.5</MaxPowerOutput>
 
             <InventorySize>
                 <X>1</X>
@@ -549,14 +549,14 @@
             <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="50"/>
-                <Component Subtype="SteelPlate" Count="169"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="MetalGrid" Count="14"/>
-                <Component Subtype="LargeTube" Count="27"/>
-                <Component Subtype="Reactor" Count="338"/>
-                <Component Subtype="Motor" Count="21"/>
-                <Component Subtype="Computer" Count="85"/>
-                <Component Subtype="SteelPlate" Count="102"/>
+                <Component Subtype="SteelPlate" Count="125"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="MetalGrid" Count="10"/>
+                <Component Subtype="LargeTube" Count="20"/>
+                <Component Subtype="Reactor" Count="250"/>
+                <Component Subtype="Motor" Count="15"/>
+                <Component Subtype="Computer" Count="63"/>
+                <Component Subtype="SteelPlate" Count="75"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -579,7 +579,7 @@
             <BuildTimeSeconds>200</BuildTimeSeconds>
 
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>80.3906</MaxPowerOutput>
+            <MaxPowerOutput>90</MaxPowerOutput>
 
             <InventorySize>
                 <X>1</X>
@@ -638,15 +638,15 @@
             <Model>Models\Cubes\Large\GeneratorLarge.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="250"/>
-                <Component Subtype="SteelPlate" Count="2700"/>
-                <Component Subtype="Construction" Count="237"/>
-                <Component Subtype="MetalGrid" Count="135"/>
-                <Component Subtype="LargeTube" Count="135"/>
-                <Component Subtype="Superconductor" Count="338"/>
-                <Component Subtype="Reactor" Count="6750"/>
-                <Component Subtype="Motor" Count="68"/>
-                <Component Subtype="Computer" Count="254"/>
-                <Component Subtype="SteelPlate" Count="675"/>
+                <Component Subtype="SteelPlate" Count="2000"/>
+                <Component Subtype="Construction" Count="175"/>
+                <Component Subtype="MetalGrid" Count="100"/>
+                <Component Subtype="LargeTube" Count="100"/>
+                <Component Subtype="Superconductor" Count="250"/>
+                <Component Subtype="Reactor" Count="5000"/>
+                <Component Subtype="Motor" Count="50"/>
+                <Component Subtype="Computer" Count="188"/>
+                <Component Subtype="SteelPlate" Count="500"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -670,7 +670,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>600</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>1607.8125</MaxPowerOutput>
+            <MaxPowerOutput>1800</MaxPowerOutput>
             <InventorySize>
                 <X>2</X>
                 <Y>2</Y>

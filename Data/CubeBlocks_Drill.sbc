@@ -59,9 +59,9 @@
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
-            <SensorRadius>1.9500</SensorRadius>
+            <SensorRadius>2.6</SensorRadius> <!-- Original mod was braindeadMath, fixed it with actual geometry. Effective 4x circlecut-area for plunge drilling. -->
             <SensorOffset>0.8</SensorOffset>
-            <CutOutRadius>1.9500</CutOutRadius>
+            <CutOutRadius>2.6</CutOutRadius>
             <CutOutOffset>0.6</CutOutOffset>
             <ParticleOffset>
                 <X>0</X>
@@ -140,9 +140,9 @@
             <Center x="0" y="0" z="2"/>
 
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
-            <SensorRadius>2.8500</SensorRadius>
+            <SensorRadius>3.8</SensorRadius>
             <SensorOffset>2.8</SensorOffset>
-            <CutOutRadius>2.8500</CutOutRadius>
+            <CutOutRadius>3.8</CutOutRadius>
             <CutOutOffset>2.8</CutOutOffset>
             <ParticleOffset>
                 <X>0</X>
@@ -180,12 +180,12 @@
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
                 <Component Subtype="Tech4x" Count="20"/>
-                <Component Subtype="SteelPlate" Count="45"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="LargeTube" Count="9"/>
-                <Component Subtype="Motor" Count="3"/>
-                <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="SteelPlate" Count="27"/>
+                <Component Subtype="SteelPlate" Count="40"/>
+                <Component Subtype="Construction" Count="60"/>
+                <Component Subtype="LargeTube" Count="8"/>
+                <Component Subtype="Motor" Count="2"/>
+                <Component Subtype="Computer" Count="2"/>
+                <Component Subtype="SteelPlate" Count="24"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <Center x="1" y="1" z="5"/>
@@ -218,9 +218,9 @@
             <BuildTimeSeconds>45</BuildTimeSeconds>
 
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
-            <SensorRadius>2.9250</SensorRadius>
+            <SensorRadius>3.2</SensorRadius>
             <SensorOffset>0.8</SensorOffset>
-            <CutOutRadius>2.9250</CutOutRadius>
+            <CutOutRadius>3.2</CutOutRadius>
             <CutOutOffset>0.6</CutOutOffset>
             <ParticleOffset>
                 <X>0</X>
@@ -258,12 +258,12 @@
             <UsesDeformation>false</UsesDeformation>
             <Components>
                 <Component Subtype="Tech4x" Count="40"/>
-                <Component Subtype="SteelPlate" Count="405"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="LargeTube" Count="27"/>
-                <Component Subtype="Motor" Count="12"/>
-                <Component Subtype="Computer" Count="12"/>
-                <Component Subtype="SteelPlate" Count="270"/>
+                <Component Subtype="SteelPlate" Count="360"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="LargeTube" Count="24"/>
+                <Component Subtype="Motor" Count="10"/>
+                <Component Subtype="Computer" Count="10"/>
+                <Component Subtype="SteelPlate" Count="240"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -299,9 +299,9 @@
             <Center x="0" y="0" z="2"/>
 
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
-            <SensorRadius>4.2750</SensorRadius>
+            <SensorRadius>4.7</SensorRadius>
             <SensorOffset>2.8</SensorOffset>
-            <CutOutRadius>4.2750</CutOutRadius>
+            <CutOutRadius>4.7</CutOutRadius>
             <CutOutOffset>2.8</CutOutOffset>
             <ParticleOffset>
                 <X>0</X>
@@ -339,12 +339,12 @@
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
                 <Component Subtype="Tech8x" Count="20"/>
-                <Component Subtype="SteelPlate" Count="68"/>
-                <Component Subtype="Construction" Count="102"/>
-                <Component Subtype="LargeTube" Count="14"/>
-                <Component Subtype="Motor" Count="4"/>
-                <Component Subtype="Computer" Count="4"/>
-                <Component Subtype="SteelPlate" Count="41"/>
+                <Component Subtype="SteelPlate" Count="50"/>
+                <Component Subtype="Construction" Count="75"/>
+                <Component Subtype="LargeTube" Count="10"/>
+                <Component Subtype="Motor" Count="3"/>
+                <Component Subtype="Computer" Count="3"/>
+                <Component Subtype="SteelPlate" Count="30"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <Center x="1" y="1" z="5"/>
@@ -377,9 +377,9 @@
             <BuildTimeSeconds>68</BuildTimeSeconds>
 
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
-            <SensorRadius>4.3875</SensorRadius>
+            <SensorRadius>3.7</SensorRadius>
             <SensorOffset>0.8</SensorOffset>
-            <CutOutRadius>4.3875</CutOutRadius>
+            <CutOutRadius>3.7</CutOutRadius>
             <CutOutOffset>0.6</CutOutOffset>
             <ParticleOffset>
                 <X>0</X>
@@ -417,12 +417,12 @@
             <UsesDeformation>false</UsesDeformation>
             <Components>
                 <Component Subtype="Tech8x" Count="40"/>
-                <Component Subtype="SteelPlate" Count="608"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="LargeTube" Count="41"/>
-                <Component Subtype="Motor" Count="17"/>
-                <Component Subtype="Computer" Count="17"/>
-                <Component Subtype="SteelPlate" Count="405"/>
+                <Component Subtype="SteelPlate" Count="450"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="LargeTube" Count="30"/>
+                <Component Subtype="Motor" Count="13"/>
+                <Component Subtype="Computer" Count="13"/>
+                <Component Subtype="SteelPlate" Count="300"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -458,9 +458,9 @@
             <Center x="0" y="0" z="2"/>
 
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
-            <SensorRadius>6.4125</SensorRadius>
+            <SensorRadius>5.4</SensorRadius> <!-- Biggest drill, effective 8x cutting circle, even more in volume. Actually a decrease from SW4 iteration, so we can go back and adjust vanilla if complaining becomes a problem -->
             <SensorOffset>2.8</SensorOffset>
-            <CutOutRadius>6.4125</CutOutRadius>
+            <CutOutRadius>5.4</CutOutRadius>
             <CutOutOffset>2.8</CutOutOffset>
             <ParticleOffset>
                 <X>0</X>
