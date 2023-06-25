@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
-        <!--    Tier 2-->
+        <!--    Tier 1-->
         <!--Large Oxygengenerator-->
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
             <Id>
@@ -46,7 +46,7 @@
             <BuildTimeSeconds>45</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <IceConsumptionPerSecond>100</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>200</IceConsumptionPerSecond>
             <InventoryMaxVolume>6</InventoryMaxVolume>
             <InventorySize>
                 <X>2</X>
@@ -107,12 +107,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech2x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="17"/>
-                <Component Subtype="Construction" Count="23"/>
-                <Component Subtype="LargeTube" Count="6"/>
-                <Component Subtype="Motor" Count="3"/>
-                <Component Subtype="Computer" Count="9"/>
-                <Component Subtype="SteelPlate" Count="6"/>
+                <Component Subtype="SteelPlate" Count="9"/>
+                <Component Subtype="Construction" Count="12"/>
+                <Component Subtype="LargeTube" Count="3"/>
+                <Component Subtype="Motor" Count="2"/>
+                <Component Subtype="Computer" Count="5"/>
+                <Component Subtype="SteelPlate" Count="3"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -138,7 +138,7 @@
             <EdgeType>Light</EdgeType>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <IceConsumptionPerSecond>40</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>80</IceConsumptionPerSecond>
             <InventoryMaxVolume>1.5</InventoryMaxVolume>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <InventorySize>
@@ -186,7 +186,7 @@
 
         </Definition>
 
-        <!--    Tier 4-->
+        <!--    Tier 2-->
         <!--Large Oxygengenerator-->
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
             <Id>
@@ -204,12 +204,12 @@
             <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="20"/>
-                <Component Subtype="SteelPlate" Count="248"/>
-                <Component Subtype="Construction" Count="12"/>
-                <Component Subtype="LargeTube" Count="5"/>
-                <Component Subtype="Motor" Count="9"/>
-                <Component Subtype="Computer" Count="12"/>
-                <Component Subtype="SteelPlate" Count="23"/>
+                <Component Subtype="SteelPlate" Count="220"/>
+                <Component Subtype="Construction" Count="10"/>
+                <Component Subtype="LargeTube" Count="4"/>
+                <Component Subtype="Motor" Count="8"/>
+                <Component Subtype="Computer" Count="10"/>
+                <Component Subtype="SteelPlate" Count="20"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -231,7 +231,7 @@
             <BuildTimeSeconds>68</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <IceConsumptionPerSecond>200</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>300</IceConsumptionPerSecond>
             <InventoryMaxVolume>7.5</InventoryMaxVolume>
             <InventorySize>
                 <X>2</X>
@@ -292,12 +292,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="25"/>
-                <Component Subtype="Construction" Count="34"/>
-                <Component Subtype="LargeTube" Count="9"/>
-                <Component Subtype="Motor" Count="5"/>
-                <Component Subtype="Computer" Count="14"/>
-                <Component Subtype="SteelPlate" Count="9"/>
+                <Component Subtype="SteelPlate" Count="12"/>
+                <Component Subtype="Construction" Count="16"/>
+                <Component Subtype="LargeTube" Count="4"/>
+                <Component Subtype="Motor" Count="2"/>
+                <Component Subtype="Computer" Count="6"/>
+                <Component Subtype="SteelPlate" Count="4"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -323,7 +323,7 @@
             <EdgeType>Light</EdgeType>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <IceConsumptionPerSecond>80</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>120</IceConsumptionPerSecond>
             <InventoryMaxVolume>1.875</InventoryMaxVolume>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <InventorySize>
@@ -371,7 +371,7 @@
 
         </Definition>
 
-        <!--    Tier 8-->
+        <!--    Tier 3-->
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
@@ -388,12 +388,12 @@
             <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="20"/>
-                <Component Subtype="SteelPlate" Count="372"/>
-                <Component Subtype="Construction" Count="17"/>
-                <Component Subtype="LargeTube" Count="7"/>
-                <Component Subtype="Motor" Count="14"/>
-                <Component Subtype="Computer" Count="17"/>
-                <Component Subtype="SteelPlate" Count="34"/>
+                <Component Subtype="SteelPlate" Count="275"/>
+                <Component Subtype="Construction" Count="13"/>
+                <Component Subtype="LargeTube" Count="5"/>
+                <Component Subtype="Motor" Count="10"/>
+                <Component Subtype="Computer" Count="13"/>
+                <Component Subtype="SteelPlate" Count="25"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -477,12 +477,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="38"/>
-                <Component Subtype="Construction" Count="51"/>
-                <Component Subtype="LargeTube" Count="14"/>
-                <Component Subtype="Motor" Count="7"/>
-                <Component Subtype="Computer" Count="21"/>
-                <Component Subtype="SteelPlate" Count="14"/>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="LargeTube" Count="5" />
+                <Component Subtype="Motor" Count="3" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="SteelPlate" Count="5" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
