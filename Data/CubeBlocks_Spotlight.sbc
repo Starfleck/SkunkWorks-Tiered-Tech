@@ -42,7 +42,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>36</BuildTimeSeconds>
             <LightRadius Min="2" Max="10" Default="5"/>
-            <LightReflectorRadius Min="10" Max="240" Default="120"/>
+            <LightReflectorRadius Min="10" Max="640" Default="240"/>
             <LightFalloff Min="1" Max="3" Default="1.5"/>
             <LightIntensity Min="0.5" Max="5" Default="1"/>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -97,7 +97,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>13</BuildTimeSeconds>
             <LightRadius Min="1" Max="5" Default="5"/>
-            <LightReflectorRadius Min="10" Max="180" Default="120"/>
+            <LightReflectorRadius Min="10" Max="480" Default="200"/>
             <LightFalloff Min="1" Max="3" Default="1.5"/>
             <LightIntensity Min="0.5" Max="5" Default="3"/>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -155,7 +155,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>65</BuildTimeSeconds>
             <LightRadius Min="2" Max="10" Default="5"/>
-            <LightReflectorRadius Min="10" Max="360" Default="120"/>
+            <LightReflectorRadius Min="10" Max="960" Default="360"/>
             <LightFalloff Min="1" Max="3" Default="1.5"/>
             <LightIntensity Min="0.5" Max="5" Default="1"/>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -210,7 +210,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>23</BuildTimeSeconds>
             <LightRadius Min="1" Max="5" Default="5"/>
-            <LightReflectorRadius Min="10" Max="270" Default="120"/>
+            <LightReflectorRadius Min="10" Max="720" Default="300"/>
             <LightFalloff Min="1" Max="3" Default="1.5"/>
             <LightIntensity Min="0.5" Max="5" Default="3"/>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -268,7 +268,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>117</BuildTimeSeconds>
             <LightRadius Min="2" Max="10" Default="5"/>
-            <LightReflectorRadius Min="10" Max="540" Default="120"/>
+            <LightReflectorRadius Min="10" Max="1280" Default="480"/>
             <LightFalloff Min="1" Max="3" Default="1.5"/>
             <LightIntensity Min="0.5" Max="5" Default="1"/>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -323,7 +323,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>41</BuildTimeSeconds>
             <LightRadius Min="1" Max="5" Default="5"/>
-            <LightReflectorRadius Min="10" Max="405" Default="120"/>
+            <LightReflectorRadius Min="10" Max="960" Default="400"/>
             <LightFalloff Min="1" Max="3" Default="1.5"/>
             <LightIntensity Min="0.5" Max="5" Default="3"/>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
