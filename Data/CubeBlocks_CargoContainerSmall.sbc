@@ -54,7 +54,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>5</X>
+                <X>10</X>
                 <Y>2.5</Y>
                 <Z>2.5</Z>
             </InventorySize>
@@ -108,7 +108,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>1</X>
+                <X>2</X>
                 <Y>0.5</Y>
                 <Z>0.5</Z>
             </InventorySize>
@@ -132,15 +132,15 @@
             <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="11"/>
-                <Component Subtype="InteriorPlate" Count="68"/>
-                <Component Subtype="Construction" Count="79"/>
-                <Component Subtype="MetalGrid" Count="9"/>
-                <Component Subtype="SmallTube" Count="45"/>
-                <Component Subtype="Motor" Count="9"/>
-                <Component Subtype="Display" Count="3"/>
-                <Component Subtype="Computer" Count="5"/>
-                <Component Subtype="Construction" Count="12"/>
-                <Component Subtype="InteriorPlate" Count="23"/>
+                <Component Subtype="InteriorPlate" Count="60"/>
+                <Component Subtype="Construction" Count="70"/>
+                <Component Subtype="MetalGrid" Count="8"/>
+                <Component Subtype="SmallTube" Count="40"/>
+                <Component Subtype="Motor" Count="8"/>
+                <Component Subtype="Display" Count="2"/>
+                <Component Subtype="Computer" Count="4"/>
+                <Component Subtype="Construction" Count="10"/>
+                <Component Subtype="InteriorPlate" Count="20"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -168,7 +168,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>10</X>
+                <X>15</X>
                 <Y>2.5</Y>
                 <Z>2.5</Z>
             </InventorySize>
@@ -191,12 +191,12 @@
             <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="1"/>
-                <Component Subtype="InteriorPlate" Count="5"/>
-                <Component Subtype="Construction" Count="3"/>
-                <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="Motor" Count="3"/>
-                <Component Subtype="Display" Count="3"/>
-                <Component Subtype="InteriorPlate" Count="3"/>
+                <Component Subtype="InteriorPlate" Count="4"/>
+                <Component Subtype="Construction" Count="2"/>
+                <Component Subtype="Computer" Count="2"/>
+                <Component Subtype="Motor" Count="2"/>
+                <Component Subtype="Display" Count="2"/>
+                <Component Subtype="InteriorPlate" Count="2"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -223,7 +223,7 @@
             <PCU>10</PCU>
             <IsAirTight>true</IsAirTight>
             <InventorySize>
-                <X>2</X>
+                <X>3</X>
                 <Y>0.5</Y>
                 <Z>0.5</Z>
             </InventorySize>
@@ -247,15 +247,15 @@
             <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="11"/>
-                <Component Subtype="InteriorPlate" Count="102"/>
-                <Component Subtype="Construction" Count="119"/>
-                <Component Subtype="MetalGrid" Count="14"/>
-                <Component Subtype="SmallTube" Count="68"/>
-                <Component Subtype="Motor" Count="14"/>
-                <Component Subtype="Display" Count="4"/>
-                <Component Subtype="Computer" Count="7"/>
-                <Component Subtype="Construction" Count="17"/>
-                <Component Subtype="InteriorPlate" Count="34"/>
+                <Component Subtype="InteriorPlate" Count="75"/>
+                <Component Subtype="Construction" Count="87"/>
+                <Component Subtype="MetalGrid" Count="10"/>
+                <Component Subtype="SmallTube" Count="50"/>
+                <Component Subtype="Motor" Count="10"/>
+                <Component Subtype="Display" Count="3"/>
+                <Component Subtype="Computer" Count="5"/>
+                <Component Subtype="Construction" Count="13"/>
+                <Component Subtype="InteriorPlate" Count="25"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -306,12 +306,12 @@
             <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="1"/>
-                <Component Subtype="InteriorPlate" Count="7"/>
-                <Component Subtype="Construction" Count="4"/>
-                <Component Subtype="Computer" Count="4"/>
-                <Component Subtype="Motor" Count="4"/>
-                <Component Subtype="Display" Count="4"/>
-                <Component Subtype="InteriorPlate" Count="4"/>
+                <Component Subtype="InteriorPlate" Count="5"/>
+                <Component Subtype="Construction" Count="3"/>
+                <Component Subtype="Computer" Count="3"/>
+                <Component Subtype="Motor" Count="3"/>
+                <Component Subtype="Display" Count="3"/>
+                <Component Subtype="InteriorPlate" Count="3"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>

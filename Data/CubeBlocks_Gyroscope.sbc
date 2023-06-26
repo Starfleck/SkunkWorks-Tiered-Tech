@@ -43,8 +43,8 @@
             <PrimarySound>BlockGyroscope</PrimarySound>
 
             <ResourceSinkGroup>Gyro</ResourceSinkGroup>
-            <ForceMagnitude>896000</ForceMagnitude>
-            <RequiredPowerInput>0.0035</RequiredPowerInput>
+            <ForceMagnitude>1792000</ForceMagnitude>
+            <RequiredPowerInput>0.004</RequiredPowerInput>
 
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -97,8 +97,8 @@
             <PrimarySound>BlockGyroscope</PrimarySound>
 
             <ResourceSinkGroup>Gyro</ResourceSinkGroup>
-            <ForceMagnitude>67200000</ForceMagnitude>
-            <RequiredPowerInput>0.0175</RequiredPowerInput>
+            <ForceMagnitude>134400000</ForceMagnitude>
+            <RequiredPowerInput>0.02</RequiredPowerInput>
 
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -128,12 +128,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech4x" Count="2"/>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="12"/>
-                <Component Subtype="LargeTube" Count="3"/>
-                <Component Subtype="Motor" Count="5"/>
-                <Component Subtype="Computer" Count="7"/>
-                <Component Subtype="SteelPlate" Count="23"/>
+                <Component Subtype="SteelPlate" Count="30"/>
+                <Component Subtype="Construction" Count="10"/>
+                <Component Subtype="LargeTube" Count="2"/>
+                <Component Subtype="Motor" Count="4"/>
+                <Component Subtype="Computer" Count="6"/>
+                <Component Subtype="SteelPlate" Count="20"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -151,8 +151,8 @@
             <PrimarySound>BlockGyroscope</PrimarySound>
 
             <ResourceSinkGroup>Gyro</ResourceSinkGroup>
-            <ForceMagnitude>1792000</ForceMagnitude>
-            <RequiredPowerInput>0.0061</RequiredPowerInput>
+            <ForceMagnitude>2688000</ForceMagnitude>
+            <RequiredPowerInput>0.006</RequiredPowerInput>
 
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -180,13 +180,13 @@
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="1125"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="LargeTube" Count="9"/>
-                <Component Subtype="MetalGrid" Count="113"/>
-                <Component Subtype="Motor" Count="9"/>
-                <Component Subtype="Computer" Count="12"/>
-                <Component Subtype="SteelPlate" Count="225"/>
+                <Component Subtype="SteelPlate" Count="1000"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="LargeTube" Count="8"/>
+                <Component Subtype="MetalGrid" Count="100"/>
+                <Component Subtype="Motor" Count="8"/>
+                <Component Subtype="Computer" Count="10"/>
+                <Component Subtype="SteelPlate" Count="200"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -205,8 +205,8 @@
             <PrimarySound>BlockGyroscope</PrimarySound>
 
             <ResourceSinkGroup>Gyro</ResourceSinkGroup>
-            <ForceMagnitude>134400000</ForceMagnitude>
-            <RequiredPowerInput>0.0306</RequiredPowerInput>
+            <ForceMagnitude>201600000</ForceMagnitude>
+            <RequiredPowerInput>0.03</RequiredPowerInput>
 
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -236,12 +236,12 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="Tech8x" Count="3"/>
-                <Component Subtype="SteelPlate" Count="51"/>
-                <Component Subtype="Construction" Count="17"/>
-                <Component Subtype="LargeTube" Count="4"/>
-                <Component Subtype="Motor" Count="7"/>
-                <Component Subtype="Computer" Count="11"/>
-                <Component Subtype="SteelPlate" Count="34"/>
+                <Component Subtype="SteelPlate" Count="38"/>
+                <Component Subtype="Construction" Count="13"/>
+                <Component Subtype="LargeTube" Count="3"/>
+                <Component Subtype="Motor" Count="5"/>
+                <Component Subtype="Computer" Count="8"/>
+                <Component Subtype="SteelPlate" Count="25"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -260,7 +260,7 @@
 
             <ResourceSinkGroup>Gyro</ResourceSinkGroup>
             <ForceMagnitude>3584000</ForceMagnitude>
-            <RequiredPowerInput>0.0107</RequiredPowerInput>
+            <RequiredPowerInput>0.008</RequiredPowerInput>
 
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -288,13 +288,13 @@
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="1688"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="LargeTube" Count="14"/>
-                <Component Subtype="MetalGrid" Count="169"/>
-                <Component Subtype="Motor" Count="14"/>
-                <Component Subtype="Computer" Count="17"/>
-                <Component Subtype="SteelPlate" Count="338"/>
+                <Component Subtype="SteelPlate" Count="1250"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="LargeTube" Count="10"/>
+                <Component Subtype="MetalGrid" Count="125"/>
+                <Component Subtype="Motor" Count="10"/>
+                <Component Subtype="Computer" Count="13"/>
+                <Component Subtype="SteelPlate" Count="250"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -314,7 +314,7 @@
 
             <ResourceSinkGroup>Gyro</ResourceSinkGroup>
             <ForceMagnitude>268800000</ForceMagnitude>
-            <RequiredPowerInput>0.0536</RequiredPowerInput>
+            <RequiredPowerInput>0.04</RequiredPowerInput>
 
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>

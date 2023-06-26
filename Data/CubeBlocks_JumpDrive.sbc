@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
-        <!--Large Jump Drive-->
-
+        <!--Small Jump Drive-->
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
@@ -58,8 +57,7 @@
             <DestroySound>WepLrgWarheadExpl</DestroySound>
         </Definition>
 
-        <!--        Tier 2-->
-        <!--Large Jump Drive-->
+        <!--        Tier 1-->
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
@@ -109,11 +107,11 @@
             <DamagedSound>ParticleWeapExpl</DamagedSound>
 
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
-            <RequiredPowerInput>64</RequiredPowerInput>
+            <RequiredPowerInput>128</RequiredPowerInput>
             <PowerNeededForJump>6</PowerNeededForJump>
 
-            <MaxJumpDistance>3500000</MaxJumpDistance>
-            <MaxJumpMass>2187500</MaxJumpMass>
+            <MaxJumpDistance>8000000</MaxJumpDistance>
+            <MaxJumpMass>2500000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -168,17 +166,16 @@
             <DamageEffectId>213</DamageEffectId>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <RequiredPowerInput>10</RequiredPowerInput>
+            <RequiredPowerInput>20</RequiredPowerInput>
             <PowerNeededForJump>0.6</PowerNeededForJump>
-            <MaxJumpDistance>350000</MaxJumpDistance>
-            <MaxJumpMass>218750</MaxJumpMass>
+            <MaxJumpDistance>800000</MaxJumpDistance>
+            <MaxJumpMass>250000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
         </Definition>
 
-        <!--        Tier 4-->
-        <!--Large Jump Drive-->
+        <!--        Tier 2-->
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
@@ -195,15 +192,15 @@
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="75"/>
-                <Component Subtype="SteelPlate" Count="90"/>
-                <Component Subtype="MetalGrid" Count="113"/>
-                <Component Subtype="GravityGenerator" Count="45"/>
-                <Component Subtype="Detector" Count="45"/>
-                <Component Subtype="PowerCell" Count="270"/>
-                <Component Subtype="Superconductor" Count="2250"/>
-                <Component Subtype="Computer" Count="675"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="SteelPlate" Count="45"/>
+                <Component Subtype="SteelPlate" Count="80"/>
+                <Component Subtype="MetalGrid" Count="100"/>
+                <Component Subtype="GravityGenerator" Count="40"/>
+                <Component Subtype="Detector" Count="40"/>
+                <Component Subtype="PowerCell" Count="240"/>
+                <Component Subtype="Superconductor" Count="2000"/>
+                <Component Subtype="Computer" Count="600"/>
+                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="SteelPlate" Count="40"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -228,11 +225,11 @@
             <DamagedSound>ParticleWeapExpl</DamagedSound>
 
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
-            <RequiredPowerInput>128</RequiredPowerInput>
+            <RequiredPowerInput>192</RequiredPowerInput>
             <PowerNeededForJump>12</PowerNeededForJump>
 
-            <MaxJumpDistance>6125000</MaxJumpDistance>
-            <MaxJumpMass>3828125</MaxJumpMass>
+            <MaxJumpDistance>12000000</MaxJumpDistance>
+            <MaxJumpMass>3125000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -254,15 +251,15 @@
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
                 <Component Subtype="Tech4x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="9"/>
-                <Component Subtype="MetalGrid" Count="12"/>
-                <Component Subtype="GravityGenerator" Count="5"/>
-                <Component Subtype="Detector" Count="5"/>
-                <Component Subtype="PowerCell" Count="27"/>
-                <Component Subtype="Superconductor" Count="225"/>
-                <Component Subtype="Computer" Count="68"/>
-                <Component Subtype="Construction" Count="9"/>
-                <Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="SteelPlate" Count="8"/>
+                <Component Subtype="MetalGrid" Count="10"/>
+                <Component Subtype="GravityGenerator" Count="4"/>
+                <Component Subtype="Detector" Count="4"/>
+                <Component Subtype="PowerCell" Count="24"/>
+                <Component Subtype="Superconductor" Count="200"/>
+                <Component Subtype="Computer" Count="60"/>
+                <Component Subtype="Construction" Count="8"/>
+                <Component Subtype="SteelPlate" Count="4"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -287,17 +284,16 @@
             <DamageEffectId>213</DamageEffectId>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <RequiredPowerInput>20</RequiredPowerInput>
+            <RequiredPowerInput>30</RequiredPowerInput>
             <PowerNeededForJump>1.2</PowerNeededForJump>
-            <MaxJumpDistance>612500</MaxJumpDistance>
-            <MaxJumpMass>382812</MaxJumpMass>
+            <MaxJumpDistance>1200000</MaxJumpDistance>
+            <MaxJumpMass>312500</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
         </Definition>
 
-        <!--        Tier 8-->
-        <!--Large Jump Drive-->
+        <!--        Tier 3-->
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
@@ -314,15 +310,15 @@
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="75"/>
-                <Component Subtype="SteelPlate" Count="135"/>
-                <Component Subtype="MetalGrid" Count="169"/>
-                <Component Subtype="GravityGenerator" Count="68"/>
-                <Component Subtype="Detector" Count="68"/>
-                <Component Subtype="PowerCell" Count="405"/>
-                <Component Subtype="Superconductor" Count="3375"/>
-                <Component Subtype="Computer" Count="1013"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="SteelPlate" Count="100"/>
+                <Component Subtype="MetalGrid" Count="125"/>
+                <Component Subtype="GravityGenerator" Count="50"/>
+                <Component Subtype="Detector" Count="50"/>
+                <Component Subtype="PowerCell" Count="300"/>
+                <Component Subtype="Superconductor" Count="2500"/>
+                <Component Subtype="Computer" Count="750"/>
+                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="SteelPlate" Count="50"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -350,8 +346,8 @@
             <RequiredPowerInput>256</RequiredPowerInput>
             <PowerNeededForJump>24</PowerNeededForJump>
 
-            <MaxJumpDistance>10718750</MaxJumpDistance>
-            <MaxJumpMass>6699218</MaxJumpMass>
+            <MaxJumpDistance>16000000</MaxJumpDistance>
+            <MaxJumpMass>3750000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -373,15 +369,15 @@
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
                 <Component Subtype="Tech8x" Count="8"/>
-                <Component Subtype="SteelPlate" Count="14"/>
-                <Component Subtype="MetalGrid" Count="18"/>
-                <Component Subtype="GravityGenerator" Count="8"/>
-                <Component Subtype="Detector" Count="8"/>
-                <Component Subtype="PowerCell" Count="41"/>
-                <Component Subtype="Superconductor" Count="338"/>
-                <Component Subtype="Computer" Count="102"/>
-                <Component Subtype="Construction" Count="14"/>
-                <Component Subtype="SteelPlate" Count="8"/>
+                <Component Subtype="SteelPlate" Count="9"/>
+                <Component Subtype="MetalGrid" Count="13"/>
+                <Component Subtype="GravityGenerator" Count="5"/>
+                <Component Subtype="Detector" Count="5"/>
+                <Component Subtype="PowerCell" Count="30"/>
+                <Component Subtype="Superconductor" Count="250"/>
+                <Component Subtype="Computer" Count="75"/>
+                <Component Subtype="Construction" Count="10"/>
+                <Component Subtype="SteelPlate" Count="6"/>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
@@ -408,8 +404,8 @@
             <DamagedSound>ParticleWeapExpl</DamagedSound>
             <RequiredPowerInput>40</RequiredPowerInput>
             <PowerNeededForJump>2.4</PowerNeededForJump>
-            <MaxJumpDistance>1071875</MaxJumpDistance>
-            <MaxJumpMass>669921</MaxJumpMass>
+            <MaxJumpDistance>1600000</MaxJumpDistance>
+            <MaxJumpMass>375000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
