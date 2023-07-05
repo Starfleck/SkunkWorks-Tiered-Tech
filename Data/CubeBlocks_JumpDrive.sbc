@@ -110,14 +110,15 @@
             <RequiredPowerInput>128</RequiredPowerInput>
             <PowerNeededForJump>6</PowerNeededForJump>
 
-            <MaxJumpDistance>8000000</MaxJumpDistance>
-            <MaxJumpMass>2500000</MaxJumpMass>
+            <MaxJumpDistance>4000000</MaxJumpDistance>
+            <MaxJumpMass>2250000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>100</PCU>
             <IsAirTight>true</IsAirTight>
         </Definition>
+
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
@@ -168,8 +169,8 @@
             <DamagedSound>ParticleWeapExpl</DamagedSound>
             <RequiredPowerInput>20</RequiredPowerInput>
             <PowerNeededForJump>0.6</PowerNeededForJump>
-            <MaxJumpDistance>800000</MaxJumpDistance>
-            <MaxJumpMass>250000</MaxJumpMass>
+            <MaxJumpDistance>400000</MaxJumpDistance>
+            <MaxJumpMass>225000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -228,14 +229,15 @@
             <RequiredPowerInput>192</RequiredPowerInput>
             <PowerNeededForJump>12</PowerNeededForJump>
 
-            <MaxJumpDistance>12000000</MaxJumpDistance>
-            <MaxJumpMass>3125000</MaxJumpMass>
+            <MaxJumpDistance>6000000</MaxJumpDistance>
+            <MaxJumpMass>2750000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>100</PCU>
             <IsAirTight>true</IsAirTight>
         </Definition>
+
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
@@ -286,8 +288,8 @@
             <DamagedSound>ParticleWeapExpl</DamagedSound>
             <RequiredPowerInput>30</RequiredPowerInput>
             <PowerNeededForJump>1.2</PowerNeededForJump>
-            <MaxJumpDistance>1200000</MaxJumpDistance>
-            <MaxJumpMass>312500</MaxJumpMass>
+            <MaxJumpDistance>600000</MaxJumpDistance>
+            <MaxJumpMass>275000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -346,14 +348,15 @@
             <RequiredPowerInput>256</RequiredPowerInput>
             <PowerNeededForJump>24</PowerNeededForJump>
 
-            <MaxJumpDistance>16000000</MaxJumpDistance>
-            <MaxJumpMass>3750000</MaxJumpMass>
+            <MaxJumpDistance>8000000</MaxJumpDistance>
+            <MaxJumpMass>3250000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
             <PCU>100</PCU>
             <IsAirTight>true</IsAirTight>
         </Definition>
+
         <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
             <Id>
                 <TypeId>JumpDrive</TypeId>
@@ -404,8 +407,8 @@
             <DamagedSound>ParticleWeapExpl</DamagedSound>
             <RequiredPowerInput>40</RequiredPowerInput>
             <PowerNeededForJump>2.4</PowerNeededForJump>
-            <MaxJumpDistance>1600000</MaxJumpDistance>
-            <MaxJumpMass>375000</MaxJumpMass>
+            <MaxJumpDistance>800000</MaxJumpDistance>
+            <MaxJumpMass>325000</MaxJumpMass>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
             <DestroySound>WepLrgWarheadExpl</DestroySound>
