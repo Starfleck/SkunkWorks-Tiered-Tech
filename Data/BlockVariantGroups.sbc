@@ -44,7 +44,7 @@
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler2x" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustria2x" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial2x" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler4x" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial4x" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler8x" />
