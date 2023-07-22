@@ -286,7 +286,7 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>SmallBlockLargeGenerator4x</SubtypeId>
             </Id>
-            <DisplayName>AGR Proficient Small Reactor</DisplayName>
+            <DisplayName>AGR Proficient Large Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\nuclear_reactor_large4x.dds</Icon>
             <Description>Description_Reactor</Description>
@@ -638,7 +638,7 @@
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>SmallBlockLargeGenerator8x</SubtypeId>
             </Id>
-            <DisplayName>Small Iridiated Uranium Reactor</DisplayName>
+            <DisplayName>Large Iridiated Uranium Reactor</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\nuclear_reactor_large8x.dds</Icon>
             <Description>Description_Reactor</Description>
