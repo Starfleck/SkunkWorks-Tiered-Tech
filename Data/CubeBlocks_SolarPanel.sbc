@@ -45,7 +45,7 @@
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
             <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-            <MaxPowerOutput>0.06</MaxPowerOutput>
+            <MaxPowerOutput>0.086</MaxPowerOutput>
 
             <PanelOrientation>
                 <X>0</X>
@@ -177,7 +177,7 @@
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
             <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-            <MaxPowerOutput>0.24</MaxPowerOutput>
+            <MaxPowerOutput>0.343</MaxPowerOutput>
 
             <PanelOrientation>
                 <X>0</X>
@@ -313,7 +313,7 @@
             <BuildTimeSeconds>45</BuildTimeSeconds>
 
             <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-            <MaxPowerOutput>0.36</MaxPowerOutput>
+            <MaxPowerOutput>0.514</MaxPowerOutput>
 
             <PanelOrientation>
                 <X>0</X>
@@ -449,7 +449,7 @@
             <BuildTimeSeconds>68</BuildTimeSeconds>
 
             <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-            <MaxPowerOutput>0.48</MaxPowerOutput>
+            <MaxPowerOutput>0.686</MaxPowerOutput>
 
             <PanelOrientation>
                 <X>0</X>
