@@ -443,7 +443,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>0.5</MaxPowerOutput>
+            <MaxPowerOutput>0.714</MaxPowerOutput>
             <InventorySize>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -537,7 +537,7 @@
             <BuildTimeSeconds>30</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>14.75</MaxPowerOutput>
+            <MaxPowerOutput>21.071</MaxPowerOutput>
             <InventorySize>
                 <X>1</X>
                 <Y>1</Y>
@@ -1435,7 +1435,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>1.5</MaxPowerOutput>
+      <MaxPowerOutput>2.143</MaxPowerOutput>
       <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -1532,7 +1532,7 @@
       <BuildTimeSeconds>68</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>44.25</MaxPowerOutput>
+      <MaxPowerOutput>63.229</MaxPowerOutput>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -2360,7 +2360,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>68</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>3</MaxPowerOutput>
+            <MaxPowerOutput>4.286</MaxPowerOutput>
             <InventorySize>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -2457,7 +2457,7 @@
             <BuildTimeSeconds>102</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>88.5</MaxPowerOutput>
+            <MaxPowerOutput>126.429</MaxPowerOutput>
             <InventorySize>
                 <X>1</X>
                 <Y>1</Y>
