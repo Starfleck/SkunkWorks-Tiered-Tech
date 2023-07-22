@@ -396,6 +396,260 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>          
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>SmallBlockSmallGeneratorWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SmallReactorWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SmallGridReactorReskinSmall.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ReactorReskinSmall.mwm</Model>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="MetalGrid" Count="2" />
+                <Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Reactor" Count="3" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.15" />
+                <MountPoint Side="Right" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
+                <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.15" />
+                <MountPoint Side="Left" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+                <MountPoint Side="Front" StartX="0.4" StartY="0" EndX="0.6" EndY="0.15" />
+                <MountPoint Side="Front" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.6" EndY="0.15" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SmallReactorWarfare2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>0.5</MaxPowerOutput>
+            <InventorySize>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.5</Z>
+            </InventorySize>
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.0002</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.0004</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipSmNuclearSm</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>Warfare2</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>SmallBlockLargeGeneratorWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LargeReactorWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SmallGridReactorReskinLarge.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ReactorReskinLarge.mwm</Model>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="9" />
+                <Component Subtype="MetalGrid" Count="9" />
+                <Component Subtype="LargeTube" Count="3" />
+                <Component Subtype="Reactor" Count="95" />
+                <Component Subtype="Motor" Count="5" />
+                <Component Subtype="Computer" Count="25" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="1.3" StartY="0" EndX="1.7" EndY="0.5" />
+                <MountPoint Side="Right" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
+                <MountPoint Side="Left" StartX="1.3" StartY="0" EndX="1.7" EndY="0.5" />
+                <MountPoint Side="Left" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
+                <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="2.8" EndY="2.8" />
+                <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="2.8" EndY="2.8" Default="true" />
+                <MountPoint Side="Front" StartX="1.3" StartY="0" EndX="1.7" EndY="0.5" />
+                <MountPoint Side="Front" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
+                <MountPoint Side="Back" StartX="1.3" StartY="0" EndX="1.7" EndY="0.5" />
+                <MountPoint Side="Back" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LargeReactorWarfare2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>14.75</MaxPowerOutput>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipSmNuclearLrg</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>Warfare2</DLC>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>SmallBlockBatteryBlockWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BatteryWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BatteryReskin_Small.dds</Icon>
+            <Description>Description_Battery</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\BatteryReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="PowerCell" Count="20">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="3" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="2" />
+                <MountPoint Side="Top" StartX="0.5" StartY="0" EndX="2.5" EndY="3" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>5.714</MaxPowerOutput>
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>5.714</RequiredPowerInput>
+            <MaxStoredPower>1</MaxStoredPower>
+            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <RechargeMultiplier>0.8</RechargeMultiplier>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>Warfare2</DLC>
+        </Definition>
 
 
 	<!-- Tier 1 -->
@@ -510,11 +764,11 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>8</MaxPowerOutput>
+      <MaxPowerOutput>11.429</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>16</RequiredPowerInput>
       <MaxStoredPower>2</MaxStoredPower>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
       <RechargeMultiplier>0.85</RechargeMultiplier>
       <InventorySize>
         <X>1</X>
@@ -1436,11 +1690,11 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>10</MaxPowerOutput>
+      <MaxPowerOutput>14.286</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>25</RequiredPowerInput>
       <MaxStoredPower>4</MaxStoredPower>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <InitialStoredPowerRatio>0.7</InitialStoredPowerRatio>
       <RechargeMultiplier>0.9</RechargeMultiplier>
       <InventorySize>
         <X>1</X>
@@ -2360,11 +2614,11 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>68</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>12</MaxPowerOutput>
+            <MaxPowerOutput>17.143</MaxPowerOutput>
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>36</RequiredPowerInput>
             <MaxStoredPower>8</MaxStoredPower>
-            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <InitialStoredPowerRatio>0.9</InitialStoredPowerRatio>
             <RechargeMultiplier>0.95</RechargeMultiplier>
             <InventorySize>
                 <X>1</X>
