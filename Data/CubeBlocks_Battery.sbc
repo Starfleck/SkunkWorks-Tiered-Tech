@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
-        <!--Small Small Battery-->
+        <!--Vanilla 35 PCU/MW-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
@@ -39,10 +39,10 @@
             <BuildTimeSeconds>8</BuildTimeSeconds>
 
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>0.2</MaxPowerOutput>
+            <MaxPowerOutput>0.286</MaxPowerOutput>
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-            <RequiredPowerInput>0.2</RequiredPowerInput>
+            <RequiredPowerInput>0.286</RequiredPowerInput>
             <MaxStoredPower>0.05</MaxStoredPower>
             <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
             <RechargeMultiplier>1</RechargeMultiplier>
@@ -57,6 +57,69 @@
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Extended</EmissiveColorPreset>
             <IsAirTight>true</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>SmallBlockBatteryBlock</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Battery</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <Description>Description_Battery</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="PowerCell" Count="20">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="3" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BatteryBlock</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>5.714</MaxPowerOutput>
+
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>5.714</RequiredPowerInput>
+            <MaxStoredPower>1</MaxStoredPower>
+            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <RechargeMultiplier>0.8</RechargeMultiplier>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>false</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
         </Definition>
 
         <!--        Tier 1-->
@@ -100,12 +163,12 @@
             <BuildTimeSeconds>12</BuildTimeSeconds>
 
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>0.4</MaxPowerOutput>
+            <MaxPowerOutput>0.571</MaxPowerOutput>
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-            <RequiredPowerInput>0.8</RequiredPowerInput>
+            <RequiredPowerInput>0.571</RequiredPowerInput>
             <MaxStoredPower>0.1</MaxStoredPower>
-            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
             <RechargeMultiplier>1</RechargeMultiplier>
 
             <InventorySize>
@@ -159,12 +222,12 @@
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>8</MaxPowerOutput>
+            <MaxPowerOutput>11.429</MaxPowerOutput>
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>16</RequiredPowerInput>
             <MaxStoredPower>2</MaxStoredPower>
-            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
             <RechargeMultiplier>0.85</RechargeMultiplier>
 
             <InventorySize>
@@ -292,12 +355,12 @@
             <BuildTimeSeconds>18</BuildTimeSeconds>
 
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>0.5</MaxPowerOutput>
+            <MaxPowerOutput>1.143</MaxPowerOutput>
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-            <RequiredPowerInput>1.25</RequiredPowerInput>
+            <RequiredPowerInput>1.143</RequiredPowerInput>
             <MaxStoredPower>0.2</MaxStoredPower>
-            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <InitialStoredPowerRatio>0.7</InitialStoredPowerRatio>
             <RechargeMultiplier>1</RechargeMultiplier>
 
             <InventorySize>
@@ -351,12 +414,12 @@
             <BuildTimeSeconds>45</BuildTimeSeconds>
 
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>10</MaxPowerOutput>
+            <MaxPowerOutput>14.286</MaxPowerOutput>
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>25</RequiredPowerInput>
             <MaxStoredPower>4</MaxStoredPower>
-            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <InitialStoredPowerRatio>0.7</InitialStoredPowerRatio>
             <RechargeMultiplier>0.9</RechargeMultiplier>
 
             <InventorySize>
@@ -484,12 +547,12 @@
             <BuildTimeSeconds>27</BuildTimeSeconds>
 
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>0.6</MaxPowerOutput>
+            <MaxPowerOutput>2.286</MaxPowerOutput>
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-            <RequiredPowerInput>1.8</RequiredPowerInput>
+            <RequiredPowerInput>2.286</RequiredPowerInput>
             <MaxStoredPower>0.4</MaxStoredPower>
-            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <InitialStoredPowerRatio>0.9</InitialStoredPowerRatio>
             <RechargeMultiplier>1</RechargeMultiplier>
 
             <InventorySize>
@@ -543,12 +606,12 @@
             <BuildTimeSeconds>68</BuildTimeSeconds>
 
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>12</MaxPowerOutput>
+            <MaxPowerOutput>17.143</MaxPowerOutput>
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>36</RequiredPowerInput>
             <MaxStoredPower>8</MaxStoredPower>
-            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <InitialStoredPowerRatio>0.9</InitialStoredPowerRatio>
             <RechargeMultiplier>0.95</RechargeMultiplier>
 
             <InventorySize>
