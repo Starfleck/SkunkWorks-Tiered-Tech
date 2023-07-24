@@ -1449,13 +1449,13 @@
             </Id>
             <DisplayName>Elite Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterSmall8x.dds</Icon>
+            <Icon>Textures\AryxTier3LGSHydro.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Large\HydrogenThrusterSmall.mwm</Model>
+            <Model>Models\Cubes\aryx\ARYX_Skunkworks_Tier3_HydroThrust.mwm</Model>
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
@@ -1477,11 +1477,11 @@
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33"
-                       File="Models\Cubes\Large\HydrogenThrusterSmall_Construction_1.mwm"/>
+                       File="Models\Cubes\aryx\ARYX_Skunkworks_Tier3_HydroThrust_BS1.mwm"/>
                 <Model BuildPercentUpperBound="0.66"
-                       File="Models\Cubes\Large\HydrogenThrusterSmall_Construction_2.mwm"/>
+                       File="Models\Cubes\aryx\ARYX_Skunkworks_Tier3_HydroThrust_BS2.mwm"/>
                 <Model BuildPercentUpperBound="1.00"
-                       File="Models\Cubes\Large\HydrogenThrusterSmall_Construction_3.mwm"/>
+                       File="Models\Cubes\aryx\ARYX_Skunkworks_Tier3_HydroThrust_BS3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -1550,14 +1550,14 @@
             </Id>
             <DisplayName>Elite Large Hydrogen Thruster</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\HydrogenThrusterLarge8x.dds</Icon>
+            <Icon>Textures\AryxTier3LGLHydro.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3"/>
             <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Large\HydrogenThrusterLarge.mwm</Model>
+            <Model>Models\Cubes\aryx\ARYX_Skunkworks_Tier3_HydroThrust_Large.mwm</Model>
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
@@ -1582,11 +1582,11 @@
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33"
-                       File="Models\Cubes\Large\HydrogenThrusterLarge_Construction_1.mwm"/>
+                       File="Models\Cubes\aryx\ARYX_Skunkworks_Tier3_HydroThrust_Large_BS2.mwm"/>
                 <Model BuildPercentUpperBound="0.66"
-                       File="Models\Cubes\Large\HydrogenThrusterLarge_Construction_2.mwm"/>
+                       File="Models\Cubes\aryx\ARYX_Skunkworks_Tier3_HydroThrust_Large_BS2.mwm"/>
                 <Model BuildPercentUpperBound="1.00"
-                       File="Models\Cubes\Large\HydrogenThrusterLarge_Construction_3.mwm"/>
+                       File="Models\Cubes\aryx\ARYX_Skunkworks_Tier3_HydroThrust_Large_BS3.mwm"/>
             </BuildProgressModels>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
