@@ -19,23 +19,24 @@
 
       <MinVersion>1</MinVersion>
 	  
-      <VoxelHandPreview>Textures\Voxels\Sand_02_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Sand_02_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossY>Textures\Voxels\Sand_02_ForAxisY_ng.dds</NormalGlossY>
+      <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Iridium_marble_cm.dds</ColorMetalXZnY>
+      <NormalGlossY>Textures\Voxels\MoonSoil_01_ForAxisXZ_ng.dds</NormalGlossY>
+      <ExtXZnY>Textures\Voxels\iridium_marble_add.dds</ExtXZnY>
 
-      <InitialScale>1</InitialScale>
-      <ScaleMultiplier>1.5</ScaleMultiplier>
-      <InitialDistance>2.5</InitialDistance>
-      <DistanceMultiplier>1.5</DistanceMultiplier>
-      <TilingScale>24</TilingScale>
+      <InitialScale>6</InitialScale>
+      <ScaleMultiplier>20</ScaleMultiplier>
+      <InitialDistance>9</InitialDistance>
+      <DistanceMultiplier>40</DistanceMultiplier>
+      <TilingScale>60</TilingScale>
 
       <ExtDetailScale>0.005</ExtDetailScale>
 	  
-      <Far1Distance>12</Far1Distance>
-      <Far1Scale>12</Far1Scale>	  
+      <Far1Distance>100</Far1Distance>
+      <Far1Scale>90</Far1Scale>	  
 	  
-      <Far2Distance>100</Far2Distance>
-      <Far2Scale>30</Far2Scale>
+      <Far2Distance>250</Far2Distance>
+      <Far2Scale>120</Far2Scale>
 	  
 	  <Far3Distance>2000</Far3Distance>
       <Far3Color>
