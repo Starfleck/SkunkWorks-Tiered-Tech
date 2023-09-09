@@ -647,11 +647,12 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Components</Class>
-                <Class>Consumables</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+                <Class>EliteWeapons</Class>
                 <Class>EliteConsumables</Class>				
-                <Class>Components4x</Class>
-                <Class>BuildPlanner</Class>
+                <Class>BuildPlanner</Class>            
+                <Class>Components4x</Class>                
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -1404,15 +1405,16 @@
             </InventorySize>
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>2.24</OperationalPowerConsumption>
-			<BlueprintClasses>
+		    	  <BlueprintClasses>
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Components</Class>
-                <Class>Consumables</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+                <Class>EliteWeapons</Class>
                 <Class>EliteConsumables</Class>				
-                <Class>Components8x</Class>
-                <Class>BuildPlanner</Class>				
+                <Class>BuildPlanner</Class>     		
+                <Class>Components8x</Class>			
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -1506,7 +1508,7 @@
             <OperationalPowerConsumption>1.7150</OperationalPowerConsumption>
             <BlueprintClasses>
                 <Class>Ingots</Class>
-				<Class>Iridium</Class>
+			        	<Class>Iridium</Class>
             </BlueprintClasses>
           <RefineSpeed>6</RefineSpeed>
           <MaterialEfficiency>1.15</MaterialEfficiency>
@@ -2169,11 +2171,12 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Components</Class>
-                <Class>Consumables</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+                <Class>EliteWeapons</Class>
                 <Class>EliteConsumables</Class>				
+                <Class>BuildPlanner</Class>     			
                 <Class>Components8x</Class>
-                <Class>BuildPlanner</Class>
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -2267,7 +2270,7 @@
             <OperationalPowerConsumption>3.0013</OperationalPowerConsumption>
             <BlueprintClasses>
                 <Class>Ingots</Class>
-				<Class>Iridium</Class>				
+	        			<Class>Iridium</Class>				
             </BlueprintClasses>
           <RefineSpeed>8</RefineSpeed>
           <MaterialEfficiency>1.2</MaterialEfficiency>

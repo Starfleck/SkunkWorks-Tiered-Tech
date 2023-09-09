@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <!-- Vanilla Rebalance -->        
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LargeBlockBeaconReskin</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BeaconReskin</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BeaconReskin.dds</Icon>
+            <Description>Description_Beacon</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\BeaconReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="LargeTube" Count="20" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="RadioCommunication" Count="40" />
+                <Component Subtype="SteelPlate" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BeaconReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BeaconReskin</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Beacon properties -->
+            <!-- Antenna info-->
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <EnableLight>true</EnableLight>
+            <Flare>FakeFlare</Flare>
+            <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+
+            <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <!--Tier 1-->
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LargeBlockBeaconReskin2x</SubtypeId>
+            </Id>
+            <DisplayName>Enhanced Round Beacon</DisplayName>
+            <Icon>Textures\BeaconReskin2x.dds</Icon>
+            <Description>Description_Beacon</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\BeaconReskin.mwm</Model>
+            <Components>
+                <Component Subtype="Tech2x" Count="6"/>
+                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="Construction" Count="45" />
+                <Component Subtype="LargeTube" Count="30" />
+                <Component Subtype="Computer" Count="15" />
+                <Component Subtype="RadioCommunication" Count="60" />
+                <Component Subtype="SteelPlate" Count="60" />
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BeaconReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BeaconReskin2x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Beacon properties -->
+            <!-- Antenna info-->
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <MaxBroadcastRadius>20000</MaxBroadcastRadius>
+            <EnableLight>true</EnableLight>
+            <Flare>FakeFlare</Flare>
+            <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+
+            <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <!--Tier 2-->
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LargeBlockBeaconReskin4x</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Round Beacon</DisplayName>
+            <Icon>Textures\BeaconReskin4x.dds</Icon>
+            <Description>Description_Beacon</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\BeaconReskin.mwm</Model>
+            <Components>
+                <Component Subtype="Tech4x" Count="6"/>
+                <Component Subtype="SteelPlate" Count="90" />
+                <Component Subtype="Construction" Count="67" />
+                <Component Subtype="LargeTube" Count="45" />
+                <Component Subtype="Computer" Count="22" />
+                <Component Subtype="RadioCommunication" Count="90" />
+                <Component Subtype="SteelPlate" Count="90" />
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BeaconReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BeaconReskin4x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Beacon properties -->
+            <!-- Antenna info-->
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <MaxBroadcastRadius>40000</MaxBroadcastRadius>
+            <EnableLight>true</EnableLight>
+            <Flare>FakeFlare</Flare>
+            <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+
+            <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <!--Tier 3-->
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LargeBlockBeaconReskin8x</SubtypeId>
+            </Id>
+            <DisplayName>Elite Round Beacon</DisplayName>
+            <Icon>Textures\BeaconReskin8x.dds</Icon>
+            <Description>Description_Beacon</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\BeaconReskin.mwm</Model>
+            <Components>
+                <Component Subtype="Tech8x" Count="6"/>
+                <Component Subtype="SteelPlate" Count="135" />
+                <Component Subtype="Construction" Count="101" />
+                <Component Subtype="LargeTube" Count="67" />
+                <Component Subtype="Computer" Count="33" />
+                <Component Subtype="RadioCommunication" Count="135" />
+                <Component Subtype="SteelPlate" Count="135" />
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BeaconReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BeaconReskin8x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Beacon properties -->
+            <!-- Antenna info-->
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <MaxBroadcastRadius>80000</MaxBroadcastRadius>
+            <EnableLight>true</EnableLight>
+            <Flare>FakeFlare</Flare>
+            <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+
+            <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+    </CubeBlocks>
+</Definitions>
