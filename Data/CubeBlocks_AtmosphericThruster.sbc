@@ -20,13 +20,13 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="100" />
                 <Component Subtype="Construction" Count="40" />
+                <Component Subtype="Motor" Count="1100" />
                 <Component Subtype="LargeTube" Count="50" />
                 <Component Subtype="MetalGrid" Count="40" />
-                <Component Subtype="Motor" Count="1100" />
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="130" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
@@ -70,6 +70,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+			<FlameDamage>42</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -130,13 +131,13 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="15" />
                 <Component Subtype="Construction" Count="30" />
+                <Component Subtype="Motor" Count="110" />
                 <Component Subtype="LargeTube" Count="8" />
                 <Component Subtype="MetalGrid" Count="10" />
-                <Component Subtype="Motor" Count="110" />
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
@@ -181,6 +182,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+			<FlameDamage>4</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -240,13 +242,13 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="10" />
                 <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="90" />
                 <Component Subtype="LargeTube" Count="4" />
                 <Component Subtype="MetalGrid" Count="8" />
-                <Component Subtype="Motor" Count="90" />
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
                 <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
@@ -291,7 +293,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-            <FlameDamage>0.2</FlameDamage>
+			<FlameDamage>2</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -352,13 +354,13 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="2" />
                 <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="18" />
                 <Component Subtype="LargeTube" Count="1" />
                 <Component Subtype="MetalGrid" Count="1" />
-                <Component Subtype="Motor" Count="18" />
                 <Component Subtype="Construction" Count="2" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -402,7 +404,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.35</FlameDamageLengthScale>
-            <FlameDamage>0.1</FlameDamage>
+			<FlameDamage>1</FlameDamage>
             <FlameLengthScale>1.5</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -466,16 +468,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="3"/>
+                <Component Subtype="Tech2x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="Construction" Count="30"/>
+                <Component Subtype="Motor" Count="27"/>
                 <Component Subtype="LargeTube" Count="2"/>
                 <Component Subtype="MetalGrid" Count="2"/>
-                <Component Subtype="Motor" Count="27"/>
                 <Component Subtype="Construction" Count="3"/>
                 <Component Subtype="SteelPlate" Count="2"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2"/>
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1"/>
@@ -523,7 +525,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.35</FlameDamageLengthScale>
-            <FlameDamage>0.1</FlameDamage>
+			<FlameDamage>1</FlameDamage>
             <FlameLengthScale>1.5</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -577,16 +579,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="7"/>
+                <Component Subtype="Tech2x" Count="14"/>
                 <Component Subtype="SteelPlate" Count="15"/>
                 <Component Subtype="Construction" Count="30"/>
+                <Component Subtype="Motor" Count="135"/>
                 <Component Subtype="LargeTube" Count="6"/>
                 <Component Subtype="MetalGrid" Count="12"/>
-                <Component Subtype="Motor" Count="135"/>
                 <Component Subtype="Construction" Count="15"/>
                 <Component Subtype="SteelPlate" Count="15"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
                 <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4"/>
@@ -634,7 +636,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-            <FlameDamage>0.2</FlameDamage>
+			<FlameDamage>2</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -686,16 +688,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="10"/>
+                <Component Subtype="Tech2x" Count="13"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="Construction" Count="45"/>
+                <Component Subtype="Motor" Count="165"/>
                 <Component Subtype="LargeTube" Count="12"/>
                 <Component Subtype="MetalGrid" Count="15"/>
-                <Component Subtype="Motor" Count="165"/>
                 <Component Subtype="Construction" Count="30"/>
                 <Component Subtype="SteelPlate" Count="30"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2"/>
@@ -744,6 +746,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+			<FlameDamage>4</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -796,16 +799,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="50"/>
+                <Component Subtype="Tech2x" Count="100"/>
                 <Component Subtype="SteelPlate" Count="150"/>
                 <Component Subtype="Construction" Count="60"/>
+                <Component Subtype="Motor" Count="1650"/>
                 <Component Subtype="LargeTube" Count="75"/>
                 <Component Subtype="MetalGrid" Count="60"/>
-                <Component Subtype="Motor" Count="1650"/>
                 <Component Subtype="Construction" Count="30"/>
                 <Component Subtype="SteelPlate" Count="195"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true"/>
                 <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4"/>
@@ -852,6 +855,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+			<FlameDamage>42</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -906,16 +910,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="3"/>
+                <Component Subtype="Tech4x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="Motor" Count="36"/>
                 <Component Subtype="LargeTube" Count="2"/>
                 <Component Subtype="MetalGrid" Count="2"/>
-                <Component Subtype="Motor" Count="36"/>
                 <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="SteelPlate" Count="2"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2"/>
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1"/>
@@ -963,7 +967,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.35</FlameDamageLengthScale>
-            <FlameDamage>0.1</FlameDamage>
+			<FlameDamage>1</FlameDamage>
             <FlameLengthScale>1.5</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -1017,16 +1021,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="7"/>
+                <Component Subtype="Tech4x" Count="14"/>
                 <Component Subtype="SteelPlate" Count="20"/>
                 <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="Motor" Count="180"/>
                 <Component Subtype="LargeTube" Count="8"/>
                 <Component Subtype="MetalGrid" Count="16"/>
-                <Component Subtype="Motor" Count="180"/>
                 <Component Subtype="Construction" Count="20"/>
                 <Component Subtype="SteelPlate" Count="20"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
                 <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4"/>
@@ -1074,8 +1078,8 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-            <FlameDamage>0.2</FlameDamage>
-            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameDamage>2</FlameDamage>
+			<FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
                 <Y>0.3</Y>
@@ -1126,16 +1130,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="10"/>
+                <Component Subtype="Tech4x" Count="13"/>
                 <Component Subtype="SteelPlate" Count="30"/>
                 <Component Subtype="Construction" Count="60"/>
+                <Component Subtype="Motor" Count="220"/>
                 <Component Subtype="LargeTube" Count="16"/>
                 <Component Subtype="MetalGrid" Count="20"/>
-                <Component Subtype="Motor" Count="220"/>
                 <Component Subtype="Construction" Count="40"/>
                 <Component Subtype="SteelPlate" Count="40"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2"/>
@@ -1184,6 +1188,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+			<FlameDamage>4</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -1236,16 +1241,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="50"/>
+                <Component Subtype="Tech4x" Count="100"/>
                 <Component Subtype="SteelPlate" Count="200"/>
                 <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="Motor" Count="2200"/>
                 <Component Subtype="LargeTube" Count="100"/>
                 <Component Subtype="MetalGrid" Count="80"/>
-                <Component Subtype="Motor" Count="2200"/>
                 <Component Subtype="Construction" Count="40"/>
                 <Component Subtype="SteelPlate" Count="260"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true"/>
                 <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4"/>
@@ -1292,6 +1297,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+			<FlameDamage>42</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -1346,16 +1352,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="3"/>
+                <Component Subtype="Tech8x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="5"/>
                 <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="Motor" Count="45"/>
                 <Component Subtype="LargeTube" Count="3"/>
                 <Component Subtype="MetalGrid" Count="3"/>
-                <Component Subtype="Motor" Count="45"/>
                 <Component Subtype="Construction" Count="5"/>
                 <Component Subtype="SteelPlate" Count="3"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2"/>
                 <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1"/>
@@ -1403,8 +1409,8 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.35</FlameDamageLengthScale>
-            <FlameDamage>0.1</FlameDamage>
-            <FlameLengthScale>1.5</FlameLengthScale>
+            <FlameDamage>1</FlameDamage>
+			<FlameLengthScale>1.5</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
                 <Y>0.3</Y>
@@ -1457,16 +1463,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="7"/>
+                <Component Subtype="Tech8x" Count="14"/>
                 <Component Subtype="SteelPlate" Count="25"/>
                 <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="Motor" Count="225"/>
                 <Component Subtype="LargeTube" Count="10"/>
                 <Component Subtype="MetalGrid" Count="20"/>
-                <Component Subtype="Motor" Count="225"/>
                 <Component Subtype="Construction" Count="25"/>
                 <Component Subtype="SteelPlate" Count="25"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
                 <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4"/>
@@ -1514,8 +1520,8 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-            <FlameDamage>0.2</FlameDamage>
-            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameDamage>2</FlameDamage>
+			<FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
                 <Y>0.3</Y>
@@ -1566,16 +1572,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="10"/>
+                <Component Subtype="Tech8x" Count="13"/>
                 <Component Subtype="SteelPlate" Count="38"/>
                 <Component Subtype="Construction" Count="75"/>
+                <Component Subtype="Motor" Count="275"/>
                 <Component Subtype="LargeTube" Count="20"/>
                 <Component Subtype="MetalGrid" Count="25"/>
-                <Component Subtype="Motor" Count="275"/>
                 <Component Subtype="Construction" Count="50"/>
                 <Component Subtype="SteelPlate" Count="50"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2"/>
@@ -1624,6 +1630,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+			<FlameDamage>4</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -1676,16 +1683,16 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="50"/>
+                <Component Subtype="Tech8x" Count="100"/>
                 <Component Subtype="SteelPlate" Count="250"/>
                 <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="Motor" Count="2750"/>
                 <Component Subtype="LargeTube" Count="125"/>
                 <Component Subtype="MetalGrid" Count="100"/>
-                <Component Subtype="Motor" Count="2750"/>
                 <Component Subtype="Construction" Count="50"/>
                 <Component Subtype="SteelPlate" Count="325"/>
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
+            <CriticalComponent Subtype="Construction" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true"/>
                 <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4"/>
@@ -1732,6 +1739,7 @@
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+			<FlameDamage>42</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
