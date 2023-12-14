@@ -10,8 +10,8 @@
             <DisplayName>DisplayName_Block_Refinery</DisplayName>
             <Description>Description_Refinery</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery2x" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial2x" />
@@ -40,6 +40,8 @@
             <DisplayName>DisplayName_Block_Assembler</DisplayName>
             <Description>Description_Assembler</Description>
             <Blocks>
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />            
                 <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
@@ -108,33 +110,33 @@
             <Description>Description_BlockGroup_SolarPanelGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanel" />               
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanelCorner" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanelCornerInverted" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanel" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCorner" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCornerInverted" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanel" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCorner" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCornerInverted" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel2x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanel2x" />               
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanelCorner2x" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanelCornerInverted2x" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCorner2x" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCornerInverted2x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel2x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanel2x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCorner2x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCornerInverted2x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel4x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanel4x" />               
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanelCorner4x" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanelCornerInverted4x" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCorner4x" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCornerInverted4x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel4x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanel4x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCorner4x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCornerInverted4x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel8x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanel8x" />               
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanelCorner8x" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanelCornerInverted8x" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCorner8x" />
+                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanelCornerInverted8x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel8x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanel8x" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCorner8x" />
@@ -379,7 +381,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterSciFiIonGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterLarge_SciFi.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Large_IonThrusterLarge_SciFi.dds</Icon>
             <DisplayName>DisplayName_Block_LargeThrustSciFi</DisplayName>
             <Description>Description_IonThrust</Description>
             <Blocks>
@@ -608,6 +610,14 @@
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLightPanel" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeLightPanel" />
+                <Block Type="MyObjectBuilder_Searchlight" Subtype="LargeSearchlight" />
+                <Block Type="MyObjectBuilder_Searchlight" Subtype="SmallSearchlight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockInsetLight" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight2x" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight2x" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight4x" />
@@ -625,20 +635,22 @@
             <Description>Description_BlockGroup_AntennaGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntenna" />
+                <Block Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntennaDish" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin" />                
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin" />
                 <Block Type="MyObjectBuilder_LaserAntenna" Subtype="LargeBlockLaserAntenna" />
                 <Block Type="MyObjectBuilder_RadioAntenna" Subtype="SmallBlockRadioAntenna" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin" />
                 <Block Type="MyObjectBuilder_LaserAntenna" Subtype="SmallBlockLaserAntenna" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon2x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin2x" />                
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin2x" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon2x" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon4x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin4x" />               
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin4x" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon4x" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon8x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin8x" />                
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin8x" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon8x" />
 
             </Blocks>
