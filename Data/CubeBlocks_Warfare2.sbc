@@ -20,13 +20,13 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="Construction" Count="2" />
                 <Component Subtype="LargeTube" Count="1" />
                 <Component Subtype="Thrust" Count="1" />
                 <Component Subtype="Construction" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -69,7 +69,7 @@
             <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
-            <FlameDamage>0.1</FlameDamage>
+			<FlameDamage>1</FlameDamage>
             <FlameLengthScale>1.6</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.1</X>
@@ -122,7 +122,7 @@
                 <Component Subtype="Construction" Count="1" />
                 <Component Subtype="SteelPlate" Count="4" />
             </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
@@ -158,7 +158,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>259200</ForceMagnitude>
+            <ForceMagnitude>172800</ForceMagnitude>
             <MaxPowerConsumption>0.48</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -169,7 +169,7 @@
             <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-            <FlameDamage>0.2</FlameDamage>
+			<FlameDamage>2</FlameDamage>
             <FlameLengthScale>1.1</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.1</X>
@@ -216,14 +216,14 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlate" Count="15" />
-                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="18" />
+                <Component Subtype="Construction" Count="50" />
                 <Component Subtype="LargeTube" Count="8" />
-                <Component Subtype="Thrust" Count="80" />
-                <Component Subtype="Construction" Count="20" />
-                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Thrust" Count="100" />
+                <Component Subtype="Construction" Count="25" />
+                <Component Subtype="SteelPlate" Count="12" />
             </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -256,7 +256,7 @@
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>518400</ForceMagnitude>
+            <ForceMagnitude>760320</ForceMagnitude>
             <MaxPowerConsumption>0.672</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -267,6 +267,7 @@
             <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+			<FlameDamage>4</FlameDamage>
             <FlameLengthScale>1.5</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.1</X>
@@ -319,7 +320,7 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="SteelPlate" Count="50" />
             </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
@@ -356,7 +357,7 @@
             <BuildTimeSeconds>90</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>6480000</ForceMagnitude>
+            <ForceMagnitude>8640000</ForceMagnitude>
             <MaxPowerConsumption>6.72</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -367,6 +368,7 @@
             <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+			<FlameDamage>42</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.1</X>
@@ -808,15 +810,15 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech2x" Count="3"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-        <Component Subtype="Construction" Count="2"/>
-        <Component Subtype="LargeTube" Count="2"/>
-        <Component Subtype="Thrust" Count="2"/>
-        <Component Subtype="Construction" Count="2"/>
-        <Component Subtype="SteelPlate" Count="2"/>
+                <Component Subtype="Tech2x" Count="4"/>
+                <Component Subtype="SteelPlate" Count="2"/>
+                <Component Subtype="Construction" Count="3"/>
+                <Component Subtype="LargeTube" Count="2"/>
+                <Component Subtype="Thrust" Count="2"/>
+                <Component Subtype="Construction" Count="2"/>
+                <Component Subtype="SteelPlate" Count="3"/>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -859,7 +861,7 @@
       <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
-      <FlameDamage>0.1</FlameDamage>
+			<FlameDamage>1</FlameDamage>
       <FlameLengthScale>1.6</FlameLengthScale>
       <FlameIdleColor>
         <X>0.1</X>
@@ -907,7 +909,7 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech2x" Count="7"/>
+        <Component Subtype="Tech2x" Count="14"/>
         <Component Subtype="SteelPlate" Count="2"/>
         <Component Subtype="Construction" Count="2"/>
         <Component Subtype="LargeTube" Count="8"/>
@@ -915,7 +917,7 @@
         <Component Subtype="Construction" Count="2"/>
         <Component Subtype="SteelPlate" Count="6"/>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
@@ -951,7 +953,7 @@
       <EdgeType>Light</EdgeType>
 
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1036800</ForceMagnitude>
+      <ForceMagnitude>691200</ForceMagnitude>
       <MaxPowerConsumption>0.96</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
@@ -962,7 +964,7 @@
       <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-      <FlameDamage>0.2</FlameDamage>
+			<FlameDamage>2</FlameDamage>
       <FlameLengthScale>1.1</FlameLengthScale>
       <FlameIdleColor>
         <X>0.1</X>
@@ -1011,15 +1013,15 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech2x" Count="10"/>
-        <Component Subtype="SteelPlate" Count="23"/>
-        <Component Subtype="Construction" Count="60"/>
-        <Component Subtype="LargeTube" Count="12"/>
-        <Component Subtype="Thrust" Count="120"/>
-        <Component Subtype="Construction" Count="30"/>
-        <Component Subtype="SteelPlate" Count="15"/>
+                <Component Subtype="Tech2x" Count="13"/>
+                <Component Subtype="SteelPlate" Count="27"/>
+                <Component Subtype="Construction" Count="75"/>
+                <Component Subtype="LargeTube" Count="12"/>
+                <Component Subtype="Thrust" Count="150"/>
+                <Component Subtype="Construction" Count="38"/>
+                <Component Subtype="SteelPlate" Count="18"/>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -1052,7 +1054,7 @@
       <BuildTimeSeconds>60</BuildTimeSeconds>
 
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>2073600</ForceMagnitude>
+      <ForceMagnitude>3041280</ForceMagnitude>
       <MaxPowerConsumption>1.344</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
@@ -1063,6 +1065,7 @@
       <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+			<FlameDamage>4</FlameDamage>
       <FlameLengthScale>1.5</FlameLengthScale>
       <FlameIdleColor>
         <X>0.1</X>
@@ -1110,7 +1113,7 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech2x" Count="50"/>
+        <Component Subtype="Tech2x" Count="100"/>
         <Component Subtype="SteelPlate" Count="150"/>
         <Component Subtype="Construction" Count="105"/>
         <Component Subtype="LargeTube" Count="60"/>
@@ -1118,7 +1121,7 @@
         <Component Subtype="Construction" Count="45"/>
         <Component Subtype="SteelPlate" Count="75"/>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
@@ -1155,7 +1158,7 @@
       <BuildTimeSeconds>135</BuildTimeSeconds>
 
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>25920000</ForceMagnitude>
+      <ForceMagnitude>34560000</ForceMagnitude>
       <MaxPowerConsumption>13.44</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
@@ -1166,6 +1169,7 @@
       <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+			<FlameDamage>42</FlameDamage>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
         <X>0.1</X>
@@ -1734,15 +1738,15 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech4x" Count="3"/>
+                <Component Subtype="Tech4x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="2"/>
-                <Component Subtype="Construction" Count="2"/>
+                <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="LargeTube" Count="2"/>
                 <Component Subtype="Thrust" Count="2"/>
                 <Component Subtype="Construction" Count="2"/>
-                <Component Subtype="SteelPlate" Count="2"/>
+                <Component Subtype="SteelPlate" Count="4"/>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -1785,7 +1789,7 @@
       <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
-      <FlameDamage>0.1</FlameDamage>
+			<FlameDamage>1</FlameDamage>
       <FlameLengthScale>1.6</FlameLengthScale>
       <FlameIdleColor>
         <X>0.1</X>
@@ -1833,7 +1837,7 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech4x" Count="7"/>
+                <Component Subtype="Tech4x" Count="14"/>
                 <Component Subtype="SteelPlate" Count="2"/>
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="LargeTube" Count="10"/>
@@ -1841,7 +1845,7 @@
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="SteelPlate" Count="8"/>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
@@ -1877,7 +1881,7 @@
       <EdgeType>Light</EdgeType>
 
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1555200</ForceMagnitude>
+      <ForceMagnitude>1036800</ForceMagnitude>
       <MaxPowerConsumption>1.44</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
@@ -1888,7 +1892,7 @@
       <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-      <FlameDamage>0.2</FlameDamage>
+			<FlameDamage>2</FlameDamage>
       <FlameLengthScale>1.1</FlameLengthScale>
       <FlameIdleColor>
         <X>0.1</X>
@@ -1937,15 +1941,15 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech4x" Count="10"/>
-                <Component Subtype="SteelPlate" Count="30"/>
-                <Component Subtype="Construction" Count="80"/>
+                <Component Subtype="Tech4x" Count="13"/>
+                <Component Subtype="SteelPlate" Count="36"/>
+                <Component Subtype="Construction" Count="100"/>
                 <Component Subtype="LargeTube" Count="16"/>
-                <Component Subtype="Thrust" Count="160"/>
-                <Component Subtype="Construction" Count="40"/>
-                <Component Subtype="SteelPlate" Count="20"/>
+                <Component Subtype="Thrust" Count="200"/>
+                <Component Subtype="Construction" Count="50"/>
+                <Component Subtype="SteelPlate" Count="24"/>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -1978,7 +1982,7 @@
       <BuildTimeSeconds>90</BuildTimeSeconds>
 
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3110400</ForceMagnitude>
+      <ForceMagnitude>4561920</ForceMagnitude>
       <MaxPowerConsumption>2.016</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
@@ -1989,6 +1993,7 @@
       <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+			<FlameDamage>4</FlameDamage>
       <FlameLengthScale>1.5</FlameLengthScale>
       <FlameIdleColor>
         <X>0.1</X>
@@ -2036,7 +2041,7 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech4x" Count="50"/>
+                <Component Subtype="Tech4x" Count="100"/>
                 <Component Subtype="SteelPlate" Count="200"/>
                 <Component Subtype="Construction" Count="140"/>
                 <Component Subtype="LargeTube" Count="80"/>
@@ -2044,7 +2049,7 @@
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="SteelPlate" Count="100"/>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
@@ -2081,7 +2086,7 @@
       <BuildTimeSeconds>203</BuildTimeSeconds>
 
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>38880000</ForceMagnitude>
+      <ForceMagnitude>51840000</ForceMagnitude>
       <MaxPowerConsumption>20.16</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
@@ -2092,6 +2097,7 @@
       <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
 
       <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+			<FlameDamage>42</FlameDamage>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
         <X>0.1</X>
@@ -2166,7 +2172,7 @@
             <MirroringY>X</MirroringY>
             <MirroringX>Y</MirroringX>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>135</BuildTimeSeconds>
+            <BuildTimeSeconds>200</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <MaxPowerOutput>90</MaxPowerOutput>
             <InventorySize>
@@ -2194,6 +2200,7 @@
                         <TypeId>Component</TypeId>
                         <SubtypeId>IridiatedUranium</SubtypeId>
                     </Id>
+                    <Ratio>0.4</Ratio>
                 </FuelInfo>
             </FuelInfos>
             <PrimarySound>ShipLrgNuclearSm</PrimarySound>
@@ -2262,7 +2269,7 @@
             <MirroringY>X</MirroringY>
             <MirroringX>Y</MirroringX>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>338</BuildTimeSeconds>
+            <BuildTimeSeconds>600</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <MaxPowerOutput>1800</MaxPowerOutput>
             <InventorySize>
@@ -2290,6 +2297,7 @@
                         <TypeId>Component</TypeId>
                         <SubtypeId>IridiatedUranium</SubtypeId>
                     </Id>
+                    <Ratio>0.4</Ratio>
                 </FuelInfo>
             </FuelInfos>
             <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
@@ -2358,7 +2366,7 @@
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>68</BuildTimeSeconds>
+            <BuildTimeSeconds>100</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <MaxPowerOutput>4.286</MaxPowerOutput>
             <InventorySize>
@@ -2386,6 +2394,7 @@
                         <TypeId>Component</TypeId>
                         <SubtypeId>IridiatedUranium</SubtypeId>
                     </Id>
+                    <Ratio>0.4</Ratio>
                 </FuelInfo>
             </FuelInfos>
             <PrimarySound>ShipSmNuclearSm</PrimarySound>
@@ -2454,7 +2463,7 @@
             <BlockPairName>LargeReactorWarfare28x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
-            <BuildTimeSeconds>102</BuildTimeSeconds>
+            <BuildTimeSeconds>150</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
             <MaxPowerOutput>126.429</MaxPowerOutput>
@@ -2483,6 +2492,7 @@
                         <TypeId>Component</TypeId>
                         <SubtypeId>IridiatedUranium</SubtypeId>
                     </Id>
+                    <Ratio>0.4</Ratio>
                 </FuelInfo>
             </FuelInfos>
             <PrimarySound>ShipSmNuclearLrg</PrimarySound>
@@ -2658,15 +2668,15 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="3"/>
+                <Component Subtype="Tech8x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="3"/>
-                <Component Subtype="Construction" Count="3"/>
+                <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="LargeTube" Count="3"/>
                 <Component Subtype="Thrust" Count="3"/>
                 <Component Subtype="Construction" Count="3"/>
-                <Component Subtype="SteelPlate" Count="3"/>
+                <Component Subtype="SteelPlate" Count="4"/>
             </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -2709,7 +2719,7 @@
             <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
-            <FlameDamage>0.1</FlameDamage>
+			<FlameDamage>1</FlameDamage>
             <FlameLengthScale>1.6</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.1</X>
@@ -2757,7 +2767,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="7"/>
+                <Component Subtype="Tech8x" Count="14"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="Construction" Count="3"/>
                 <Component Subtype="LargeTube" Count="13"/>
@@ -2765,7 +2775,7 @@
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="SteelPlate" Count="10"/>
             </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
@@ -2801,7 +2811,7 @@
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>2073600</ForceMagnitude>
+            <ForceMagnitude>1382400</ForceMagnitude>
             <MaxPowerConsumption>1.92</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -2812,7 +2822,7 @@
             <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-            <FlameDamage>0.2</FlameDamage>
+			<FlameDamage>2</FlameDamage>
             <FlameLengthScale>1.1</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.1</X>
@@ -2861,15 +2871,15 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="10"/>
-                <Component Subtype="SteelPlate" Count="38"/>
-                <Component Subtype="Construction" Count="100"/>
+                <Component Subtype="Tech8x" Count="13"/>
+                <Component Subtype="SteelPlate" Count="45"/>
+                <Component Subtype="Construction" Count="125"/>
                 <Component Subtype="LargeTube" Count="20"/>
-                <Component Subtype="Thrust" Count="200"/>
-                <Component Subtype="Construction" Count="50"/>
-                <Component Subtype="SteelPlate" Count="25"/>
+                <Component Subtype="Thrust" Count="250"/>
+                <Component Subtype="Construction" Count="63"/>
+                <Component Subtype="SteelPlate" Count="30"/>
             </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
@@ -2902,7 +2912,7 @@
             <BuildTimeSeconds>135</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>4147200</ForceMagnitude>
+            <ForceMagnitude>6082560</ForceMagnitude>
             <MaxPowerConsumption>2.688</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -2913,6 +2923,7 @@
             <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+			<FlameDamage>4</FlameDamage>
             <FlameLengthScale>1.5</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.1</X>
@@ -2960,7 +2971,7 @@
             <ThrusterType>Ion</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="50"/>
+                <Component Subtype="Tech8x" Count="100"/>
                 <Component Subtype="SteelPlate" Count="250"/>
                 <Component Subtype="Construction" Count="175"/>
                 <Component Subtype="LargeTube" Count="100"/>
@@ -2968,7 +2979,7 @@
                 <Component Subtype="Construction" Count="75"/>
                 <Component Subtype="SteelPlate" Count="125"/>
             </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
@@ -3005,7 +3016,7 @@
             <BuildTimeSeconds>304</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>51840000</ForceMagnitude>
+            <ForceMagnitude>69120000</ForceMagnitude>
             <MaxPowerConsumption>26.88</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
@@ -3016,6 +3027,7 @@
             <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+			<FlameDamage>42</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.1</X>
