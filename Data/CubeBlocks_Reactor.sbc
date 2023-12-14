@@ -619,7 +619,7 @@
                         <TypeId>Component</TypeId>
                         <SubtypeId>IridiatedUranium</SubtypeId>
                     </Id>
-                    <Ratio>4</Ratio>					
+                    <Ratio>0.4</Ratio>
                 </FuelInfo>
             </FuelInfos>
             <PrimarySound>ShipSmNuclearSm</PrimarySound>
@@ -712,7 +712,7 @@
                         <TypeId>Component</TypeId>
                         <SubtypeId>IridiatedUranium</SubtypeId>
                     </Id>
-                    <Ratio>4</Ratio>					
+                    <Ratio>0.4</Ratio>
                 </FuelInfo>
             </FuelInfos>
             <PrimarySound>ShipSmNuclearLrg</PrimarySound>
@@ -800,7 +800,7 @@
                         <TypeId>Component</TypeId>
                         <SubtypeId>IridiatedUranium</SubtypeId>
                     </Id>
-                    <Ratio>4</Ratio>					
+                    <Ratio>0.4</Ratio>
                 </FuelInfo>
             </FuelInfos>
             <PrimarySound>ShipLrgNuclearSm</PrimarySound>
@@ -890,7 +890,7 @@
                         <TypeId>Component</TypeId>
                         <SubtypeId>IridiatedUranium</SubtypeId>
                     </Id>
-                    <Ratio>4</Ratio>					
+                    <Ratio>0.4</Ratio>
                 </FuelInfo>
             </FuelInfos>
             <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
