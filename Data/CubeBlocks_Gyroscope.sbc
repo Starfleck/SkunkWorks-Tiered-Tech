@@ -19,7 +19,7 @@
             <Model>Models\Cubes\Small\gyroscope.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech2x" Count="2"/>
+                <Component Subtype="Tech2x" Count="11"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="Construction" Count="8"/>
                 <Component Subtype="LargeTube" Count="2"/>
@@ -71,7 +71,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech2x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="750"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="LargeTube" Count="6"/>
@@ -127,7 +127,7 @@
             <Model>Models\Cubes\Small\gyroscope.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech4x" Count="2"/>
+                <Component Subtype="Tech4x" Count="11"/>
                 <Component Subtype="SteelPlate" Count="30"/>
                 <Component Subtype="Construction" Count="10"/>
                 <Component Subtype="LargeTube" Count="2"/>
@@ -179,7 +179,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech4x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="1000"/>
                 <Component Subtype="Construction" Count="80"/>
                 <Component Subtype="LargeTube" Count="8"/>
@@ -235,7 +235,7 @@
             <Model>Models\Cubes\Small\gyroscope.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="Tech8x" Count="3"/>
+                <Component Subtype="Tech8x" Count="11"/>
                 <Component Subtype="SteelPlate" Count="38"/>
                 <Component Subtype="Construction" Count="13"/>
                 <Component Subtype="LargeTube" Count="3"/>
@@ -287,7 +287,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech8x" Count="30"/>
                 <Component Subtype="SteelPlate" Count="1250"/>
                 <Component Subtype="Construction" Count="100"/>
                 <Component Subtype="LargeTube" Count="10"/>
