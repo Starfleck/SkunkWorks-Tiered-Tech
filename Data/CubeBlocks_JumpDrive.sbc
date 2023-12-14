@@ -73,7 +73,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="75"/>
+                <Component Subtype="Tech2x" Count="150"/>
                 <Component Subtype="SteelPlate" Count="60"/>
                 <Component Subtype="MetalGrid" Count="75"/>
                 <Component Subtype="GravityGenerator" Count="30"/>
@@ -133,7 +133,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech2x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="6"/>
                 <Component Subtype="MetalGrid" Count="8"/>
                 <Component Subtype="GravityGenerator" Count="3"/>
@@ -192,7 +192,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="75"/>
+                <Component Subtype="Tech4x" Count="150"/>
                 <Component Subtype="SteelPlate" Count="80"/>
                 <Component Subtype="MetalGrid" Count="100"/>
                 <Component Subtype="GravityGenerator" Count="40"/>
@@ -252,7 +252,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech4x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="8"/>
                 <Component Subtype="MetalGrid" Count="10"/>
                 <Component Subtype="GravityGenerator" Count="4"/>
@@ -311,7 +311,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="75"/>
+                <Component Subtype="Tech8x" Count="150"/>
                 <Component Subtype="SteelPlate" Count="100"/>
                 <Component Subtype="MetalGrid" Count="125"/>
                 <Component Subtype="GravityGenerator" Count="50"/>
@@ -371,7 +371,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech8x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="9"/>
                 <Component Subtype="MetalGrid" Count="13"/>
                 <Component Subtype="GravityGenerator" Count="5"/>
