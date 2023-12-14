@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Components>
+	<!-- Tier1 "4x effective" -->
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
@@ -13,13 +14,13 @@
                 <Y>0.7</Y>
                 <Z>0.4</Z>
             </Size>
-            <Mass>4</Mass>
-            <Volume>6</Volume>
+            <Mass>30</Mass>
+            <Volume>1</Volume>
             <Model>Models\Components\gravity_generator_components_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>1000</MaxIntegrity>
+            <MaxIntegrity>80</MaxIntegrity>
             <DropProbability>0.5</DropProbability>
-            <Health>1000</Health>
+            <Health>50</Health>
             <MinimumOfferAmount>1000</MinimumOfferAmount>
             <MaximumOfferAmount>50000</MaximumOfferAmount>
             <MinimumOrderAmount>10000</MinimumOrderAmount>
@@ -29,6 +30,8 @@
             <MinimumAcquisitionAmount>2000</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
         </Component>
+		
+	<!-- Tier2 "6x effective" -->
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
@@ -41,13 +44,13 @@
                 <Y>0.7</Y>
                 <Z>0.4</Z>
             </Size>
-            <Mass>2</Mass>
-            <Volume>3</Volume>
+            <Mass>40</Mass>
+            <Volume>10</Volume>
             <Model>Models\Components\gravity_generator_components_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>1000</MaxIntegrity>
+            <MaxIntegrity>90</MaxIntegrity>
             <DropProbability>0.5</DropProbability>
-            <Health>2000</Health>
+            <Health>60</Health>
             <MinimumOfferAmount>50</MinimumOfferAmount>
             <MaximumOfferAmount>2500</MaximumOfferAmount>
             <MinimumOrderAmount>500</MinimumOrderAmount>
@@ -57,6 +60,8 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
         </Component>
+		
+	<!-- Tier3 "8x effective" -->
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
@@ -69,13 +74,13 @@
                 <Y>0.7</Y>
                 <Z>0.4</Z>
             </Size>
-            <Mass>1</Mass>
-            <Volume>2</Volume>
+            <Mass>50</Mass>
+            <Volume>16</Volume>
             <Model>Models\Components\gravity_generator_components_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>1000</MaxIntegrity>
+            <MaxIntegrity>100</MaxIntegrity>
             <DropProbability>0.5</DropProbability>
-            <Health>4000</Health>
+            <Health>70</Health>
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>60</MaximumOfferAmount>
             <MinimumOrderAmount>500</MinimumOrderAmount>
@@ -84,6 +89,66 @@
 
             <MinimumAcquisitionAmount>50</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>200</MaximumAcquisitionAmount>
+        </Component>
+		
+	<!-- Tier4 "20x effective" -->
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Tech20x</SubtypeId>
+            </Id>
+            <DisplayName>Hellion Tech</DisplayName>
+            <Icon>Textures\tech20x.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>100000</Mass>
+            <Volume>900</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>300</MaxIntegrity>
+            <DropProbability>0.1</DropProbability>
+            <Health>100</Health>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>1</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>1</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>1</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1</MaximumAcquisitionAmount>
+        </Component>
+		
+	<!-- Tier5 "50x effective" -->
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Tech50x</SubtypeId>
+            </Id>
+            <DisplayName>Singularity Tech</DisplayName>
+            <Icon>Textures\tech50x.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>1500000</Mass>
+            <Volume>1000</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>350</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>200</Health>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>1</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>1</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>1</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1</MaximumAcquisitionAmount>
         </Component>
 		
         <Component>
@@ -98,7 +163,7 @@
                 <Y>0.07</Y>
                 <Z>0.07</Z>
             </Size>
-            <Mass>250</Mass>
+            <Mass>25</Mass>
             <Volume>25</Volume>
             <Model>Models\Components\IrUr.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
