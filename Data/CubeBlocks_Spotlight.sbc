@@ -17,7 +17,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\light.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech2x" Count="2"/>
                 <Component Subtype="SteelPlate" Count="12"/>
                 <Component Subtype="LargeTube" Count="3"/>
                 <Component Subtype="InteriorPlate" Count="30"/>
@@ -73,7 +73,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\light.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="6"/>
+                <Component Subtype="Tech2x" Count="1"/>
                 <Component Subtype="SteelPlate" Count="2"/>
                 <Component Subtype="LargeTube" Count="2"/>
                 <Component Subtype="InteriorPlate" Count="2"/>
@@ -130,7 +130,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\light.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech4x" Count="2"/>
                 <Component Subtype="SteelPlate" Count="16"/>
                 <Component Subtype="LargeTube" Count="4"/>
                 <Component Subtype="InteriorPlate" Count="40"/>
@@ -186,7 +186,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\light.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="6"/>
+                <Component Subtype="Tech4x" Count="1"/>
                 <Component Subtype="SteelPlate" Count="2"/>
                 <Component Subtype="LargeTube" Count="2"/>
                 <Component Subtype="InteriorPlate" Count="2"/>
@@ -243,7 +243,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\light.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech8x" Count="2"/>
                 <Component Subtype="SteelPlate" Count="20"/>
                 <Component Subtype="LargeTube" Count="5"/>
                 <Component Subtype="InteriorPlate" Count="50"/>
@@ -299,7 +299,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Small\light.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="6"/>
+                <Component Subtype="Tech8x" Count="1"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="LargeTube" Count="3"/>
                 <Component Subtype="InteriorPlate" Count="3"/>
