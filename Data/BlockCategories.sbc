@@ -42,5 +42,28 @@
         <string>ShipWelder/SmallShipWelder8x</string>
       </ItemIds>
     </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Thruster Blocks</DisplayName>
+      <Name>Thrusters</Name>
+      <StrictSearch>true</StrictSearch>      
+      <ItemIds>
+        <string>Thrust/LargeBlockLargeAtmosphericThrust</string>
+        <string>Thrust/LargeBlockLargeAtmosphericThrustSciFi</string>
+        <string>Thrust/LargeBlockLargeFlatAtmosphericThrust</string>   
+
+        <string>Thrust/LargeBlockLargeHydrogenThrust</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrustIndustrial</string>    
+         
+        <string>Thrust/LargeBlockLargeThrust</string>
+        <string>Thrust/LargeBlockLargeThrustSciFi</string>
+        <string>Thrust/LargeBlockLargeModularThruster</string> 
+
+      </ItemIds>
+    </Category>
   </CategoryClasses>
 </Definitions>
