@@ -172,7 +172,7 @@
             <PlaceDecals>false</PlaceDecals>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="Tech2x" Count="20"/>
+                <Component Subtype="Tech2x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="30"/>
                 <Component Subtype="Construction" Count="45"/>
                 <Component Subtype="LargeTube" Count="6"/>
@@ -250,7 +250,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech2x" Count="40"/>
+                <Component Subtype="Tech2x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="270"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="LargeTube" Count="18"/>
@@ -331,7 +331,7 @@
             <PlaceDecals>false</PlaceDecals>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="Tech4x" Count="20"/>
+                <Component Subtype="Tech4x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="40"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="LargeTube" Count="8"/>
@@ -409,7 +409,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech4x" Count="40"/>
+                <Component Subtype="Tech4x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="360"/>
                 <Component Subtype="Construction" Count="80"/>
                 <Component Subtype="LargeTube" Count="24"/>
@@ -490,7 +490,7 @@
             <PlaceDecals>false</PlaceDecals>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="Tech8x" Count="20"/>
+                <Component Subtype="Tech8x" Count="4"/>
                 <Component Subtype="SteelPlate" Count="50"/>
                 <Component Subtype="Construction" Count="75"/>
                 <Component Subtype="LargeTube" Count="10"/>
@@ -568,7 +568,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <UsesDeformation>false</UsesDeformation>
             <Components>
-                <Component Subtype="Tech8x" Count="40"/>
+                <Component Subtype="Tech8x" Count="20"/>
                 <Component Subtype="SteelPlate" Count="450"/>
                 <Component Subtype="Construction" Count="100"/>
                 <Component Subtype="LargeTube" Count="30"/>
