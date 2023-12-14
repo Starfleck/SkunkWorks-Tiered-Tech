@@ -180,6 +180,8 @@
         <Entry Class="TechAdmin" BlueprintSubtypeId="Tech2x" />
         <Entry Class="TechAdmin" BlueprintSubtypeId="Tech4x" />
         <Entry Class="TechAdmin" BlueprintSubtypeId="Tech8x" />        
+        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech20x" />
+        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech50x" />
 
         <Entry Class="Components2x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components" BlueprintSubtypeId="Tech2x" />
@@ -190,6 +192,8 @@
         <Entry Class="Components8x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components8x" BlueprintSubtypeId="Tech4x" />
         <Entry Class="Components8x" BlueprintSubtypeId="Tech8x" />
+        <Entry Class="Components8x" BlueprintSubtypeId="Tech20x" />
+        <Entry Class="Components8x" BlueprintSubtypeId="Tech50x" />
 		
        <Entry Class="Iridium" BlueprintSubtypeId="IridiumOreToIngot" />	
        <Entry Class="Components8x" BlueprintSubtypeId="IridiatedUranium" />	   	   
