@@ -26,7 +26,7 @@
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="SteelPlate" Count="50" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -63,8 +63,8 @@
         <BuildTimeSeconds>50</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>2600000</ForceMagnitude>
-        <MaxPowerConsumption>6.7</MaxPowerConsumption>
+        <ForceMagnitude>7800000</ForceMagnitude>
+        <MaxPowerConsumption>1.34</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -141,7 +141,7 @@
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="SteelPlate" Count="50" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -178,8 +178,8 @@
         <BuildTimeSeconds>50</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>2600000</ForceMagnitude>
-        <MaxPowerConsumption>6.7</MaxPowerConsumption>
+        <ForceMagnitude>7800000</ForceMagnitude>
+        <MaxPowerConsumption>1.34</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -257,7 +257,7 @@
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="SteelPlate" Count="10" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -294,8 +294,8 @@
         <BuildTimeSeconds>25</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>200000</ForceMagnitude>
-        <MaxPowerConsumption>0.8</MaxPowerConsumption>
+        <ForceMagnitude>600000</ForceMagnitude>
+        <MaxPowerConsumption>0.16</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -338,6 +338,7 @@
         <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
         <DestroySound>WepSmallWarheadExpl</DestroySound>
         <PCU>15</PCU>
+		<IsAirTight>false</IsAirTight>
         <TieredUpdateTimes>
             <unsignedInt>100</unsignedInt>
             <unsignedInt>3600</unsignedInt>
@@ -373,7 +374,7 @@
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="SteelPlate" Count="10" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -410,8 +411,8 @@
         <BuildTimeSeconds>25</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>200000</ForceMagnitude>
-        <MaxPowerConsumption>0.8</MaxPowerConsumption>
+        <ForceMagnitude>600000</ForceMagnitude>
+        <MaxPowerConsumption>0.16</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -454,6 +455,7 @@
         <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
         <DestroySound>WepSmallWarheadExpl</DestroySound>
         <PCU>15</PCU>
+		<IsAirTight>false</IsAirTight>
         <TieredUpdateTimes>
             <unsignedInt>100</unsignedInt>
             <unsignedInt>3600</unsignedInt>
@@ -488,7 +490,7 @@
             <Component Subtype="Construction" Count="4" />
             <Component Subtype="SteelPlate" Count="4" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -525,8 +527,8 @@
         <BuildTimeSeconds>15</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>230000</ForceMagnitude>
-        <MaxPowerConsumption>1</MaxPowerConsumption>
+        <ForceMagnitude>690000</ForceMagnitude>
+        <MaxPowerConsumption>0.2</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -604,7 +606,7 @@
             <Component Subtype="Construction" Count="4" />
             <Component Subtype="SteelPlate" Count="4" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -641,8 +643,8 @@
         <BuildTimeSeconds>15</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>230000</ForceMagnitude>
-        <MaxPowerConsumption>1</MaxPowerConsumption>
+        <ForceMagnitude>690000</ForceMagnitude>
+        <MaxPowerConsumption>0.2</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -721,7 +723,7 @@
             <Component Subtype="Construction" Count="1" />
             <Component Subtype="SteelPlate" Count="1" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -757,8 +759,8 @@
         <EdgeType>Light</EdgeType>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>32000</ForceMagnitude>
-        <MaxPowerConsumption>0.200</MaxPowerConsumption>
+        <ForceMagnitude>96000</ForceMagnitude>
+        <MaxPowerConsumption>0.040</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -838,7 +840,7 @@
             <Component Subtype="Construction" Count="1" />
             <Component Subtype="SteelPlate" Count="1" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -874,8 +876,8 @@
         <EdgeType>Light</EdgeType>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>32000</ForceMagnitude>
-        <MaxPowerConsumption>0.200</MaxPowerConsumption>
+        <ForceMagnitude>96000</ForceMagnitude>
+        <MaxPowerConsumption>0.040</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -931,13 +933,13 @@
     </Definition>
 
         <!-- Tier 1 -->    
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
         <Id>
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockLargeFlatAtmosphericThrust2x</SubtypeId>
         </Id>
-        <DisplayName>Enhanced Large Flat Atmosphetic Thruster</DisplayName>
-        <Icon>Textures\LargeFlatAtmosphericThrusterLarge2x.ddss</Icon>
+        <DisplayName>Enhanced Large Flat Atmospheric Thruster</DisplayName>
+        <Icon>Textures\LargeFlatAtmosphericThrusterLarge2x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
         <BlockTopology>TriangleMesh</BlockTopology>
@@ -947,16 +949,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="25"/>        
-            <Component Subtype="SteelPlate" Count="40" />
+            <Component Subtype="Tech2x" Count="50"/>        
+            <Component Subtype="SteelPlate" Count="60" />
+            <Component Subtype="Construction" Count="23" />
+            <Component Subtype="LargeTube" Count="30" />
+            <Component Subtype="MetalGrid" Count="23" />
+            <Component Subtype="Motor" Count="600" />
             <Component Subtype="Construction" Count="15" />
-            <Component Subtype="LargeTube" Count="20" />
-            <Component Subtype="MetalGrid" Count="15" />
-            <Component Subtype="Motor" Count="400" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="50" />
+            <Component Subtype="SteelPlate" Count="75" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -993,8 +995,8 @@
         <BuildTimeSeconds>50</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>2600000</ForceMagnitude>
-        <MaxPowerConsumption>6.7</MaxPowerConsumption>
+        <ForceMagnitude>31200000</ForceMagnitude>
+        <MaxPowerConsumption>2.68</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -1052,7 +1054,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockLargeFlatAtmosphericThrustDShape2x</SubtypeId>
         </Id>
-        <DisplayName>Enhanced Large Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Enhanced Large Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterDShapeLarge2x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
@@ -1063,16 +1065,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="25"/>        
-            <Component Subtype="SteelPlate" Count="40" />
+            <Component Subtype="Tech2x" Count="50"/>        
+            <Component Subtype="SteelPlate" Count="60" />
+            <Component Subtype="Construction" Count="23" />
+            <Component Subtype="LargeTube" Count="30" />
+            <Component Subtype="MetalGrid" Count="23" />
+            <Component Subtype="Motor" Count="600" />
             <Component Subtype="Construction" Count="15" />
-            <Component Subtype="LargeTube" Count="20" />
-            <Component Subtype="MetalGrid" Count="15" />
-            <Component Subtype="Motor" Count="400" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="50" />
+            <Component Subtype="SteelPlate" Count="75" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -1109,8 +1111,8 @@
         <BuildTimeSeconds>50</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>2600000</ForceMagnitude>
-        <MaxPowerConsumption>6.7</MaxPowerConsumption>
+        <ForceMagnitude>31200000</ForceMagnitude>
+        <MaxPowerConsumption>2.68</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -1168,7 +1170,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockSmallFlatAtmosphericThrust2x</SubtypeId>
         </Id>
-        <DisplayName>Enhanced Flat Atmosphetic Thruster</DisplayName>
+        <DisplayName>Enhanced Flat Atmospheric Thruster</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterSmall2x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
@@ -1181,15 +1183,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech2x" Count="4"/>        
-            <Component Subtype="SteelPlate" Count="5" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="3" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="10" />
+            <Component Subtype="SteelPlate" Count="8" />
+            <Component Subtype="Construction" Count="15" />
+            <Component Subtype="LargeTube" Count="5" />
+            <Component Subtype="MetalGrid" Count="5" />
+            <Component Subtype="Motor" Count="45" />
+            <Component Subtype="Construction" Count="15" />
+            <Component Subtype="SteelPlate" Count="15" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -1226,8 +1228,8 @@
         <BuildTimeSeconds>25</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>200000</ForceMagnitude>
-        <MaxPowerConsumption>0.8</MaxPowerConsumption>
+        <ForceMagnitude>2400000</ForceMagnitude>
+        <MaxPowerConsumption>0.32</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -1270,6 +1272,7 @@
         <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
         <DestroySound>WepSmallWarheadExpl</DestroySound>
         <PCU>15</PCU>
+		<IsAirTight>false</IsAirTight>
         <TieredUpdateTimes>
             <unsignedInt>100</unsignedInt>
             <unsignedInt>3600</unsignedInt>
@@ -1285,7 +1288,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockSmallFlatAtmosphericThrustDShape2x</SubtypeId>
         </Id>
-        <DisplayName>Enhanced Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Enhanced Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterDShapeSmall2x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
@@ -1298,15 +1301,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech2x" Count="4"/>        
-            <Component Subtype="SteelPlate" Count="5" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="3" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="10" />
+            <Component Subtype="SteelPlate" Count="8" />
+            <Component Subtype="Construction" Count="15" />
+            <Component Subtype="LargeTube" Count="5" />
+            <Component Subtype="MetalGrid" Count="5" />
+            <Component Subtype="Motor" Count="45" />
+            <Component Subtype="Construction" Count="15" />
+            <Component Subtype="SteelPlate" Count="15" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -1343,8 +1346,8 @@
         <BuildTimeSeconds>25</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>200000</ForceMagnitude>
-        <MaxPowerConsumption>0.8</MaxPowerConsumption>
+        <ForceMagnitude>2400000</ForceMagnitude>
+        <MaxPowerConsumption>0.32</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -1387,6 +1390,7 @@
         <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
         <DestroySound>WepSmallWarheadExpl</DestroySound>
         <PCU>15</PCU>
+		<IsAirTight>false</IsAirTight>
         <TieredUpdateTimes>
             <unsignedInt>100</unsignedInt>
             <unsignedInt>3600</unsignedInt>
@@ -1402,7 +1406,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockLargeFlatAtmosphericThrust2x</SubtypeId>
         </Id>
-        <DisplayName>Enhanced Large Flat Atmosphetic Thruster</DisplayName>
+        <DisplayName>Enhanced Large Flat Atmospheric Thruster</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterSmall2x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -1413,16 +1417,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="3"/>        
-            <Component Subtype="SteelPlate" Count="4" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="2" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="4" />
-            <Component Subtype="SteelPlate" Count="4" />
+            <Component Subtype="Tech2x" Count="6"/>        
+            <Component Subtype="SteelPlate" Count="6" />
+            <Component Subtype="Construction" Count="15" />
+            <Component Subtype="LargeTube" Count="3" />
+            <Component Subtype="MetalGrid" Count="5" />
+            <Component Subtype="Motor" Count="45" />
+            <Component Subtype="Construction" Count="6" />
+            <Component Subtype="SteelPlate" Count="6" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -1459,8 +1463,8 @@
         <BuildTimeSeconds>15</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>230000</ForceMagnitude>
-        <MaxPowerConsumption>1</MaxPowerConsumption>
+        <ForceMagnitude>2760000</ForceMagnitude>
+        <MaxPowerConsumption>0.4</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -1519,7 +1523,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockLargeFlatAtmosphericThrustDShape2x</SubtypeId>
         </Id>
-        <DisplayName>Enhanced Large Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Enhanced Large Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\SmallFlatAtmosphericThrusterDShapeLarge2x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -1530,16 +1534,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="3"/>        
-            <Component Subtype="SteelPlate" Count="4" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="2" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="4" />
-            <Component Subtype="SteelPlate" Count="4" />
+            <Component Subtype="Tech2x" Count="6"/>        
+            <Component Subtype="SteelPlate" Count="6" />
+            <Component Subtype="Construction" Count="15" />
+            <Component Subtype="LargeTube" Count="3" />
+            <Component Subtype="MetalGrid" Count="5" />
+            <Component Subtype="Motor" Count="45" />
+            <Component Subtype="Construction" Count="6" />
+            <Component Subtype="SteelPlate" Count="6" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -1576,8 +1580,8 @@
         <BuildTimeSeconds>15</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>230000</ForceMagnitude>
-        <MaxPowerConsumption>1</MaxPowerConsumption>
+        <ForceMagnitude>2760000</ForceMagnitude>
+        <MaxPowerConsumption>0.4</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -1636,7 +1640,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockSmallFlatAtmosphericThrust2x</SubtypeId>
         </Id>
-        <DisplayName>Enhanced Flat Atmosphetic Thruster</DisplayName>
+        <DisplayName>Enhanced Flat Atmospheric Thruster</DisplayName>
         <Icon>Textures\SmallFlatAtmosphericThrusterSmall2x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -1650,14 +1654,14 @@
         <Components>
             <Component Subtype="Tech2x" Count="1"/>        
             <Component Subtype="SteelPlate" Count="1" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="1" />
-            <Component Subtype="MetalGrid" Count="1" />
-            <Component Subtype="Motor" Count="6" />
-            <Component Subtype="Construction" Count="1" />
-            <Component Subtype="SteelPlate" Count="1" />
+            <Component Subtype="Construction" Count="15" />
+            <Component Subtype="LargeTube" Count="2" />
+            <Component Subtype="MetalGrid" Count="2" />
+            <Component Subtype="Motor" Count="9" />
+            <Component Subtype="Construction" Count="2" />
+            <Component Subtype="SteelPlate" Count="2" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -1693,8 +1697,8 @@
         <EdgeType>Light</EdgeType>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>32000</ForceMagnitude>
-        <MaxPowerConsumption>0.200</MaxPowerConsumption>
+        <ForceMagnitude>384000</ForceMagnitude>
+        <MaxPowerConsumption>0.080</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -1754,7 +1758,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockSmallFlatAtmosphericThrustDShape2x</SubtypeId>
         </Id>
-        <DisplayName>Enhanced Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Enhanced Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\SmallFlatAtmosphericThrusterDShapeSmall2x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -1768,14 +1772,14 @@
         <Components>
             <Component Subtype="Tech2x" Count="1"/>        
             <Component Subtype="SteelPlate" Count="1" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="1" />
-            <Component Subtype="MetalGrid" Count="1" />
-            <Component Subtype="Motor" Count="6" />
-            <Component Subtype="Construction" Count="1" />
-            <Component Subtype="SteelPlate" Count="1" />
+            <Component Subtype="Construction" Count="15" />
+            <Component Subtype="LargeTube" Count="2" />
+            <Component Subtype="MetalGrid" Count="2" />
+            <Component Subtype="Motor" Count="9" />
+            <Component Subtype="Construction" Count="2" />
+            <Component Subtype="SteelPlate" Count="2" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -1811,8 +1815,8 @@
         <EdgeType>Light</EdgeType>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>32000</ForceMagnitude>
-        <MaxPowerConsumption>0.200</MaxPowerConsumption>
+        <ForceMagnitude>384000</ForceMagnitude>
+        <MaxPowerConsumption>0.080</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -1868,13 +1872,13 @@
     </Definition>
 
         <!-- Tier 2 -->    
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
         <Id>
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockLargeFlatAtmosphericThrust4x</SubtypeId>
         </Id>
-        <DisplayName>Proficient Large Flat Atmosphetic Thruster</DisplayName>
-        <Icon>Textures\LargeFlatAtmosphericThrusterLarge4x.ddss</Icon>
+        <DisplayName>Proficient Large Flat Atmospheric Thruster</DisplayName>
+        <Icon>Textures\LargeFlatAtmosphericThrusterLarge4x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
         <BlockTopology>TriangleMesh</BlockTopology>
@@ -1884,16 +1888,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="25"/>        
-            <Component Subtype="SteelPlate" Count="40" />
-            <Component Subtype="Construction" Count="15" />
-            <Component Subtype="LargeTube" Count="20" />
-            <Component Subtype="MetalGrid" Count="15" />
-            <Component Subtype="Motor" Count="400" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="50" />
+            <Component Subtype="Tech4x" Count="50"/>        
+            <Component Subtype="SteelPlate" Count="80" />
+            <Component Subtype="Construction" Count="30" />
+            <Component Subtype="LargeTube" Count="40" />
+            <Component Subtype="MetalGrid" Count="30" />
+            <Component Subtype="Motor" Count="800" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="SteelPlate" Count="100" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -1930,8 +1934,8 @@
         <BuildTimeSeconds>50</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>2600000</ForceMagnitude>
-        <MaxPowerConsumption>6.7</MaxPowerConsumption>
+        <ForceMagnitude>46800000</ForceMagnitude>
+        <MaxPowerConsumption>4.02</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -1989,7 +1993,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockLargeFlatAtmosphericThrustDShape4x</SubtypeId>
         </Id>
-        <DisplayName>Proficient Large Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Proficient Large Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterDShapeLarge4x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
@@ -2000,16 +2004,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="25"/>        
-            <Component Subtype="SteelPlate" Count="40" />
-            <Component Subtype="Construction" Count="15" />
-            <Component Subtype="LargeTube" Count="20" />
-            <Component Subtype="MetalGrid" Count="15" />
-            <Component Subtype="Motor" Count="400" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="50" />
+            <Component Subtype="Tech4x" Count="50"/>        
+            <Component Subtype="SteelPlate" Count="80" />
+            <Component Subtype="Construction" Count="30" />
+            <Component Subtype="LargeTube" Count="40" />
+            <Component Subtype="MetalGrid" Count="30" />
+            <Component Subtype="Motor" Count="800" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="SteelPlate" Count="100" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -2046,8 +2050,8 @@
         <BuildTimeSeconds>50</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>2600000</ForceMagnitude>
-        <MaxPowerConsumption>6.7</MaxPowerConsumption>
+        <ForceMagnitude>46800000</ForceMagnitude>
+        <MaxPowerConsumption>4.02</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -2105,7 +2109,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockSmallFlatAtmosphericThrust4x</SubtypeId>
         </Id>
-        <DisplayName>Proficient Flat Atmosphetic Thruster</DisplayName>
+        <DisplayName>Proficient Flat Atmospheric Thruster</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterSmall4x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
@@ -2118,15 +2122,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech4x" Count="4"/>        
-            <Component Subtype="SteelPlate" Count="5" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="3" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="10" />
             <Component Subtype="SteelPlate" Count="10" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="LargeTube" Count="6" />
+            <Component Subtype="MetalGrid" Count="6" />
+            <Component Subtype="Motor" Count="60" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="SteelPlate" Count="20" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -2163,8 +2167,8 @@
         <BuildTimeSeconds>25</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>200000</ForceMagnitude>
-        <MaxPowerConsumption>0.8</MaxPowerConsumption>
+        <ForceMagnitude>3600000</ForceMagnitude>
+        <MaxPowerConsumption>0.48</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -2207,6 +2211,7 @@
         <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
         <DestroySound>WepSmallWarheadExpl</DestroySound>
         <PCU>15</PCU>
+		<IsAirTight>false</IsAirTight>
         <TieredUpdateTimes>
             <unsignedInt>100</unsignedInt>
             <unsignedInt>3600</unsignedInt>
@@ -2222,7 +2227,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockSmallFlatAtmosphericThrustDShape4x</SubtypeId>
         </Id>
-        <DisplayName>Proficient Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Proficient Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterDShapeSmall4x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
@@ -2235,15 +2240,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech4x" Count="4"/>        
-            <Component Subtype="SteelPlate" Count="5" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="3" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="10" />
             <Component Subtype="SteelPlate" Count="10" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="LargeTube" Count="6" />
+            <Component Subtype="MetalGrid" Count="6" />
+            <Component Subtype="Motor" Count="60" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="SteelPlate" Count="20" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -2280,8 +2285,8 @@
         <BuildTimeSeconds>25</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>200000</ForceMagnitude>
-        <MaxPowerConsumption>0.8</MaxPowerConsumption>
+        <ForceMagnitude>3600000</ForceMagnitude>
+        <MaxPowerConsumption>0.48</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -2324,6 +2329,7 @@
         <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
         <DestroySound>WepSmallWarheadExpl</DestroySound>
         <PCU>15</PCU>
+		<IsAirTight>false</IsAirTight>
         <TieredUpdateTimes>
             <unsignedInt>100</unsignedInt>
             <unsignedInt>3600</unsignedInt>
@@ -2339,7 +2345,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockLargeFlatAtmosphericThrust4x</SubtypeId>
         </Id>
-        <DisplayName>Proficient Large Flat Atmosphetic Thruster</DisplayName>
+        <DisplayName>Proficient Large Flat Atmospheric Thruster</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterSmall4x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -2350,16 +2356,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="3"/>        
-            <Component Subtype="SteelPlate" Count="4" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="2" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="4" />
-            <Component Subtype="SteelPlate" Count="4" />
+            <Component Subtype="Tech4x" Count="6"/>        
+            <Component Subtype="SteelPlate" Count="8" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="LargeTube" Count="4" />
+            <Component Subtype="MetalGrid" Count="6" />
+            <Component Subtype="Motor" Count="60" />
+            <Component Subtype="Construction" Count="8" />
+            <Component Subtype="SteelPlate" Count="8" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -2396,8 +2402,8 @@
         <BuildTimeSeconds>15</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>230000</ForceMagnitude>
-        <MaxPowerConsumption>1</MaxPowerConsumption>
+        <ForceMagnitude>4140000</ForceMagnitude>
+        <MaxPowerConsumption>0.6</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -2456,7 +2462,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockLargeFlatAtmosphericThrustDShape4x</SubtypeId>
         </Id>
-        <DisplayName>Proficient Large Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Proficient Large Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\SmallFlatAtmosphericThrusterDShapeLarge4x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -2467,16 +2473,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="3"/>        
-            <Component Subtype="SteelPlate" Count="4" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="2" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="4" />
-            <Component Subtype="SteelPlate" Count="4" />
+            <Component Subtype="Tech4x" Count="6"/>        
+            <Component Subtype="SteelPlate" Count="8" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="LargeTube" Count="4" />
+            <Component Subtype="MetalGrid" Count="6" />
+            <Component Subtype="Motor" Count="60" />
+            <Component Subtype="Construction" Count="8" />
+            <Component Subtype="SteelPlate" Count="8" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -2513,8 +2519,8 @@
         <BuildTimeSeconds>15</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>230000</ForceMagnitude>
-        <MaxPowerConsumption>1</MaxPowerConsumption>
+        <ForceMagnitude>4140000</ForceMagnitude>
+        <MaxPowerConsumption>0.6</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -2573,7 +2579,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockSmallFlatAtmosphericThrust4x</SubtypeId>
         </Id>
-        <DisplayName>Proficient Flat Atmosphetic Thruster</DisplayName>
+        <DisplayName>Proficient Flat Atmospheric Thruster</DisplayName>
         <Icon>Textures\SmallFlatAtmosphericThrusterSmall4x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -2586,15 +2592,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech4x" Count="1"/>        
-            <Component Subtype="SteelPlate" Count="1" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="1" />
-            <Component Subtype="MetalGrid" Count="1" />
-            <Component Subtype="Motor" Count="6" />
-            <Component Subtype="Construction" Count="1" />
-            <Component Subtype="SteelPlate" Count="1" />
+            <Component Subtype="SteelPlate" Count="2" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="LargeTube" Count="2" />
+            <Component Subtype="MetalGrid" Count="2" />
+            <Component Subtype="Motor" Count="12" />
+            <Component Subtype="Construction" Count="2" />
+            <Component Subtype="SteelPlate" Count="2" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -2630,8 +2636,8 @@
         <EdgeType>Light</EdgeType>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>32000</ForceMagnitude>
-        <MaxPowerConsumption>0.200</MaxPowerConsumption>
+        <ForceMagnitude>576000</ForceMagnitude>
+        <MaxPowerConsumption>0.1200</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -2691,7 +2697,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockSmallFlatAtmosphericThrustDShape4x</SubtypeId>
         </Id>
-        <DisplayName>Proficient Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Proficient Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\SmallFlatAtmosphericThrusterDShapeSmall4x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -2704,15 +2710,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech4x" Count="1"/>        
-            <Component Subtype="SteelPlate" Count="1" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="1" />
-            <Component Subtype="MetalGrid" Count="1" />
-            <Component Subtype="Motor" Count="6" />
-            <Component Subtype="Construction" Count="1" />
-            <Component Subtype="SteelPlate" Count="1" />
+            <Component Subtype="SteelPlate" Count="2" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="LargeTube" Count="2" />
+            <Component Subtype="MetalGrid" Count="2" />
+            <Component Subtype="Motor" Count="12" />
+            <Component Subtype="Construction" Count="2" />
+            <Component Subtype="SteelPlate" Count="2" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -2748,8 +2754,8 @@
         <EdgeType>Light</EdgeType>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>32000</ForceMagnitude>
-        <MaxPowerConsumption>0.200</MaxPowerConsumption>
+        <ForceMagnitude>576000</ForceMagnitude>
+        <MaxPowerConsumption>0.1200</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -2805,13 +2811,13 @@
     </Definition>
 
         <!-- Tier 3 -->    
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
         <Id>
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockLargeFlatAtmosphericThrust8x</SubtypeId>
         </Id>
-        <DisplayName>Elite Large Flat Atmosphetic Thruster</DisplayName>
-        <Icon>Textures\LargeFlatAtmosphericThrusterLarge8x.ddss</Icon>
+        <DisplayName>Elite Large Flat Atmospheric Thruster</DisplayName>
+        <Icon>Textures\LargeFlatAtmosphericThrusterLarge8x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
         <BlockTopology>TriangleMesh</BlockTopology>
@@ -2821,16 +2827,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="25"/>        
-            <Component Subtype="SteelPlate" Count="40" />
-            <Component Subtype="Construction" Count="15" />
-            <Component Subtype="LargeTube" Count="20" />
-            <Component Subtype="MetalGrid" Count="15" />
-            <Component Subtype="Motor" Count="400" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="50" />
+            <Component Subtype="Tech8x" Count="50"/>        
+            <Component Subtype="SteelPlate" Count="100" />
+            <Component Subtype="Construction" Count="38" />
+            <Component Subtype="LargeTube" Count="50" />
+            <Component Subtype="MetalGrid" Count="38" />
+            <Component Subtype="Motor" Count="1000" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="SteelPlate" Count="125" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -2867,8 +2873,8 @@
         <BuildTimeSeconds>50</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>2600000</ForceMagnitude>
-        <MaxPowerConsumption>6.7</MaxPowerConsumption>
+        <ForceMagnitude>62400000</ForceMagnitude>
+        <MaxPowerConsumption>5.36</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -2926,7 +2932,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockLargeFlatAtmosphericThrustDShape8x</SubtypeId>
         </Id>
-        <DisplayName>Elite Large Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Elite Large Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterDShapeLarge8x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
@@ -2937,16 +2943,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="25"/>        
-            <Component Subtype="SteelPlate" Count="40" />
-            <Component Subtype="Construction" Count="15" />
-            <Component Subtype="LargeTube" Count="20" />
-            <Component Subtype="MetalGrid" Count="15" />
-            <Component Subtype="Motor" Count="400" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="50" />
+            <Component Subtype="Tech8x" Count="50"/>        
+            <Component Subtype="SteelPlate" Count="100" />
+            <Component Subtype="Construction" Count="38" />
+            <Component Subtype="LargeTube" Count="50" />
+            <Component Subtype="MetalGrid" Count="38" />
+            <Component Subtype="Motor" Count="1000" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="SteelPlate" Count="125" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -2983,8 +2989,8 @@
         <BuildTimeSeconds>50</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>2600000</ForceMagnitude>
-        <MaxPowerConsumption>6.7</MaxPowerConsumption>
+        <ForceMagnitude>62400000</ForceMagnitude>
+        <MaxPowerConsumption>5.36</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -3042,7 +3048,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockSmallFlatAtmosphericThrust8x</SubtypeId>
         </Id>
-        <DisplayName>Elite Flat Atmosphetic Thruster</DisplayName>
+        <DisplayName>Elite Flat Atmospheric Thruster</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterSmall8x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
@@ -3055,15 +3061,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech8x" Count="4"/>        
-            <Component Subtype="SteelPlate" Count="5" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="3" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="10" />
+            <Component Subtype="SteelPlate" Count="13" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="LargeTube" Count="8" />
+            <Component Subtype="MetalGrid" Count="8" />
+            <Component Subtype="Motor" Count="75" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="SteelPlate" Count="25" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -3100,8 +3106,8 @@
         <BuildTimeSeconds>25</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>200000</ForceMagnitude>
-        <MaxPowerConsumption>0.8</MaxPowerConsumption>
+        <ForceMagnitude>4800000</ForceMagnitude>
+        <MaxPowerConsumption>0.64</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -3144,6 +3150,7 @@
         <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
         <DestroySound>WepSmallWarheadExpl</DestroySound>
         <PCU>15</PCU>
+		<IsAirTight>false</IsAirTight>
         <TieredUpdateTimes>
             <unsignedInt>100</unsignedInt>
             <unsignedInt>3600</unsignedInt>
@@ -3159,7 +3166,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>LargeBlockSmallFlatAtmosphericThrustDShape8x</SubtypeId>
         </Id>
-        <DisplayName>Elite Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Elite Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterDShapeSmall8x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Large</CubeSize>
@@ -3172,15 +3179,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech8x" Count="4"/>        
-            <Component Subtype="SteelPlate" Count="5" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="3" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="10" />
+            <Component Subtype="SteelPlate" Count="13" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="LargeTube" Count="8" />
+            <Component Subtype="MetalGrid" Count="8" />
+            <Component Subtype="Motor" Count="75" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="SteelPlate" Count="25" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -3217,8 +3224,8 @@
         <BuildTimeSeconds>25</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>200000</ForceMagnitude>
-        <MaxPowerConsumption>0.8</MaxPowerConsumption>
+        <ForceMagnitude>4800000</ForceMagnitude>
+        <MaxPowerConsumption>0.64</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -3261,6 +3268,7 @@
         <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
         <DestroySound>WepSmallWarheadExpl</DestroySound>
         <PCU>15</PCU>
+		<IsAirTight>false</IsAirTight>
         <TieredUpdateTimes>
             <unsignedInt>100</unsignedInt>
             <unsignedInt>3600</unsignedInt>
@@ -3276,7 +3284,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockLargeFlatAtmosphericThrust8x</SubtypeId>
         </Id>
-        <DisplayName>Elite Large Flat Atmosphetic Thruster</DisplayName>
+        <DisplayName>Elite Large Flat Atmospheric Thruster</DisplayName>
         <Icon>Textures\LargeFlatAtmosphericThrusterSmall8x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -3287,16 +3295,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="3"/>        
-            <Component Subtype="SteelPlate" Count="4" />
+            <Component Subtype="Tech8x" Count="6"/>        
+            <Component Subtype="SteelPlate" Count="10" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="LargeTube" Count="5" />
+            <Component Subtype="MetalGrid" Count="8" />
+            <Component Subtype="Motor" Count="75" />
             <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="2" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="4" />
-            <Component Subtype="SteelPlate" Count="4" />
+            <Component Subtype="SteelPlate" Count="10" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="1" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -3333,8 +3341,8 @@
         <BuildTimeSeconds>15</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>230000</ForceMagnitude>
-        <MaxPowerConsumption>1</MaxPowerConsumption>
+        <ForceMagnitude>5520000</ForceMagnitude>
+        <MaxPowerConsumption>0.8</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -3393,7 +3401,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockLargeFlatAtmosphericThrustDShape8x</SubtypeId>
         </Id>
-        <DisplayName>Elite Large Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Elite Large Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\SmallFlatAtmosphericThrusterDShapeLarge8x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -3404,16 +3412,16 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="3"/>        
-            <Component Subtype="SteelPlate" Count="4" />
+            <Component Subtype="Tech8x" Count="6"/>        
+            <Component Subtype="SteelPlate" Count="10" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="LargeTube" Count="5" />
+            <Component Subtype="MetalGrid" Count="8" />
+            <Component Subtype="Motor" Count="75" />
             <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="2" />
-            <Component Subtype="MetalGrid" Count="3" />
-            <Component Subtype="Motor" Count="30" />
-            <Component Subtype="Construction" Count="4" />
-            <Component Subtype="SteelPlate" Count="4" />
+            <Component Subtype="SteelPlate" Count="10" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="1.1" StartY="0.2" EndX="1.9" EndY="0.8" />
             <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -3450,8 +3458,8 @@
         <BuildTimeSeconds>15</BuildTimeSeconds>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>230000</ForceMagnitude>
-        <MaxPowerConsumption>1</MaxPowerConsumption>
+        <ForceMagnitude>5520000</ForceMagnitude>
+        <MaxPowerConsumption>0.8</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -3510,7 +3518,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockSmallFlatAtmosphericThrust8x</SubtypeId>
         </Id>
-        <DisplayName>Elite Flat Atmosphetic Thruster</DisplayName>
+        <DisplayName>Elite Flat Atmospheric Thruster</DisplayName>
         <Icon>Textures\SmallFlatAtmosphericThrusterSmall8x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -3523,15 +3531,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech8x" Count="1"/>        
-            <Component Subtype="SteelPlate" Count="1" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="1" />
-            <Component Subtype="MetalGrid" Count="1" />
-            <Component Subtype="Motor" Count="6" />
-            <Component Subtype="Construction" Count="1" />
-            <Component Subtype="SteelPlate" Count="1" />
+            <Component Subtype="SteelPlate" Count="2" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="LargeTube" Count="3" />
+            <Component Subtype="MetalGrid" Count="3" />
+            <Component Subtype="Motor" Count="15" />
+            <Component Subtype="Construction" Count="3" />
+            <Component Subtype="SteelPlate" Count="3" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -3567,8 +3575,8 @@
         <EdgeType>Light</EdgeType>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>32000</ForceMagnitude>
-        <MaxPowerConsumption>0.200</MaxPowerConsumption>
+        <ForceMagnitude>768000</ForceMagnitude>
+        <MaxPowerConsumption>0.160</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
@@ -3628,7 +3636,7 @@
             <TypeId>Thrust</TypeId>
             <SubtypeId>SmallBlockSmallFlatAtmosphericThrustDShape8x</SubtypeId>
         </Id>
-        <DisplayName>Elite Flat Atmosphetic Thruster D Shape</DisplayName>
+        <DisplayName>Elite Flat Atmospheric Thruster D Shape</DisplayName>
         <Icon>Textures\SmallFlatAtmosphericThrusterDShapeSmall8x.dds</Icon>
         <Description>Description_AtmosphericThrust</Description>
         <CubeSize>Small</CubeSize>
@@ -3641,15 +3649,15 @@
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
             <Component Subtype="Tech8x" Count="1"/>        
-            <Component Subtype="SteelPlate" Count="1" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="LargeTube" Count="1" />
-            <Component Subtype="MetalGrid" Count="1" />
-            <Component Subtype="Motor" Count="6" />
-            <Component Subtype="Construction" Count="1" />
-            <Component Subtype="SteelPlate" Count="1" />
+            <Component Subtype="SteelPlate" Count="2" />
+            <Component Subtype="Construction" Count="25" />
+            <Component Subtype="LargeTube" Count="3" />
+            <Component Subtype="MetalGrid" Count="3" />
+            <Component Subtype="Motor" Count="15" />
+            <Component Subtype="Construction" Count="3" />
+            <Component Subtype="SteelPlate" Count="3" />
         </Components>
-        <CriticalComponent Subtype="Motor" Index="0" />
+        <CriticalComponent Subtype="Construction" Index="0" />
         <MountPoints>
             <MountPoint Side="Top" StartX="0.3" StartY="0.1" EndX="0.7" EndY="0.4" />
             <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
@@ -3685,8 +3693,8 @@
         <EdgeType>Light</EdgeType>
 
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>32000</ForceMagnitude>
-        <MaxPowerConsumption>0.200</MaxPowerConsumption>
+        <ForceMagnitude>768000</ForceMagnitude>
+        <MaxPowerConsumption>0.160</MaxPowerConsumption>
         <MinPowerConsumption>0.000002</MinPowerConsumption>
         <SlowdownFactor>1</SlowdownFactor>
 
