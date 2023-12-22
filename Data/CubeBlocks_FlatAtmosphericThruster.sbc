@@ -949,7 +949,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="50"/>        
+            <Component Subtype="Tech2x" Count="33"/>        
             <Component Subtype="SteelPlate" Count="60" />
             <Component Subtype="Construction" Count="23" />
             <Component Subtype="LargeTube" Count="30" />
@@ -1065,7 +1065,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="50"/>        
+            <Component Subtype="Tech2x" Count="33"/>        
             <Component Subtype="SteelPlate" Count="60" />
             <Component Subtype="Construction" Count="23" />
             <Component Subtype="LargeTube" Count="30" />
@@ -1417,7 +1417,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="6"/>        
+            <Component Subtype="Tech2x" Count="5"/>        
             <Component Subtype="SteelPlate" Count="6" />
             <Component Subtype="Construction" Count="15" />
             <Component Subtype="LargeTube" Count="3" />
@@ -1534,7 +1534,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="6"/>        
+            <Component Subtype="Tech2x" Count="5"/>        
             <Component Subtype="SteelPlate" Count="6" />
             <Component Subtype="Construction" Count="15" />
             <Component Subtype="LargeTube" Count="3" />
@@ -1652,7 +1652,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="1"/>        
+            <Component Subtype="Tech2x" Count="2"/>        
             <Component Subtype="SteelPlate" Count="1" />
             <Component Subtype="Construction" Count="15" />
             <Component Subtype="LargeTube" Count="2" />
@@ -1770,7 +1770,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech2x" Count="1"/>        
+            <Component Subtype="Tech2x" Count="2"/>        
             <Component Subtype="SteelPlate" Count="1" />
             <Component Subtype="Construction" Count="15" />
             <Component Subtype="LargeTube" Count="2" />
@@ -1888,7 +1888,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="50"/>        
+            <Component Subtype="Tech4x" Count="33"/>        
             <Component Subtype="SteelPlate" Count="80" />
             <Component Subtype="Construction" Count="30" />
             <Component Subtype="LargeTube" Count="40" />
@@ -2004,7 +2004,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="50"/>        
+            <Component Subtype="Tech4x" Count="33"/>        
             <Component Subtype="SteelPlate" Count="80" />
             <Component Subtype="Construction" Count="30" />
             <Component Subtype="LargeTube" Count="40" />
@@ -2356,7 +2356,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="6"/>        
+            <Component Subtype="Tech4x" Count="5"/>        
             <Component Subtype="SteelPlate" Count="8" />
             <Component Subtype="Construction" Count="20" />
             <Component Subtype="LargeTube" Count="4" />
@@ -2473,7 +2473,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="6"/>        
+            <Component Subtype="Tech4x" Count="5"/>        
             <Component Subtype="SteelPlate" Count="8" />
             <Component Subtype="Construction" Count="20" />
             <Component Subtype="LargeTube" Count="4" />
@@ -2591,7 +2591,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="1"/>        
+            <Component Subtype="Tech4x" Count="2"/>        
             <Component Subtype="SteelPlate" Count="2" />
             <Component Subtype="Construction" Count="20" />
             <Component Subtype="LargeTube" Count="2" />
@@ -2709,7 +2709,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech4x" Count="1"/>        
+            <Component Subtype="Tech4x" Count="2"/>        
             <Component Subtype="SteelPlate" Count="2" />
             <Component Subtype="Construction" Count="20" />
             <Component Subtype="LargeTube" Count="2" />
@@ -2827,7 +2827,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="50"/>        
+            <Component Subtype="Tech8x" Count="33"/>        
             <Component Subtype="SteelPlate" Count="100" />
             <Component Subtype="Construction" Count="38" />
             <Component Subtype="LargeTube" Count="50" />
@@ -2943,7 +2943,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="50"/>        
+            <Component Subtype="Tech8x" Count="33"/>        
             <Component Subtype="SteelPlate" Count="100" />
             <Component Subtype="Construction" Count="38" />
             <Component Subtype="LargeTube" Count="50" />
@@ -3295,7 +3295,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="6"/>        
+            <Component Subtype="Tech8x" Count="5"/>        
             <Component Subtype="SteelPlate" Count="10" />
             <Component Subtype="Construction" Count="25" />
             <Component Subtype="LargeTube" Count="5" />
@@ -3412,7 +3412,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="6"/>        
+            <Component Subtype="Tech8x" Count="5"/>        
             <Component Subtype="SteelPlate" Count="10" />
             <Component Subtype="Construction" Count="25" />
             <Component Subtype="LargeTube" Count="5" />
@@ -3530,7 +3530,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="1"/>        
+            <Component Subtype="Tech8x" Count="2"/>        
             <Component Subtype="SteelPlate" Count="2" />
             <Component Subtype="Construction" Count="25" />
             <Component Subtype="LargeTube" Count="3" />
@@ -3648,7 +3648,7 @@
         <ThrusterType>Atmospheric</ThrusterType>
         <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
         <Components>
-            <Component Subtype="Tech8x" Count="1"/>        
+            <Component Subtype="Tech8x" Count="2"/>        
             <Component Subtype="SteelPlate" Count="2" />
             <Component Subtype="Construction" Count="25" />
             <Component Subtype="LargeTube" Count="3" />
