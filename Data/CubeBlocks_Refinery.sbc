@@ -357,6 +357,7 @@
                 <Component Subtype="Motor" Count="60000"/>
                 <Component Subtype="Reactor" Count="65000"/>
                 <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="GravityGenerator" Count="13370"/>
                 <Component Subtype="Superconductor" Count="50000"/>
                 <Component Subtype="MetalGrid" Count="3000"/>
                 <Component Subtype="Computer" Count="60000"/>
