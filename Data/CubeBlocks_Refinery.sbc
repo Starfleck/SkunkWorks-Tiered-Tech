@@ -203,7 +203,201 @@
             </BlueprintClasses>
             <RefineSpeed>8</RefineSpeed>
             <MaterialEfficiency>1.2</MaterialEfficiency>
-            <OreAmountPerPullRequest>80000</OreAmountPerPullRequest>
+            <OreAmountPerPullRequest>60000</OreAmountPerPullRequest>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <Center x="1" y="0" z="0"/>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>90</PCU>
+
+        </Definition>
+
+        <!--        Tier 20  -->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>LargeRefinery20x</SubtypeId>
+            </Id>
+            <DisplayName>Fringe Foundation Refinery</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\refinery20x.dds</Icon>
+            <Description>Description_Refinery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\Refinery.mwm</Model>
+            <Components>
+                <Component Subtype="Tech20x" Count="1"/>
+                <Component Subtype="SteelPlate" Count="3000"/>
+                <Component Subtype="Tech20x" Count="40"/>
+                <Component Subtype="Construction" Count="60000"/>
+                <Component Subtype="LargeTube" Count="60000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Superconductor" Count="50000"/>
+                <Component Subtype="LargeTube" Count="60000"/>
+                <Component Subtype="Motor" Count="30000"/>
+                <Component Subtype="MetalGrid" Count="1500"/>
+                <Component Subtype="Computer" Count="40000"/>
+                <Component Subtype="Superconductor" Count="40000"/>
+                <Component Subtype="Construction" Count="40000"/>
+                <Component Subtype="SteelPlate" Count="350"/>
+            </Components>
+			<GeneralDamageMultiplier>1.5</GeneralDamageMultiplier>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <Center x="1" y="0" z="1"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1"/>
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>Refinery20x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>21600</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>180</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.01</StandbyPowerConsumption>
+            <OperationalPowerConsumption>8</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>Ingots</Class>
+				<Class>Iridium</Class>
+            </BlueprintClasses>
+            <RefineSpeed>20</RefineSpeed>
+            <MaterialEfficiency>1.2</MaterialEfficiency>
+            <OreAmountPerPullRequest>60000</OreAmountPerPullRequest>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <Center x="1" y="0" z="0"/>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>90</PCU>
+
+        </Definition>
+
+        <!--        Tier 50  -->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>LargeRefinery50x</SubtypeId>
+            </Id>
+            <DisplayName>Impossible Refinery</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\refinery50x.dds</Icon>
+            <Description>Description_Refinery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\Refinery.mwm</Model>
+            <Components>
+                <Component Subtype="Tech50x" Count="1"/>
+                <Component Subtype="SteelPlate" Count="1337"/>
+                <Component Subtype="Tech50x" Count="50"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="LargeTube" Count="52000"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="LargeTube" Count="52000"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="LargeTube" Count="26000"/>
+                <Component Subtype="Superconductor" Count="50000"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="LargeTube" Count="52000"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="LargeTube" Count="52000"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Construction" Count="65000"/>
+                <Component Subtype="LargeTube" Count="26000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Reactor" Count="65000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="Superconductor" Count="50000"/>
+                <Component Subtype="MetalGrid" Count="3000"/>
+                <Component Subtype="Computer" Count="60000"/>
+                <Component Subtype="SteelPlate" Count="23000"/>
+            </Components>
+			<GeneralDamageMultiplier>1.5</GeneralDamageMultiplier>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <Center x="1" y="0" z="1"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1"/>
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>Refinery50x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>129600</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>600</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.1</StandbyPowerConsumption>
+            <OperationalPowerConsumption>24</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>Ingots</Class>
+				<Class>Iridium</Class>
+            </BlueprintClasses>
+            <RefineSpeed>50</RefineSpeed>
+            <MaterialEfficiency>1.2</MaterialEfficiency>
+            <OreAmountPerPullRequest>60000</OreAmountPerPullRequest>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <Center x="1" y="0" z="0"/>
             <DamagedSound>ParticleHeavyMech</DamagedSound>

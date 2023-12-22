@@ -350,7 +350,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="38"/>
+                <Component Subtype="Tech2x" Count="45"/>
                 <Component Subtype="SteelPlate" Count="240"/>
                 <Component Subtype="LargeTube" Count="120"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -434,7 +434,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech2x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="90"/>
                 <Component Subtype="LargeTube" Count="60"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -514,7 +514,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="8"/>
+                <Component Subtype="Tech2x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="90"/>
                 <Component Subtype="LargeTube" Count="60"/>
                 <Component Subtype="SmallTube" Count="90"/>
@@ -610,7 +610,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech2x" Count="4"/>
+                <Component Subtype="Tech2x" Count="5"/>
                 <Component Subtype="SteelPlate" Count="9"/>
                 <Component Subtype="LargeTube" Count="3"/>
                 <Component Subtype="SmallTube" Count="6"/>
@@ -693,7 +693,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="38"/>
+                <Component Subtype="Tech4x" Count="45"/>
                 <Component Subtype="SteelPlate" Count="320"/>
                 <Component Subtype="LargeTube" Count="160"/>
                 <Component Subtype="SmallTube" Count="120"/>
@@ -777,7 +777,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech4x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="120"/>
                 <Component Subtype="LargeTube" Count="80"/>
                 <Component Subtype="SmallTube" Count="120"/>
@@ -857,7 +857,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="8"/>
+                <Component Subtype="Tech4x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="60" />
                 <Component Subtype="LargeTube" Count="40" />
                 <Component Subtype="SmallTube" Count="60" />
@@ -953,7 +953,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech4x" Count="4"/>
+                <Component Subtype="Tech4x" Count="5"/>
                 <Component Subtype="SteelPlate" Count="4" />
                 <Component Subtype="LargeTube" Count="2" />
                 <Component Subtype="SmallTube" Count="4" />
@@ -1036,7 +1036,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="38"/>
+                <Component Subtype="Tech8x" Count="45"/>
                 <Component Subtype="SteelPlate" Count="400"/>
                 <Component Subtype="LargeTube" Count="200"/>
                 <Component Subtype="SmallTube" Count="150"/>
@@ -1120,7 +1120,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech8x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="150"/>
                 <Component Subtype="LargeTube" Count="100"/>
                 <Component Subtype="SmallTube" Count="150"/>
@@ -1200,7 +1200,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="8"/>
+                <Component Subtype="Tech8x" Count="10"/>
                 <Component Subtype="SteelPlate" Count="75"/>
                 <Component Subtype="LargeTube" Count="50"/>
                 <Component Subtype="SmallTube" Count="75"/>
@@ -1296,7 +1296,7 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="4"/>
+                <Component Subtype="Tech8x" Count="5"/>
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="LargeTube" Count="3" />
                 <Component Subtype="SmallTube" Count="5" />
