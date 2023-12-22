@@ -66,6 +66,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>4.8</SensorRadius>
+            <SensorOffset>2</SensorOffset>
             <PCU>150</PCU>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
@@ -121,6 +122,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <SensorRadius>2.9</SensorRadius>
+            <SensorOffset>3</SensorOffset>
             <PCU>150</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
