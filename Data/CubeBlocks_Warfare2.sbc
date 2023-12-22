@@ -26,6 +26,7 @@
                 <Component Subtype="Construction" Count="1" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
+			<GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
             <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -122,6 +123,7 @@
                 <Component Subtype="Construction" Count="1" />
                 <Component Subtype="SteelPlate" Count="4" />
             </Components>
+			<GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
             <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
@@ -223,6 +225,7 @@
                 <Component Subtype="Construction" Count="25" />
                 <Component Subtype="SteelPlate" Count="12" />
             </Components>
+			<GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
             <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -320,6 +323,7 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="SteelPlate" Count="50" />
             </Components>
+			<GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
             <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
@@ -1062,6 +1066,7 @@
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="SteelPlate" Count="3"/>
       </Components>
+	  <GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -1161,6 +1166,7 @@
         <Component Subtype="Construction" Count="2"/>
         <Component Subtype="SteelPlate" Count="6"/>
       </Components>
+	  <GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
@@ -1265,6 +1271,7 @@
                 <Component Subtype="Construction" Count="38"/>
                 <Component Subtype="SteelPlate" Count="18"/>
       </Components>
+	  <GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -1365,6 +1372,7 @@
         <Component Subtype="Construction" Count="45"/>
         <Component Subtype="SteelPlate" Count="75"/>
       </Components>
+	  <GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
@@ -1990,6 +1998,7 @@
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="SteelPlate" Count="4"/>
       </Components>
+	  <GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -2089,6 +2098,7 @@
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="SteelPlate" Count="8"/>
       </Components>
+	  <GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
@@ -2193,6 +2203,7 @@
                 <Component Subtype="Construction" Count="50"/>
                 <Component Subtype="SteelPlate" Count="24"/>
       </Components>
+	  <GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -2293,6 +2304,7 @@
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="SteelPlate" Count="100"/>
       </Components>
+	  <GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
@@ -2920,6 +2932,7 @@
                 <Component Subtype="Construction" Count="3"/>
                 <Component Subtype="SteelPlate" Count="4"/>
             </Components>
+			<GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
             <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -3019,6 +3032,7 @@
                 <Component Subtype="Construction" Count="2"/>
                 <Component Subtype="SteelPlate" Count="10"/>
             </Components>
+			<GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
             <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
@@ -3123,6 +3137,7 @@
                 <Component Subtype="Construction" Count="63"/>
                 <Component Subtype="SteelPlate" Count="30"/>
             </Components>
+			<GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
             <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -3223,6 +3238,7 @@
                 <Component Subtype="Construction" Count="75"/>
                 <Component Subtype="SteelPlate" Count="125"/>
             </Components>
+			<GeneralDamageMultiplier>0.833</GeneralDamageMultiplier>
             <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
