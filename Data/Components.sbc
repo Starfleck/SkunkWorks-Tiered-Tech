@@ -179,5 +179,30 @@
             <MinimumAcquisitionAmount>15</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>150</MaximumAcquisitionAmount>
         </Component>		
+    
+	<!-- Unbuildable components -->
+    <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Radar</SubtypeId>
+            </Id>
+            <DisplayName>Admin Radar Material</DisplayName>
+            <Icon>Textures\Icons\MA_Radar_Icon.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>1</MaxIntegrity>
+            <DropProbability>0</DropProbability>
+            <Health>1</Health>
+            <CanPlayerOrder>false</CanPlayerOrder>
+
+        </Component>
+		
     </Components>
 </Definitions>
