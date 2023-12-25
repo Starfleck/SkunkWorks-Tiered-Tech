@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+      
+	  <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+      <Id>
+        <TypeId>Beacon</TypeId>
+        <SubtypeId>LargeBlockAdminRadar</SubtypeId>
+      </Id>
+      <DisplayName>Large Area Radio Detection and Ranging</DisplayName>
+	  <GuiVisible>false</GuiVisible>
+      <Icon>Textures\Icons\MA_Radar_Icon.dds</Icon>
+      <Description>Block That Will Scan The Area For Entities</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\MA_Radar\MA_Radar.mwm</Model>
+      <Components>
+        <Component Subtype="Radar" Count="40">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="RadioCommunication" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="RadioCommunication" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\MA_Radar\MA_Radar_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\MA_Radar\MA_Radar_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MA_Radar\MA_Radar_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AdminRadar</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <BuildTimeSeconds>99999999</BuildTimeSeconds>
+	  <GeneralDamageMultiplier>999</GeneralDamageMultiplier>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <Flare>NoFlare</Flare>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50000</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+	
+
+</CubeBlocks>
+  <BlockPositions>
+  </BlockPositions>
+</Definitions>
