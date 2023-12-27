@@ -48,6 +48,18 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
+      <DisplayName>MA</DisplayName>
+      <Name>AutoMcD_Astronautical</Name>
+      <ItemIds>
+       <string>ConveyorConnector/MA_Buster_Conveyor</string>	      
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
       <DisplayName>Thruster Blocks</DisplayName>
       <Name>Thrusters</Name>
       <StrictSearch>true</StrictSearch>      
@@ -67,3 +79,4 @@
     </Category>
   </CategoryClasses>
 </Definitions>
+
