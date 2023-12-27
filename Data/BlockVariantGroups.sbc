@@ -54,6 +54,20 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MA_Buster" />
+            <Icon>Textures\Icons\MA_Buster_Block.png</Icon>
+            <DisplayName>Buster Blocks</DisplayName>
+            <Description>Armored blocks.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MA_Buster_ArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="MA_Buster_Window" />
+				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="MA_Buster_Conveyor" /> 
+				<Block Type="MyObjectBuilder_CameraBlock" Subtype="MA_Buster_Camera" /> 
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MA_Buster_Passage" />
+				<Block Type="MyObjectBuilder_InteriorLight" Subtype="MA_Buster_Passage_Crossing" />
+            </Blocks>
+        </BlockVariantGroup>
 
         <!-- Energy -->
 
