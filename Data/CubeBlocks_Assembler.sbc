@@ -63,7 +63,7 @@
                 <Class>EliteTools</Class>
                 <Class>EliteWeapons</Class>
                 <Class>EliteConsumables</Class>
-                <Class>Components4x</Class>
+                <Class>Components2x</Class>
                 <Class>BuildPlanner</Class>
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -137,7 +137,7 @@
                 <Class>EliteTools</Class>
                 <Class>EliteWeapons</Class>
                 <Class>EliteConsumables</Class>
-                <Class>Components8x</Class>
+                <Class>Components4x</Class>
                 <Class>BuildPlanner</Class>
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -224,6 +224,289 @@
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>40</PCU>
             <IsAirTight>true</IsAirTight>
+        </Definition>
+
+<!--        Tier 20-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+            <Id>
+                <TypeId>Assembler</TypeId>
+                <SubtypeId>LargeAssembler20x</SubtypeId>
+            </Id>
+            <DisplayName>Megalithic Assemble Symphony</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\assembler20x.dds</Icon>
+            <!-- **CAUTION** Bulk Assembler Recipes Are Highly Experimental. Useage with scripting may give unexpected results.
+			Motors, computers, metal grid, superconductors, and reactor components output: 1,000ea
+			Plates and construction components output: 10,000ea** -->
+			
+			<Description>Capable of producing components at an alarming speed by highly advanced bulk processing.
+			
+			Requires ingots and power to produce components.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Assembler.mwm</Model>
+            <Components>
+                <Component Subtype="Tech20x" Count="1"/>
+                <Component Subtype="SteelPlate" Count="311"/>
+                <Component Subtype="Tech20x" Count="69"/>
+                <Component Subtype="SmallTube" Count="600"/>
+                <Component Subtype="Construction" Count="24000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="GravityGenerator" Count="182"/>
+                <Component Subtype="LargeTube" Count="200"/>
+                <Component Subtype="MetalGrid" Count="550"/>
+                <Component Subtype="Superconductor" Count="20000"/>
+                <Component Subtype="Detector" Count="9000"/>
+                <Component Subtype="Display" Count="1500"/>
+                <Component Subtype="Computer" Count="45000"/>
+                <Component Subtype="SteelPlate" Count="1100"/>
+            </Components>
+			<GeneralDamageMultiplier>1.5</GeneralDamageMultiplier>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Assembler20x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7200</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>108</InventoryMaxVolume>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>10.5</OperationalPowerConsumption>
+            <AssemblySpeed>20</AssemblySpeed>
+            <BlueprintClasses>
+                <Class>LargeBlocks</Class>
+                <Class>SmallBlocks</Class>
+                <Class>Components</Class>
+                <Class>EliteEquipment</Class>
+                <Class>EliteTools</Class>
+                <Class>EliteWeapons</Class>
+                <Class>EliteConsumables</Class>
+                <Class>Components20x</Class>
+                <Class>BuildPlanner</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockAssembler</PrimarySound>
+            <ActionSound>BlockAssemblerProcess</ActionSound>
+            <DestroyEffect>Explosion_Missile</DestroyEffect>
+            <DestroySound>WepSmallMissileExpl</DestroySound>
+            <PCU>40</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+            <Id>
+                <TypeId>Assembler</TypeId>
+                <SubtypeId>LargeAssemblerIndustrial20x</SubtypeId>
+            </Id>
+            <DisplayName>Assembler for the Year 2000</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\AdvancedAssemblerIndustrial20x.dds</Icon>
+            <!-- **CAUTION** Bulk Assembler Recipes Are Highly Experimental. Useage with scripting may give unexpected results.
+			Motors, computers, metal grid, superconductors, and reactor components output: 1,000ea
+			Plates and construction components output: 10,000ea** -->
+			
+			<Description>Capable of producing components at an alarming speed by highly advanced bulk processing.
+			
+			Requires ingots and power to produce components.</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AdvancedAssemblerIndustrial.mwm</Model>
+            <Components>
+                <Component Subtype="Tech20x" Count="1"/>
+                <Component Subtype="SteelPlate" Count="311"/>
+                <Component Subtype="Tech20x" Count="69"/>
+                <Component Subtype="SmallTube" Count="600"/>
+                <Component Subtype="Construction" Count="24000"/>
+                <Component Subtype="Motor" Count="60000"/>
+                <Component Subtype="GravityGenerator" Count="182"/>
+                <Component Subtype="LargeTube" Count="200"/>
+                <Component Subtype="MetalGrid" Count="550"/>
+                <Component Subtype="Superconductor" Count="20000"/>
+                <Component Subtype="Detector" Count="9000"/>
+                <Component Subtype="Display" Count="1500"/>
+                <Component Subtype="Computer" Count="45000"/>
+                <Component Subtype="SteelPlate" Count="1100"/>
+            </Components>
+			<GeneralDamageMultiplier>1.5</GeneralDamageMultiplier>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1.1" />
+                <MountPoint Side="Front" StartX="0" StartY="1.1" EndX="1" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1.1" />
+                <MountPoint Side="Back" StartX="0" StartY="1.1" EndX="0.1" EndY="2" />
+                <MountPoint Side="Back" StartX="0.9" StartY="1.1" EndX="1" EndY="2" />
+                <MountPoint Side="Back" StartX="0.1" StartY="1.9" EndX="0.9" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="1" EndX="0.1" EndY="2" />
+                <MountPoint Side="Left" StartX="1.9" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Left" StartX="0.1" StartY="1.9" EndX="1.9" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AssemblerIndustrial20x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7200</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>108</InventoryMaxVolume>
+          <AssemblySpeed>20</AssemblySpeed>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>10.5</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>LargeBlocks</Class>
+                <Class>SmallBlocks</Class>
+                <Class>Components</Class>
+                <Class>EliteEquipment</Class>
+                <Class>EliteTools</Class>
+                <Class>EliteWeapons</Class>
+                <Class>EliteConsumables</Class>
+                <Class>Components20x</Class>
+                <Class>BuildPlanner</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockAssembler</PrimarySound>
+            <ActionSound>BlockAssemblerProcess</ActionSound>
+            <DestroyEffect>Explosion_Missile</DestroyEffect>
+            <DestroySound>WepSmallMissileExpl</DestroySound>
+            <PCU>40</PCU>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+<!--        Tier 50-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+            <Id>
+                <TypeId>Assembler</TypeId>
+                <SubtypeId>LargeAssembler50x</SubtypeId>
+            </Id>
+            <DisplayName>Assembler of Time And Relative Dimension In Space</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>textures\darth_biomech\GUI\tardis_icon.dds</Icon>
+			<!-- **CAUTION** Bulk Assembler Recipes Are Highly Experimental. Useage with scripting may give unexpected results.** -->
+			
+            <Description>Bigger on the inside.
+			
+			Capable of producing components at an alarming speed by highly advanced bulk processing. Ongoing research will prove difficult, but may in fact yield future ludicrous speeds, or even cost-savings.
+			Does not accept upgrades, cheap imitations, knock-offs, or otherwise objectively inferior forms of mechanical or biomechanical life. Not intended for waste disposal or aureate reallocation.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\darth_biomech\tardis.mwm</Model>
+      <CharacterAnimation>TardisInside</CharacterAnimation>
+            <Components>
+                <Component Subtype="Tech50x" Count="1"/>
+                <Component Subtype="SteelPlate" Count="1"/>
+                <Component Subtype="Tech50x" Count="2"/>
+                <Component Subtype="SteelPlate" Count="3"/>
+                <Component Subtype="Tech50x" Count="5"/>
+                <Component Subtype="SteelPlate" Count="8"/>
+                <Component Subtype="Tech50x" Count="13"/>
+                <Component Subtype="SteelPlate" Count="21"/>
+                <Component Subtype="Tech50x" Count="34"/>
+                <Component Subtype="Display" Count="55"/>
+                <Component Subtype="Tech50x" Count="89"/>
+                <Component Subtype="SmallTube" Count="144"/>
+                <Component Subtype="Tech20x" Count="233"/>
+                <Component Subtype="LargeTube" Count="377"/>
+                <Component Subtype="Tech8x" Count="610"/>
+                <Component Subtype="Construction" Count="987"/>
+                <Component Subtype="Tech8x" Count="1597"/>
+                <Component Subtype="GravityGenerator" Count="2584"/>
+                <Component Subtype="Tech4x" Count="4181"/>
+                <Component Subtype="Motor" Count="6765"/>
+                <Component Subtype="Tech4x" Count="10946"/>
+                <Component Subtype="Superconductor" Count="17711"/>
+                <Component Subtype="Tech2x" Count="28657"/>
+                <Component Subtype="Computer" Count="39603"/>
+                <Component Subtype="SteelPlate" Count="46368"/>
+            </Components>
+			<GeneralDamageMultiplier>1.5</GeneralDamageMultiplier>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+				<!-- <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" /> -->
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.0" File="models\darth_biomech\tardis_progress_01.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Assembler50x</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>21600</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>324</InventoryMaxVolume>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>24</OperationalPowerConsumption>
+            <AssemblySpeed>250</AssemblySpeed>
+            <BlueprintClasses>
+                <Class>LargeBlocks</Class>
+                <Class>SmallBlocks</Class>
+                <Class>Components</Class>
+                <Class>EliteEquipment</Class>
+                <Class>EliteTools</Class>
+                <Class>EliteWeapons</Class>
+                <Class>EliteConsumables</Class>
+                <Class>Components50x</Class>
+                <Class>BuildPlanner</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockAssembler</PrimarySound>
+            <ActionSound>BlockAssemblerProcess</ActionSound>
+            <DestroyEffect>Explosion_Missile</DestroyEffect>
+            <DestroySound>WepSmallMissileExpl</DestroySound>
+            <PCU>40</PCU>
+      <EnableFirstPerson>false</EnableFirstPerson>
+      <EnableShipControl>false</EnableShipControl>
+	  <!-- <IDModule>true</IDModule> -->
+            <IsAirTight>false</IsAirTight>
         </Definition>
 
     </CubeBlocks>
