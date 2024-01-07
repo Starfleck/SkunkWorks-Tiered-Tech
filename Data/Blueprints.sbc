@@ -109,7 +109,153 @@
             <BaseProductionTimeInSeconds>14400</BaseProductionTimeInSeconds>
         </Blueprint>
 
+        <!-- Bulk components -->
+		
+        <!-- <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkSteel</SubtypeId>
+            </Id>
+            <DisplayName>10k Bulk Package of Steel Plates</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="210000" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="10000" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
         <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkInterior</SubtypeId>
+            </Id>
+            <DisplayName>10k Bulk Package of Interior Plates</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30000" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="10000" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkConstuction</SubtypeId>
+            </Id>
+            <DisplayName>10k Bulk Package of Construction Components</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="80000" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="10000" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkMotor</SubtypeId>
+            </Id>
+            <DisplayName>1k Bulk Package of Motors</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20000" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="5000" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="1000" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkComputer</SubtypeId>
+            </Id>
+            <DisplayName>1k Bulk Package of Computers</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="500" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="200" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="1000" TypeId="Component" SubtypeId="Computer" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkGrid</SubtypeId>
+            </Id>
+            <DisplayName>1k Bulk Package of Metal Grid</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12000" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="5000" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="3000" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="1000" TypeId="Component" SubtypeId="MetalGrid" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkReactor</SubtypeId>
+            </Id>
+            <DisplayName>1k Bulk Package of Reactor Components</DisplayName>
+            <Icon>Textures\GUI\Icons\component\reactor_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15000" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="20000" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="5000" TypeId="Ingot" SubtypeId="Silver" />
+            </Prerequisites>
+            <Result Amount="1000" TypeId="Component" SubtypeId="Reactor" />
+            <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkSupcon</SubtypeId>
+            </Id>
+            <DisplayName>1k Bulk Package of Superconductors</DisplayName>
+            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10000" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="2000" TypeId="Ingot" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="1000" TypeId="Component" SubtypeId="Superconductor" />
+            <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkLargeTube</SubtypeId>
+            </Id>
+            <DisplayName>1k Bulk Package of Large Steel Tubes</DisplayName>
+            <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30000" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1000" TypeId="Component" SubtypeId="LargeTube" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint> -->
+
+
+
+		
+		<!-- Ingots -->
+		<Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
                 <SubtypeId>StoneOreToIngotIncinerate</SubtypeId>
