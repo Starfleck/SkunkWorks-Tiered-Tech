@@ -109,9 +109,155 @@
             <BaseProductionTimeInSeconds>14400</BaseProductionTimeInSeconds>
         </Blueprint>
 
+        <!-- Non Bulk components (necessary for Build Planner) -->
+		
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ConstructionComponent</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MetalGrid</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>InteriorPlate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPlate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeTube</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="LargeTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MotorComponent</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ComputerComponent</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Computer</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ReactorComponent</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\reactor_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Silver" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Reactor" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Superconductor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Superconductor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Superconductor" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+
+		
         <!-- Bulk components -->
 		
-        <!-- <Blueprint>
+        <Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
                 <SubtypeId>BulkSteel</SubtypeId>
@@ -122,23 +268,8 @@
                 <Item Amount="210000" TypeId="Ingot" SubtypeId="Iron" />
             </Prerequisites>
             <Result Amount="10000" TypeId="Component" SubtypeId="SteelPlate" />
-            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-            <IsPrimary>true</IsPrimary>
-        </Blueprint>
-
-        <Blueprint>
-            <Id>
-                <TypeId>BlueprintDefinition</TypeId>
-                <SubtypeId>BulkInterior</SubtypeId>
-            </Id>
-            <DisplayName>10k Bulk Package of Interior Plates</DisplayName>
-            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
-            <Prerequisites>
-                <Item Amount="30000" TypeId="Ingot" SubtypeId="Iron" />
-            </Prerequisites>
-            <Result Amount="10000" TypeId="Component" SubtypeId="InteriorPlate" />
-            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-            <IsPrimary>true</IsPrimary>
+            <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+            <IsPrimary>false</IsPrimary>
         </Blueprint>
 
         <Blueprint>
@@ -152,8 +283,23 @@
                 <Item Amount="80000" TypeId="Ingot" SubtypeId="Iron" />
             </Prerequisites>
             <Result Amount="10000" TypeId="Component" SubtypeId="Construction" />
-            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-            <IsPrimary>true</IsPrimary>
+            <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+            <IsPrimary>false</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulkInterior</SubtypeId>
+            </Id>
+            <DisplayName>10k Bulk Package of Interior Plates</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30000" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="10000" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+            <IsPrimary>false</IsPrimary>
         </Blueprint>
 
         <Blueprint>
@@ -168,8 +314,8 @@
                 <Item Amount="5000" TypeId="Ingot" SubtypeId="Nickel" />
             </Prerequisites>
             <Result Amount="1000" TypeId="Component" SubtypeId="Motor" />
-            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
-            <IsPrimary>true</IsPrimary>
+            <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+            <IsPrimary>false</IsPrimary>
         </Blueprint>
 
         <Blueprint>
@@ -184,8 +330,8 @@
                 <Item Amount="200" TypeId="Ingot" SubtypeId="Silicon" />
             </Prerequisites>
             <Result Amount="1000" TypeId="Component" SubtypeId="Computer" />
-            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
-            <IsPrimary>true</IsPrimary>
+            <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+            <IsPrimary>false</IsPrimary>
         </Blueprint>
 
         <Blueprint>
@@ -201,8 +347,8 @@
                 <Item Amount="3000" TypeId="Ingot" SubtypeId="Cobalt" />
             </Prerequisites>
             <Result Amount="1000" TypeId="Component" SubtypeId="MetalGrid" />
-            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-            <IsPrimary>true</IsPrimary>
+            <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+            <IsPrimary>false</IsPrimary>
         </Blueprint>
 
         <Blueprint>
@@ -218,7 +364,7 @@
                 <Item Amount="5000" TypeId="Ingot" SubtypeId="Silver" />
             </Prerequisites>
             <Result Amount="1000" TypeId="Component" SubtypeId="Reactor" />
-            <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -233,7 +379,7 @@
                 <Item Amount="2000" TypeId="Ingot" SubtypeId="Gold" />
             </Prerequisites>
             <Result Amount="1000" TypeId="Component" SubtypeId="Superconductor" />
-            <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -247,9 +393,9 @@
                 <Item Amount="30000" TypeId="Ingot" SubtypeId="Iron" />
             </Prerequisites>
             <Result Amount="1000" TypeId="Component" SubtypeId="LargeTube" />
-            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-            <IsPrimary>true</IsPrimary>
-        </Blueprint> -->
+            <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+            <IsPrimary>false</IsPrimary>
+        </Blueprint>
 
 
 
