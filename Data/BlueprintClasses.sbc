@@ -239,8 +239,6 @@
         <Entry Class="Components20x" BlueprintSubtypeId="BulkMotor" />
         <Entry Class="Components20x" BlueprintSubtypeId="BulkComputer" />
         <Entry Class="Components20x" BlueprintSubtypeId="BulkGrid" />
-        <Entry Class="Components20x" BlueprintSubtypeId="BulkReactor" />
-        <Entry Class="Components20x" BlueprintSubtypeId="BulkSupcon" />
 		
         <Entry Class="Components50x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components50x" BlueprintSubtypeId="Tech4x" />
@@ -254,9 +252,9 @@
         <Entry Class="Components50x" BlueprintSubtypeId="BulkMotor" />
         <Entry Class="Components50x" BlueprintSubtypeId="BulkComputer" />
         <Entry Class="Components50x" BlueprintSubtypeId="BulkGrid" />
+        <!-- <Entry Class="Components50x" BlueprintSubtypeId="CheapTech" /> -->
         <Entry Class="Components50x" BlueprintSubtypeId="BulkReactor" />
         <Entry Class="Components50x" BlueprintSubtypeId="BulkSupcon" />
-        <!-- <Entry Class="Components50x" BlueprintSubtypeId="CheapTech" /> -->
         <Entry Class="Components50x" BlueprintSubtypeId="BulkLargeTube" />
 		
        <Entry Class="Iridium" BlueprintSubtypeId="IridiumOreToIngot" />	
