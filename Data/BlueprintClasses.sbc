@@ -98,6 +98,34 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
+		
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Components20x</SubtypeId>
+            </Id>
+            <DisplayName>Tiered Tech Components</DisplayName>
+            <Description>Tiered Tech Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\Block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\Block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\Block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+		
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Components50x</SubtypeId>
+            </Id>
+            <DisplayName>Tiered Tech Components</DisplayName>
+            <Description>Tiered Tech Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\Block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\Block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\Block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
 
         <Class>
             <Id>
@@ -186,17 +214,52 @@
         <Entry Class="Components2x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components" BlueprintSubtypeId="Tech2x" />
         
+        <Entry Class="Components2x" BlueprintSubtypeId="Tech2x" />
+        <Entry Class="Components2x" BlueprintSubtypeId="Tech4x" />
+
         <Entry Class="Components4x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components4x" BlueprintSubtypeId="Tech4x" />
-
+        <Entry Class="Components4x" BlueprintSubtypeId="Tech8x" />
+		
         <Entry Class="Components8x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components8x" BlueprintSubtypeId="Tech4x" />
         <Entry Class="Components8x" BlueprintSubtypeId="Tech8x" />
         <Entry Class="Components8x" BlueprintSubtypeId="Tech20x" />
-        <Entry Class="Components8x" BlueprintSubtypeId="Tech50x" />
+       <Entry Class="Components8x" BlueprintSubtypeId="IridiatedUranium" />	   	   
+		
+        <Entry Class="Components20x" BlueprintSubtypeId="Tech2x" />
+        <Entry Class="Components20x" BlueprintSubtypeId="Tech4x" />
+        <Entry Class="Components20x" BlueprintSubtypeId="Tech8x" />
+        <Entry Class="Components20x" BlueprintSubtypeId="Tech20x" />
+        <Entry Class="Components20x" BlueprintSubtypeId="Tech50x" />
+       <Entry Class="Components20x" BlueprintSubtypeId="IridiatedUranium" />
+        <Entry Class="Components20x" BlueprintSubtypeId="BulkSteel" />
+        <Entry Class="Components20x" BlueprintSubtypeId="BulkInterior" />
+        <Entry Class="Components20x" BlueprintSubtypeId="BulkConstuction" />
+        <Entry Class="Components20x" BlueprintSubtypeId="BulkMotor" />
+        <Entry Class="Components20x" BlueprintSubtypeId="BulkComputer" />
+        <Entry Class="Components20x" BlueprintSubtypeId="BulkGrid" />
+        <Entry Class="Components20x" BlueprintSubtypeId="BulkReactor" />
+        <Entry Class="Components20x" BlueprintSubtypeId="BulkSupcon" />
+		
+        <Entry Class="Components50x" BlueprintSubtypeId="Tech2x" />
+        <Entry Class="Components50x" BlueprintSubtypeId="Tech4x" />
+        <Entry Class="Components50x" BlueprintSubtypeId="Tech8x" />
+        <Entry Class="Components50x" BlueprintSubtypeId="Tech20x" />
+        <Entry Class="Components50x" BlueprintSubtypeId="Tech50x" />
+       <Entry Class="Components50x" BlueprintSubtypeId="IridiatedUranium" />
+        <Entry Class="Components50x" BlueprintSubtypeId="BulkSteel" />
+        <Entry Class="Components50x" BlueprintSubtypeId="BulkInterior" />
+        <Entry Class="Components50x" BlueprintSubtypeId="BulkConstuction" />
+        <Entry Class="Components50x" BlueprintSubtypeId="BulkMotor" />
+        <Entry Class="Components50x" BlueprintSubtypeId="BulkComputer" />
+        <Entry Class="Components50x" BlueprintSubtypeId="BulkGrid" />
+        <Entry Class="Components50x" BlueprintSubtypeId="BulkReactor" />
+        <Entry Class="Components50x" BlueprintSubtypeId="BulkSupcon" />
+        <!-- <Entry Class="Components50x" BlueprintSubtypeId="CheapTech" /> -->
+        <Entry Class="Components50x" BlueprintSubtypeId="BulkLargeTube" />
 		
        <Entry Class="Iridium" BlueprintSubtypeId="IridiumOreToIngot" />	
-       <Entry Class="Components8x" BlueprintSubtypeId="IridiatedUranium" />	   	   
 
         <Entry Class="BasicAmmo" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
         <Entry Class="BasicAmmo" BlueprintSubtypeId="NATO_25x184mmMagazine" />
