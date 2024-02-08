@@ -285,6 +285,8 @@
               <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer8x" />
               <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer8x" />
               <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer8x" />
+              <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer20x" />
+              <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer50x" />
             </Blocks>
         </BlockVariantGroup>
 
