@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<CubeBlocks>
 
@@ -84,7 +84,7 @@
 		<Icon>Textures\GUI\Icons\Armored Camera.png</Icon>
 		<CubeSize>Small</CubeSize>
 		<BlockTopology>TriangleMesh</BlockTopology>
-		<Size x="1" y="1" z="1"/>
+		<Size x="2" y="1" z="1"/>
 		<ModelOffset x="0" y="0" z="0"/>
 		<Model>Models\Armored Camera SG.mwm</Model>
 		<Components>
@@ -96,17 +96,18 @@
 		</Components>
 		<CriticalComponent Subtype="Computer" Index="0" />
 		<MountPoints>
-			<MountPoint Side="Back" StartX="0.3" StartY="0.0" EndX="0.7" EndY="0.72"/>
-			<MountPoint Side="Bottom" StartX="0.0" StartY="0.4" EndX="0.2" EndY="0.6"/>
+			<MountPoint Side="Back" StartX="0.8" StartY="0.0" EndX="1.2" EndY="0.72"/>
+			<MountPoint Side="Bottom" StartX="0.9" StartY="0.55" EndX="1.1" EndY="1"/>
 		</MountPoints>
 		<IsStandAlone>true</IsStandAlone>
-		<HasPhysics>false</HasPhysics>
+		<HasPhysics>true</HasPhysics>
 		<BuildProgressModels>
 			<Model BuildPercentUpperBound="0.33" File="Models\Armored Camera SG_BS1.mwm"/>
 			<Model BuildPercentUpperBound="0.66" File="Models\Armored Camera SG_BS2.mwm"/>
 			<Model BuildPercentUpperBound="1.0" File="Models\Armored Camera SG_BS3.mwm"/>
 		</BuildProgressModels>
 		<BlockPairName>ArmoredCamera</BlockPairName>
+		<MirroringX>Z</MirroringX>
 		<MirroringY>Z</MirroringY>
 		<MirroringZ>Y</MirroringZ>
 		<BuildTimeSeconds>10</BuildTimeSeconds>
