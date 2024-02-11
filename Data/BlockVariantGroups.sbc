@@ -337,7 +337,8 @@
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraBlock" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraTopMounted" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraTopMounted" />
-                <Block Type="MyObjectBuilder_CameraBlock" Subtype="ZardosArmouredCamera" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="ArmoredCameraLG" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="ArmoredCameraSG" />
             </Blocks>
         </BlockVariantGroup>
 
