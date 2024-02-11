@@ -54,7 +54,7 @@
 		<MirroringZ>Y</MirroringZ>
 		<BlockPairName>ArmoredCamera</BlockPairName>
 		<BuildTimeSeconds>60</BuildTimeSeconds>
-		<GeneralDamageMultiplier>0.9</GeneralDamageMultiplier>
+		<GeneralDamageMultiplier>0.75</GeneralDamageMultiplier>
 		<EdgeType>Light</EdgeType>
 		<ResourceSinkGroup>Utility</ResourceSinkGroup>
 		<RequiredPowerInput>0.00003</RequiredPowerInput>
@@ -110,7 +110,7 @@
 		<MirroringY>Z</MirroringY>
 		<MirroringZ>Y</MirroringZ>
 		<BuildTimeSeconds>10</BuildTimeSeconds>
-		<GeneralDamageMultiplier>0.9</GeneralDamageMultiplier>
+		<GeneralDamageMultiplier>0.75</GeneralDamageMultiplier>
 		<EdgeType>Light</EdgeType>
 		<ResourceSinkGroup>Utility</ResourceSinkGroup>
 		<RequiredPowerInput>0.00003</RequiredPowerInput>
