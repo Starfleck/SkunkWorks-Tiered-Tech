@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
-        <!--        Tier 2-->
+        <!--        Tier 1-->
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
@@ -113,7 +113,7 @@
             </InventorySize>
         </Definition>
 
-        <!--        Tier 4-->
+        <!--        Tier 2-->
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
@@ -226,7 +226,7 @@
 
         </Definition>
 
-        <!--        Tier 8-->
+        <!--        Tier 3-->
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
@@ -337,5 +337,70 @@
                 <Z>2.5</Z>
             </InventorySize>
         </Definition>
+
+        <!--        Tier 4-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LargeBlockLargeContainer20x</SubtypeId>
+            </Id>
+            <DisplayName>The ClashGuard Armored Cargo Container</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\ModXMilitaryContainerLarge.dds</Icon>
+            <Description>Description_LargeCargoContainer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="6"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\XLCargo\ModXMilitaryContainerLarge.mwm</Model>
+            <Components>
+                <Component Subtype="Tech20x" Count="2"/>
+                <Component Subtype="InteriorPlate" Count="750"/>
+                <Component Subtype="SmallTube" Count="8000"/>
+                <Component Subtype="LargeTube" Count="2100"/>
+                <Component Subtype="Motor" Count="2000"/>
+                <Component Subtype="Display" Count="41"/>
+                <Component Subtype="Computer" Count="1984"/>
+                <Component Subtype="Construction" Count="3000"/>
+                <Component Subtype="InteriorPlate" Count="1700"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.65" StartY="0.55" EndX="2.35" EndY="2.45"/>
+                <MountPoint Side="Back" StartX="0.65" StartY="0.55" EndX="2.35" EndY="2.45"/>
+                <MountPoint Side="Left" StartX="0.55" StartY="0.8" EndX="5.45" EndY="2.2"/>
+                <MountPoint Side="Right" StartX="0.55" StartY="0.8" EndX="5.45" EndY="2.2"/>
+                <MountPoint Side="Top" StartX="0.45" StartY="0.4" EndX="2.55" EndY="1"/>
+                <MountPoint Side="Top" StartX="0.45" StartY="5" EndX="2.55" EndY="5.6"/>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="5"/>
+                <MountPoint Side="Bottom" StartX="0.45" StartY="0.4" EndX="2.55" EndY="1"/>
+                <MountPoint Side="Bottom" StartX="0.45" StartY="5" EndX="2.55" EndY="5.6"/>
+                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="5"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\XLCargo\ModXMilitaryContainerLarge_BS1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\XLCargo\ModXMilitaryContainerLarge_BS2.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\XLCargo\ModXMilitaryContainerLarge_BS3.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>LargeCargoContainer20x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>450</BuildTimeSeconds>
+            <GeneralDamageMultiplier>0.9</GeneralDamageMultiplier>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <InventorySize>
+                <X>82000</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+        </Definition>
+
+        <!--        Tier 5-->
+
     </CubeBlocks>
 </Definitions>
