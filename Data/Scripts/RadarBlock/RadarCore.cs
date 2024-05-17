@@ -20,7 +20,7 @@ namespace RadarBlock
 		public int CheckRadarSeconds = 5; // update radars how often (in seconds)
 		public int CheckActiveSeconds = 20; // delay before active radar can scan
 		public int ClearHUDListEverySeconds = 4; // hud list cleanup
-		public float modeSwitchRange = 10000; // broadcast range at which switches between passive and active
+		public float modeSwitchRange = 40000; // broadcast range at which switches between passive and active
 		
 		public int UpdateRadarSeconds = 1; // obsolete, I think
 		public int UpdateLCDSeconds = 9; // obsolete, I think
@@ -84,7 +84,7 @@ namespace RadarBlock
         {
             RadarSettings _radarConfig = new RadarSettings();
 
-            if (config.ModeSwitchAtBroadcastRange <= 50000)
+            if (config.ModeSwitchAtBroadcastRange <= 90000)
             {
 
                 _radarConfig.modeSwitchRange = config.ModeSwitchAtBroadcastRange;
