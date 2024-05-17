@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions>
     <BlueprintClasses>
-        <Class>
+        <!-- <Class>
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Tech2xComponents</SubtypeId>
@@ -30,7 +30,7 @@
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component_focus.dds</HighlightIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-        </Class>
+        </Class> -->
 
 
         <Class>
@@ -127,7 +127,7 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
-        <Class>
+        <!-- <Class>
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>BasicComponents2</SubtypeId>
@@ -184,7 +184,7 @@
             <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
-        </Class>	
+        </Class>	 -->
 	    
 		<Class>
             <Id>
@@ -199,6 +199,18 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
+	    
+		<Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>FakeCompClass</SubtypeId>
+            </Id>
+            <DisplayName>None</DisplayName>
+            <Description>Unbuildable</Description>
+            <Icon>Textures\GUI\Icons\PureIridium.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\PureIridium.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+        </Class>
 
     </BlueprintClasses>
 
@@ -207,25 +219,33 @@
 
         <Entry Class="TechAdmin" BlueprintSubtypeId="Tech2x" />
         <Entry Class="TechAdmin" BlueprintSubtypeId="Tech4x" />
-        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech8x" />        
+        <Entry Class="TechAdmin" BlueprintSubtypeId="Tech8x" />
         <Entry Class="TechAdmin" BlueprintSubtypeId="Tech20x" />
         <Entry Class="TechAdmin" BlueprintSubtypeId="Tech50x" />
+        <Entry Class="TechAdmin" BlueprintSubtypeId="IridiatedUranium" />
 
-        <Entry Class="Components2x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components" BlueprintSubtypeId="Tech2x" />
         
         <Entry Class="Components2x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components2x" BlueprintSubtypeId="Tech4x" />
+        <Entry Class="Components2x" BlueprintSubtypeId="BulkSteel" />
+        <Entry Class="Components2x" BlueprintSubtypeId="BulkConstuction" />
 
         <Entry Class="Components4x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components4x" BlueprintSubtypeId="Tech4x" />
         <Entry Class="Components4x" BlueprintSubtypeId="Tech8x" />
+        <Entry Class="Components4x" BlueprintSubtypeId="BulkSteel" />
+        <Entry Class="Components4x" BlueprintSubtypeId="BulkConstuction" />
 		
         <Entry Class="Components8x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components8x" BlueprintSubtypeId="Tech4x" />
         <Entry Class="Components8x" BlueprintSubtypeId="Tech8x" />
         <Entry Class="Components8x" BlueprintSubtypeId="Tech20x" />
-       <Entry Class="Components8x" BlueprintSubtypeId="IridiatedUranium" />	   	   
+       <Entry Class="Components8x" BlueprintSubtypeId="IridiatedUranium" />
+        <Entry Class="Components8x" BlueprintSubtypeId="BulkSteel" />
+        <Entry Class="Components8x" BlueprintSubtypeId="BulkConstuction" />
+        <Entry Class="Components8x" BlueprintSubtypeId="BulkMotor" />
+        <Entry Class="Components8x" BlueprintSubtypeId="BulkGrid" />
 		
         <Entry Class="Components20x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components20x" BlueprintSubtypeId="Tech4x" />
@@ -239,6 +259,7 @@
         <Entry Class="Components20x" BlueprintSubtypeId="BulkMotor" />
         <Entry Class="Components20x" BlueprintSubtypeId="BulkComputer" />
         <Entry Class="Components20x" BlueprintSubtypeId="BulkGrid" />
+        <Entry Class="Components20x" BlueprintSubtypeId="BulkReactor" />
 		
         <Entry Class="Components50x" BlueprintSubtypeId="Tech2x" />
         <Entry Class="Components50x" BlueprintSubtypeId="Tech4x" />
@@ -252,14 +273,17 @@
         <Entry Class="Components50x" BlueprintSubtypeId="BulkMotor" />
         <Entry Class="Components50x" BlueprintSubtypeId="BulkComputer" />
         <Entry Class="Components50x" BlueprintSubtypeId="BulkGrid" />
-        <!-- <Entry Class="Components50x" BlueprintSubtypeId="CheapTech" /> -->
         <Entry Class="Components50x" BlueprintSubtypeId="BulkReactor" />
         <Entry Class="Components50x" BlueprintSubtypeId="BulkSupcon" />
         <Entry Class="Components50x" BlueprintSubtypeId="BulkLargeTube" />
+        <!-- <Entry Class="Components50x" BlueprintSubtypeId="CheapTech" /> -->
 		
-       <Entry Class="Iridium" BlueprintSubtypeId="IridiumOreToIngot" />	
+       <Entry Class="Iridium" BlueprintSubtypeId="IridiumOreToIngot" />
+		
+       <Entry Class="FakeCompClass" BlueprintSubtypeId="FakeComp" />
+       <Entry Class="FakeCompClass" BlueprintSubtypeId="FakeAwe" />
 
-        <Entry Class="BasicAmmo" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+        <!-- <Entry Class="BasicAmmo" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
         <Entry Class="BasicAmmo" BlueprintSubtypeId="NATO_25x184mmMagazine" />
 
         <Entry Class="BasicComponents2" BlueprintSubtypeId="SolarCell" />
@@ -292,7 +316,7 @@
         <Entry Class="OreToIngotT3" BlueprintSubtypeId="SilverOreToIngotCraft" />
         <Entry Class="OreToIngotT3" BlueprintSubtypeId="GoldOreToIngotCraft" />
         <Entry Class="OreToIngotT3" BlueprintSubtypeId="PlatinumOreToIngotCraft" />
-        <Entry Class="OreToIngotT3" BlueprintSubtypeId="UraniumOreToIngotCraft" />
+        <Entry Class="OreToIngotT3" BlueprintSubtypeId="UraniumOreToIngotCraft" /> -->
     </BlueprintClassEntries>
 
 
