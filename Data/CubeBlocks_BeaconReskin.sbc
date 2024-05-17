@@ -17,14 +17,13 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\BeaconReskin.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="40" />
-                <Component Subtype="Construction" Count="30" />
-                <Component Subtype="LargeTube" Count="20" />
-                <Component Subtype="Computer" Count="10" />
-                <Component Subtype="RadioCommunication" Count="40" />
-                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
@@ -109,7 +108,7 @@
             <!-- Beacon properties -->
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>800000</MaxBroadcastRadius>
             <EnableLight>true</EnableLight>
             <Flare>FakeFlare</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
@@ -170,7 +169,7 @@
             <!-- Beacon properties -->
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>300000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>1200000</MaxBroadcastRadius>
             <EnableLight>true</EnableLight>
             <Flare>FakeFlare</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
@@ -231,7 +230,7 @@
             <!-- Beacon properties -->
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>400000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>1600000</MaxBroadcastRadius>
             <EnableLight>true</EnableLight>
             <Flare>FakeFlare</Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
