@@ -40,9 +40,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>5</InventoryMaxVolume>
+      <InventoryMaxVolume>30</InventoryMaxVolume>
       <InventorySize>
-        <X>2.5</X>
+        <X>10</X>
         <Y>2.5</Y>
         <Z>2.5</Z>
       </InventorySize>
@@ -109,9 +109,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>3</InventoryMaxVolume>
+      <InventoryMaxVolume>15</InventoryMaxVolume>
       <InventorySize>
-        <X>3</X>
+        <X>15</X>
         <Y>3</Y>
         <Z>2</Z>
       </InventorySize>
