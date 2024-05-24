@@ -47,7 +47,7 @@
             <DamageEffectId>213</DamageEffectId>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <RequiredPowerInput>5</RequiredPowerInput>
+            <RequiredPowerInput>3.2</RequiredPowerInput>
             <PowerNeededForJump>0.3</PowerNeededForJump>
 
             <MaxJumpDistance>250000</MaxJumpDistance>
@@ -168,7 +168,7 @@
             <DamageEffectId>213</DamageEffectId>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <RequiredPowerInput>7.5</RequiredPowerInput>
+            <RequiredPowerInput>4.8</RequiredPowerInput>
             <PowerNeededForJump>0.45</PowerNeededForJump>
             <MaxJumpDistance>250000</MaxJumpDistance>
             <MaxJumpMass>500000</MaxJumpMass>
@@ -287,7 +287,7 @@
             <DamageEffectId>213</DamageEffectId>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <RequiredPowerInput>12.5</RequiredPowerInput>
+            <RequiredPowerInput>8</RequiredPowerInput>
             <PowerNeededForJump>0.75</PowerNeededForJump>
             <MaxJumpDistance>250000</MaxJumpDistance>
             <MaxJumpMass>750000</MaxJumpMass>
@@ -406,7 +406,7 @@
             <PCU>100</PCU>
             <ResourceSinkGroup>Charging</ResourceSinkGroup>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <RequiredPowerInput>17.5</RequiredPowerInput>
+            <RequiredPowerInput>11.2</RequiredPowerInput>
             <PowerNeededForJump>1.05</PowerNeededForJump>
             <MaxJumpDistance>250000</MaxJumpDistance>
             <MaxJumpMass>1000000</MaxJumpMass>
