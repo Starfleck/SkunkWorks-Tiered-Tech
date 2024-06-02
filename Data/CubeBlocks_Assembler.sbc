@@ -46,7 +46,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>120</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>8</InventoryMaxVolume>
+            <InventoryMaxVolume>12</InventoryMaxVolume>
             <InventorySize>
                 <X>1</X>
                 <Y>1</Y>
@@ -121,7 +121,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>180</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>10</InventoryMaxVolume>
+            <InventoryMaxVolume>15</InventoryMaxVolume>
             <InventorySize>
                 <X>1</X>
                 <Y>1</Y>
@@ -196,7 +196,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>270</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>12</InventoryMaxVolume>
+            <InventoryMaxVolume>18</InventoryMaxVolume>
             <InventorySize>
                 <X>1</X>
                 <Y>1</Y>

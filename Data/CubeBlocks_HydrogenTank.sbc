@@ -1359,5 +1359,97 @@
             </TieredUpdateTimes>
             <IsAirTight>true</IsAirTight>
         </Definition>
+
+
+<!--        Tier 4-->
+
+        <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+            <Id>
+                <TypeId>OxygenTank</TypeId>
+                <SubtypeId>LargeHydrogenTank20x</SubtypeId>
+            </Id>
+            <DisplayName>The Beastie Hydrogen Reserve Tank</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\GUI\Icons\HydrogenXL.dds</Icon>
+            <Description>Description_HydrogenTank</Description>
+            <Public>true</Public>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="6" y="3" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\XLCargo\Hydrogen_XL.mwm</Model>
+            <Components>
+                <Component Subtype="Tech20x" Count="15"/>
+                <Component Subtype="SteelPlate" Count="2000"/>
+                <Component Subtype="Construction" Count="2000"/>
+                <Component Subtype="Motor" Count="800"/>
+                <Component Subtype="LargeTube" Count="3210"/>
+                <Component Subtype="SmallTube" Count="8000"/>
+                <Component Subtype="Computer" Count="789"/>
+                <Component Subtype="MetalGrid" Count="450"/>
+                <Component Subtype="Girder" Count="800"/>
+                <Component Subtype="Construction" Count="1500"/>
+                <Component Subtype="SteelPlate" Count="1650"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="6" EndY="3" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="6" EndY="3" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="6" EndY="3" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="6" EndY="3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\XLCargo\Hydrogen_XL_con1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\XLCargo\Hydrogen_XL_con2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HydrogenTank20x</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+            <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+            <Capacity>1500000000</Capacity> <!-- 120000000 for elite -->
+            <InventoryMaxVolume>2</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+            <StoredGasId>
+                <TypeId>GasProperties</TypeId>
+                <SubtypeId>Hydrogen</SubtypeId>
+            </StoredGasId>
+            <BlueprintClasses>
+                <Class>HydrogenBottles</Class>
+            </BlueprintClasses>
+            <BuildTimeSeconds>600</BuildTimeSeconds>
+            <GeneralDamageMultiplier>0.85</GeneralDamageMultiplier>
+			<DeformationRatio>0.25</DeformationRatio>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>Explosion_Warhead_50</DestroyEffect>
+            <DestroySound>WepLrgWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <LeakPercent>0.005</LeakPercent>
+            <GasExplosionMaxRadius>40</GasExplosionMaxRadius>
+            <GasExplosionNeededVolumeToReachMaxRadius>600000000</GasExplosionNeededVolumeToReachMaxRadius>
+            <GasExplosionDamageMultiplier>0.00042</GasExplosionDamageMultiplier>
+            <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
+            <GasExplosionEffect>Explosion_Warhead_50</GasExplosionEffect>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+
+
     </CubeBlocks>
 </Definitions>
