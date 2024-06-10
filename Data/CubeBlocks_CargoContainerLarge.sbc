@@ -367,7 +367,7 @@
             <CriticalComponent Subtype="Computer" Index="0"/>
             <MountPoints>
                 <MountPoint Side="Front" StartX="0.65" StartY="0.55" EndX="2.35" EndY="2.45"/>
-                <MountPoint Side="Back" StartX="0.65" StartY="0.55" EndX="2.35" EndY="2.45"/>
+                <MountPoint Side="Back" StartX="0.65" StartY="0.55" EndX="2.35" EndY="2.45" Default="true" />
                 <MountPoint Side="Left" StartX="0.55" StartY="0.8" EndX="5.45" EndY="2.2"/>
                 <MountPoint Side="Right" StartX="0.55" StartY="0.8" EndX="5.45" EndY="2.2"/>
                 <MountPoint Side="Top" StartX="0.45" StartY="0.4" EndX="2.55" EndY="1"/>
@@ -386,7 +386,7 @@
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>450</BuildTimeSeconds>
+            <BuildTimeSeconds>900</BuildTimeSeconds>
             <GeneralDamageMultiplier>0.9</GeneralDamageMultiplier>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -401,6 +401,104 @@
         </Definition>
 
         <!--        Tier 5-->
+        <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+            <Id>
+                <TypeId>OxygenTank</TypeId>
+                <SubtypeId>LargeBlockLargeContainer50x</SubtypeId>
+            </Id>
+            <DisplayName>The Vault, Cargo</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\VaultCargo.dds</Icon>
+            <Description>Combination Hydrogen and Cargo container of massive efficiency. No warchest is complete without one. Utilizing advanced cooling and compression, hydrogen is locked away, while separate compartments store all the materials you require to produce hundreds of warships at a moment's notice. Just one should be all that you require.
+			
+			Skunkworks may not be held liable for workplace accidents resulting from the rapid decompression of highly flammable gasses during inevitable acts of violence.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="7" y="3" z="11" />
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\XLCargo\VaultCargo.mwm</Model>
+            <Components>
+                <Component Subtype="Tech50x" Count="10"/>
+                <Component Subtype="InteriorPlate" Count="6000"/>
+                <Component Subtype="Construction" Count="5000"/>
+                <Component Subtype="SmallTube" Count="16000"/>
+                <Component Subtype="LargeTube" Count="7890"/>
+                <Component Subtype="Motor" Count="2500"/>
+                <Component Subtype="Computer" Count="1984"/>
+                <Component Subtype="Display" Count="50"/>
+                <Component Subtype="SteelPlate" Count="6000"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="2.85" EndY="2.85"/>
+				<MountPoint Side="Front" StartX="4.15" StartY="0.15" EndX="6.85" EndY="2.85"/>
+				<MountPoint Side="Front" StartX="3.1" StartY="1.1" EndX="3.9" EndY="1.9"/>
+				<MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="2.85" EndY="2.85"/>
+				<MountPoint Side="Back" StartX="4.15" StartY="0.15" EndX="6.85" EndY="2.85"/>
+				<MountPoint Side="Back" StartX="3.1" StartY="1.1" EndX="3.9" EndY="1.9"/>
+				<MountPoint Side="Left" StartX="0.04" StartY="0.52" EndX="10.96" EndY="2.48"/>
+				<MountPoint Side="Right" StartX="0.04" StartY="0.52" EndX="10.96" EndY="2.48"/>
+				<MountPoint Side="Top" StartX="0.56" StartY="0.04" EndX="2.44" EndY="10.96"/>
+				<MountPoint Side="Top" StartX="4.56" StartY="0.04" EndX="6.44" EndY="10.96"/>
+				<MountPoint Side="Top" StartX="3.1" StartY="5.1" EndX="3.9" EndY="5.9"/>
+				<MountPoint Side="Bottom" StartX="0.56" StartY="0.04" EndX="2.44" EndY="10.96"/>
+				<MountPoint Side="Bottom" StartX="4.56" StartY="0.04" EndX="6.44" EndY="10.96"/>
+				<MountPoint Side="Bottom" StartX="3.1" StartY="5.1" EndX="3.9" EndY="5.9"/>
+			</MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.20" File="Models\XLCargo\VaultCargo_BS1.mwm"/>
+                <Model BuildPercentUpperBound="0.40" File="Models\XLCargo\VaultCargo_BS2.mwm"/>
+                <Model BuildPercentUpperBound="0.60" File="Models\XLCargo\VaultCargo_BS3.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\XLCargo\VaultCargo_BS4.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>LargeCargoContainer50x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>2000</BuildTimeSeconds>
+            <GeneralDamageMultiplier>0.8</GeneralDamageMultiplier>
+			<DeformationRatio>0.25</DeformationRatio>
+			<DisassembleRatio>4</DisassembleRatio>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+            <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+            <InventoryMaxVolume>500000</InventoryMaxVolume>
+            <InventorySize>
+                <X>500000</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <BlueprintClasses>
+                <Class>Ingots</Class>
+                <Class>Components</Class>
+                <Class>HydrogenBottles</Class>
+                <Class>OxygenBottles</Class>
+                <Class>Ice</Class>
+                <Class>FakeCompClass</Class>
+            </BlueprintClasses>
+            <StoredGasId>
+                <TypeId>GasProperties</TypeId>
+                <SubtypeId>Hydrogen</SubtypeId>
+            </StoredGasId>
+            <Capacity>3000000000</Capacity> <!-- 120000000 for elite -->
+            <LeakPercent>0.005</LeakPercent>
+            <GasExplosionMaxRadius>60</GasExplosionMaxRadius>
+            <GasExplosionNeededVolumeToReachMaxRadius>1000000000</GasExplosionNeededVolumeToReachMaxRadius>
+            <GasExplosionDamageMultiplier>0.005</GasExplosionDamageMultiplier>
+            <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
+            <GasExplosionEffect>Explosion_Warhead_50</GasExplosionEffect>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>Explosion_Warhead_50</DestroyEffect>
+            <DestroySound>WepLrgWarheadExpl</DestroySound>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes>
+            <PCU>25</PCU>
+        </Definition>
 
     </CubeBlocks>
 </Definitions>

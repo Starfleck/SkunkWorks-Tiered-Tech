@@ -79,8 +79,8 @@ namespace RadarBlock
             DelayInSecondsActiveScan = 60;
             RequireStationaryWhileActiveScanning = false;
             AllEnabledRadarsVisible = true;
-            CharacterDetectionRange = 3000;
-            ModeSwitchAtBroadcastRange = 10000;
+            CharacterDetectionRange = 15000;
+            ModeSwitchAtBroadcastRange = 40000;
             GpsOffSetDistanceMin = 2000;
             GpsOffSetDistanceMax = 3000;
             EnableSmallRadar = false;

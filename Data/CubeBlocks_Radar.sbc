@@ -46,10 +46,11 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <Flare>NoFlare</Flare>
+		<MaxBroadcastRadius>90000</MaxBroadcastRadius>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>50000</PCU>
+      <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
 	
