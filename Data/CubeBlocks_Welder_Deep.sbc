@@ -128,7 +128,7 @@
         </Definition>
 
         <!--Elite Deep Welder-->
-        <!-- <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
             <Id>
                 <TypeId>ShipWelder</TypeId>
                 <SubtypeId>LargeShipWelder8x</SubtypeId>
@@ -136,10 +136,7 @@
             <DisplayName>Elite Deep Welder</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Welder8x.dds</Icon>
-            <Description>Going the distance for you...
-			After much advancement in 25th-century engineering, the SkunkWorks Electrical Authority was able to coordinate the quantum-projectile-placement technology of advanced aliens with TeslaWeld, an arc welder which can direct high voltage streams at a distance. The result is the much-sought-after Elite Deep Welder, able to penetrate ships' hulls and repair hard-to-reach interiors.
-			-
-			Available only on Static grids.</Description>
+            <Description>The SkunkWorks Electrical Authority combines the quantum-placement technology of advanced Solis engineering with Nexus WormWeld, an arc welder which can direct high voltage streams at a distance. The Elite Deep Welder can repair hard-to-reach interiors. Recommended use is to apply the Build Vision overlay and use the Projector Highlighter plugin for minimal guessing when doing repairs.</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2"/>
@@ -186,7 +183,7 @@
             <BlockPairName>ShipWelder8x</BlockPairName>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Public>false</Public>
+            <Public>true</Public>
             <BuildTimeSeconds>81</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -194,7 +191,7 @@
             <EmissiveColorPreset>Welder</EmissiveColorPreset>
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>16</SensorRadius>
+            <SensorRadius>4.8</SensorRadius>
             <SensorOffset>7</SensorOffset>
             <ParticleOffset>
                 <X>0</X>
@@ -203,6 +200,6 @@
             </ParticleOffset>
             <PCU>150</PCU>
 
-        </Definition> -->
+        </Definition>
     </CubeBlocks>
 </Definitions>
