@@ -408,7 +408,7 @@
             <LeakPercent>0.0025</LeakPercent>
             <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>48000000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.00018</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.00006</GasExplosionDamageMultiplier>
             <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -487,7 +487,7 @@
             <LeakPercent>0.005</LeakPercent>
             <GasExplosionMaxRadius>10</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>3200000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.00018</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.00006</GasExplosionDamageMultiplier>
             <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_15</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -584,7 +584,7 @@
             <LeakPercent>0.005</LeakPercent>
             <GasExplosionMaxRadius>5</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>1600000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.00018</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.00006</GasExplosionDamageMultiplier>
             <GasExplosionSound>WepSmallWarheadExpl</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_02</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -663,7 +663,7 @@
             <LeakPercent>0.025</LeakPercent>
             <GasExplosionMaxRadius>3</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>48000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.00018</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.00006</GasExplosionDamageMultiplier>
             <GasExplosionSound>WepLrgWarheadExpl</GasExplosionSound>
             <GasExplosionEffect>BlockDestroyedExplosion_Large</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -751,7 +751,7 @@
             <LeakPercent>0.0025</LeakPercent>
             <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>63000000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.0002</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.000045</GasExplosionDamageMultiplier>
             <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -830,7 +830,7 @@
             <LeakPercent>0.005</LeakPercent>
             <GasExplosionMaxRadius>10</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>4200000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.0002</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.000045</GasExplosionDamageMultiplier>
             <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_15</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -927,7 +927,7 @@
             <LeakPercent>0.005</LeakPercent>
             <GasExplosionMaxRadius>5</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>2100000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.0002</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.000045</GasExplosionDamageMultiplier>
             <GasExplosionSound>WepSmallWarheadExpl</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_02</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -1006,7 +1006,7 @@
             <LeakPercent>0.025</LeakPercent>
             <GasExplosionMaxRadius>3</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>63000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.0002</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.000045</GasExplosionDamageMultiplier>
             <GasExplosionSound>WepLrgWarheadExpl</GasExplosionSound>
             <GasExplosionEffect>BlockDestroyedExplosion_Large</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -1094,7 +1094,7 @@
             <LeakPercent>0.0025</LeakPercent>
             <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>72000000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.00021</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.000035</GasExplosionDamageMultiplier>
             <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -1173,7 +1173,7 @@
             <LeakPercent>0.005</LeakPercent>
             <GasExplosionMaxRadius>10</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>4800000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.00021</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.000035</GasExplosionDamageMultiplier>
             <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_15</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -1270,7 +1270,7 @@
             <LeakPercent>0.005</LeakPercent>
             <GasExplosionMaxRadius>5</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>2400000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.00021</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.000035</GasExplosionDamageMultiplier>
             <GasExplosionSound>WepSmallWarheadExpl</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_02</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -1349,7 +1349,7 @@
             <LeakPercent>0.025</LeakPercent>
             <GasExplosionMaxRadius>3</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>72000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.00021</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.000035</GasExplosionDamageMultiplier>
             <GasExplosionSound>WepLrgWarheadExpl</GasExplosionSound>
             <GasExplosionEffect>BlockDestroyedExplosion_Large</GasExplosionEffect>
             <TieredUpdateTimes>
@@ -1439,7 +1439,7 @@
             <LeakPercent>0.005</LeakPercent>
             <GasExplosionMaxRadius>40</GasExplosionMaxRadius>
             <GasExplosionNeededVolumeToReachMaxRadius>600000000</GasExplosionNeededVolumeToReachMaxRadius>
-            <GasExplosionDamageMultiplier>0.00042</GasExplosionDamageMultiplier>
+            <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
             <GasExplosionSound>HydrogenExplosion</GasExplosionSound>
             <GasExplosionEffect>Explosion_Warhead_50</GasExplosionEffect>
             <TieredUpdateTimes>

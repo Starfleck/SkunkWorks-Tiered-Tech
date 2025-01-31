@@ -30,11 +30,10 @@
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TrashCanGroup" />
             <Icon>Textures\StoneIncinerator.dds</Icon>
             <DisplayName>Stone Incinerator</DisplayName>
-            <Description>Rapidly vaporizes Stone leaving only trace amounts of ressources.</Description>
+            <Description>Rapidly vaporizes Stone leaving only trace amounts of resources.</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_Refinery" Subtype="StoneIncinerator" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="StoneIncineratorSmall" />
-<!--                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeTrashCan" />-->
             </Blocks>
         </BlockVariantGroup>
 
@@ -44,8 +43,6 @@
             <DisplayName>DisplayName_Block_Assembler</DisplayName>
             <Description>Description_Assembler</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />            
                 <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
@@ -59,6 +56,22 @@
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial20x" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler50x" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial50x" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SurvivalKitGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
+            <DisplayName>DisplayName_Block_Assembler</DisplayName>
+            <Description>Description_Assembler</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoom" />
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoomReskin" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoRoom" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockCryoChamber" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -96,8 +109,8 @@
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindTurbineGroup" />
             <Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_WindTurbineGroup</DisplayName>
-            <Description>Description_BlockGroup_WindTurbineGroup</Description>
+            <DisplayName>DisplayName_Block_WindTurbine</DisplayName>
+            <Description>Description_WindTurbine</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
                 <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbineReskin" />
@@ -111,10 +124,10 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SolarPanelGroup" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SolarGroup" />
             <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_SolarPanelGroup</DisplayName>
-            <Description>Description_BlockGroup_SolarPanelGroup</Description>
+            <DisplayName>DisplayName_BlockGroup_EnergyRenewableGroup</DisplayName>
+            <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockColorableSolarPanel" />
@@ -153,7 +166,7 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EnergyFueledGroup" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ReactorsGroup" />
             <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_EnergyFueledGroup</DisplayName>
             <Description>Description_BlockGroup_EnergyFueledGroup</Description>
@@ -299,7 +312,7 @@
             <Description>Armored blocks.</Description>
             <Blocks>
 				<Block Type="MyObjectBuilder_ConveyorConnector" Subtype="MA_Buster_Conveyor" /> 
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MA_Buster_ArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="MA_Buster_CompBlock" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="MA_Buster_Window" />
 				<Block Type="MyObjectBuilder_CameraBlock" Subtype="MA_Buster_Camera" /> 
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="MA_Buster_Passage" />
@@ -335,6 +348,21 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_RemoteControl" Subtype="LargeBlockRemoteControl" />
                 <Block Type="MyObjectBuilder_RemoteControl" Subtype="SmallBlockRemoteControl" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraBlock" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraBlock" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraTopMounted" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraTopMounted" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="ArmoredCameraLG" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="ArmoredCameraSG" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CameraGroup" />
+            <Icon>Textures\GUI\Icons\Camera.dds</Icon>
+            <DisplayName>DisplayName_Block_Camera</DisplayName>
+            <Description>Description_Camera</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraBlock" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraBlock" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraTopMounted" />
@@ -638,65 +666,65 @@
 
         <!-- Lights-->
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SpotlightGroup" />
             <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
             <Description>Description_BlockGroup_LightingGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLightPanel" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeLightPanel" />
-                <Block Type="MyObjectBuilder_Searchlight" Subtype="LargeSearchlight" />
-                <Block Type="MyObjectBuilder_Searchlight" Subtype="SmallSearchlight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockInsetLight" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight2x" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight2x" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight4x" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight4x" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight8x" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight8x" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
+                <Block Type="MyObjectBuilder_Searchlight" Subtype="LargeSearchlight" />
+                <Block Type="MyObjectBuilder_Searchlight" Subtype="SmallSearchlight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFloodlight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFloodlightAngled" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFloodlightCornerL" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFloodlightCornerR" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightAngled" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightCornerL" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightCornerR" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightDown" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightAngledRotated" />
             </Blocks>
         </BlockVariantGroup>
+
 
 <!--        Comm-->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AntennaGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_AntennaGroup</DisplayName>
-            <Description>Description_BlockGroup_AntennaGroup</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntenna" />
-                <Block Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntennaDish" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin" />
-                <Block Type="MyObjectBuilder_LaserAntenna" Subtype="LargeBlockLaserAntenna" />
-                <Block Type="MyObjectBuilder_RadioAntenna" Subtype="SmallBlockRadioAntenna" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin" />
-                <Block Type="MyObjectBuilder_LaserAntenna" Subtype="SmallBlockLaserAntenna" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon2x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin2x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon2x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon4x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin4x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon4x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon8x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin8x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon8x" />
 
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BeaconGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\beacon.dds</Icon>
+            <DisplayName>DisplayName_Block_Beacon</DisplayName>
+            <Description>Description_Beacon</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon2x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon2x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin2x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin2x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon4x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon4x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin4x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin4x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon8x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon8x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeaconReskin8x" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin8x" />
             </Blocks>
         </BlockVariantGroup>
+
     </BlockVariantGroups>
 </Definitions>
