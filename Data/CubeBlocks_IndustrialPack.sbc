@@ -53,7 +53,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>196800</ForceMagnitude>
+            <ForceMagnitude>200000</ForceMagnitude>
             <FuelConverter>
                 <FuelId>
                     <TypeId>GasProperties</TypeId>
@@ -61,7 +61,7 @@
                 </FuelId>
                 <Efficiency>1</Efficiency>
             </FuelConverter>
-            <MaxPowerConsumption>0.125</MaxPowerConsumption>
+            <MaxPowerConsumption>0.15</MaxPowerConsumption>
             <MinPowerConsumption>0.000000001</MinPowerConsumption>
             <SlowdownFactor>1</SlowdownFactor>
             <FlameDamageLengthScale>0.34</FlameDamageLengthScale>
@@ -164,10 +164,10 @@
                 </FuelId>
                 <Efficiency>1</Efficiency>
             </FuelConverter>
-            <MaxPowerConsumption>0.6</MaxPowerConsumption>
+            <MaxPowerConsumption>1</MaxPowerConsumption>
             <MinPowerConsumption>0.000000001</MinPowerConsumption>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>1200000</ForceMagnitude>
+            <ForceMagnitude>1700000</ForceMagnitude>
             <SlowdownFactor>1</SlowdownFactor>
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>2</FlameDamage>
@@ -258,7 +258,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>1350000</ForceMagnitude>
+            <ForceMagnitude>1700000</ForceMagnitude>
             <SlowdownFactor>1</SlowdownFactor>
             <FuelConverter>
                 <FuelId>
@@ -373,7 +373,7 @@
             <MaxPowerConsumption>7.5</MaxPowerConsumption>
             <MinPowerConsumption>0.000000001</MinPowerConsumption>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>10800000</ForceMagnitude>
+            <ForceMagnitude>14000000</ForceMagnitude>
             <SlowdownFactor>1</SlowdownFactor>
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>42</FlameDamage>
@@ -826,7 +826,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>787200</ForceMagnitude>
+      <ForceMagnitude>1000000</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -834,7 +834,7 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>0.2188</MaxPowerConsumption>
+      <MaxPowerConsumption>0.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.34</FlameDamageLengthScale>
@@ -936,10 +936,10 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>1.05</MaxPowerConsumption>
+      <MaxPowerConsumption>4</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>4800000</ForceMagnitude>
+      <ForceMagnitude>8500000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>2</FlameDamage>
@@ -1030,7 +1030,7 @@
         <EdgeType>Light</EdgeType>
         <BuildTimeSeconds>60</BuildTimeSeconds>
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>5400000</ForceMagnitude>
+        <ForceMagnitude>8500000</ForceMagnitude>
         <SlowdownFactor>1</SlowdownFactor>
         <FuelConverter>
           <FuelId>
@@ -1039,7 +1039,7 @@
           </FuelId>
           <Efficiency>1</Efficiency>
         </FuelConverter>
-        <MaxPowerConsumption>2.1875</MaxPowerConsumption>
+        <MaxPowerConsumption>5</MaxPowerConsumption>
         <MinPowerConsumption>0.000000001</MinPowerConsumption>
         <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>4</FlameDamage>
@@ -1141,10 +1141,10 @@
           </FuelId>
           <Efficiency>1</Efficiency>
         </FuelConverter>
-        <MaxPowerConsumption>20</MaxPowerConsumption>
+        <MaxPowerConsumption>30</MaxPowerConsumption>
         <MinPowerConsumption>0.000000001</MinPowerConsumption>
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>43200000</ForceMagnitude>
+        <ForceMagnitude>70000000</ForceMagnitude>
         <SlowdownFactor>1</SlowdownFactor>
         <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>42</FlameDamage>
@@ -1593,7 +1593,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>23</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1180800</ForceMagnitude>
+      <ForceMagnitude>1600000</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -1601,7 +1601,7 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>0.3828</MaxPowerConsumption>
+      <MaxPowerConsumption>0.9</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.34</FlameDamageLengthScale>
@@ -1703,10 +1703,10 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>1.8375</MaxPowerConsumption>
+      <MaxPowerConsumption>6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>7200000</ForceMagnitude>
+      <ForceMagnitude>13600000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>2</FlameDamage>
@@ -1796,7 +1796,7 @@
         <EdgeType>Light</EdgeType>
         <BuildTimeSeconds>90</BuildTimeSeconds>
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>8100000</ForceMagnitude>
+        <ForceMagnitude>13600000</ForceMagnitude>
         <SlowdownFactor>1</SlowdownFactor>
         <FuelConverter>
           <FuelId>
@@ -1805,7 +1805,7 @@
           </FuelId>
           <Efficiency>1</Efficiency>
         </FuelConverter>
-        <MaxPowerConsumption>3.8281</MaxPowerConsumption>
+        <MaxPowerConsumption>7.5</MaxPowerConsumption>
         <MinPowerConsumption>0.000000001</MinPowerConsumption>
         <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>4</FlameDamage>
@@ -1907,10 +1907,10 @@
           </FuelId>
           <Efficiency>1</Efficiency>
         </FuelConverter>
-        <MaxPowerConsumption>35</MaxPowerConsumption>
+        <MaxPowerConsumption>45</MaxPowerConsumption>
         <MinPowerConsumption>0.000000001</MinPowerConsumption>
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>64800000</ForceMagnitude>
+        <ForceMagnitude>112000000</ForceMagnitude>
         <SlowdownFactor>1</SlowdownFactor>
         <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>42</FlameDamage>
@@ -2358,7 +2358,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>34</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1574400</ForceMagnitude>
+      <ForceMagnitude>2200000</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -2366,7 +2366,7 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>0.6699</MaxPowerConsumption>
+      <MaxPowerConsumption>1.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.34</FlameDamageLengthScale>
@@ -2468,10 +2468,10 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>3.2156</MaxPowerConsumption>
+      <MaxPowerConsumption>8</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>9600000</ForceMagnitude>
+      <ForceMagnitude>18700000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>2</FlameDamage>
@@ -2561,7 +2561,7 @@
         <EdgeType>Light</EdgeType>
         <BuildTimeSeconds>135</BuildTimeSeconds>
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>10800000</ForceMagnitude>
+        <ForceMagnitude>18700000</ForceMagnitude>
         <SlowdownFactor>1</SlowdownFactor>
         <FuelConverter>
           <FuelId>
@@ -2570,7 +2570,7 @@
           </FuelId>
           <Efficiency>1</Efficiency>
         </FuelConverter>
-        <MaxPowerConsumption>6.6992</MaxPowerConsumption>
+        <MaxPowerConsumption>10</MaxPowerConsumption>
         <MinPowerConsumption>0.000000001</MinPowerConsumption>
         <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>4</FlameDamage>
@@ -2672,10 +2672,10 @@
           </FuelId>
           <Efficiency>1</Efficiency>
         </FuelConverter>
-        <MaxPowerConsumption>62</MaxPowerConsumption>
+        <MaxPowerConsumption>60</MaxPowerConsumption>
         <MinPowerConsumption>0.000000001</MinPowerConsumption>
         <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-        <ForceMagnitude>86400000</ForceMagnitude>
+        <ForceMagnitude>154000000</ForceMagnitude>
         <SlowdownFactor>1</SlowdownFactor>
         <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
 			<FlameDamage>42</FlameDamage>
