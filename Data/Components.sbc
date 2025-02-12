@@ -45,7 +45,7 @@
                 <Z>0.4</Z>
             </Size>
             <Mass>40</Mass>
-            <Volume>10</Volume>
+            <Volume>5</Volume>
             <Model>Models\Components\gravity_generator_components_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <MaxIntegrity>90</MaxIntegrity>
@@ -75,7 +75,7 @@
                 <Z>0.4</Z>
             </Size>
             <Mass>50</Mass>
-            <Volume>16</Volume>
+            <Volume>7.5</Volume>
             <Model>Models\Components\gravity_generator_components_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <MaxIntegrity>100</MaxIntegrity>
