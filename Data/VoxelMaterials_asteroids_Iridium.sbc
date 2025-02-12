@@ -11,7 +11,7 @@
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Iridium</MinedOre>
-      <MinedOreRatio>.1</MinedOreRatio>
+      <MinedOreRatio>0.3</MinedOreRatio>
       <CanBeHarvested>false</CanBeHarvested>
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>false</SpawnsInAsteroids>
@@ -61,7 +61,7 @@
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Uranium</MinedOre>
-      <MinedOreRatio>0.3</MinedOreRatio>
+      <MinedOreRatio>1</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>	  
@@ -112,7 +112,7 @@
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Platinum</MinedOre>
-      <MinedOreRatio>0.3</MinedOreRatio>
+      <MinedOreRatio>1</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>	  
