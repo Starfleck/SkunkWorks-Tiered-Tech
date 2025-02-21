@@ -264,7 +264,7 @@
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall8x" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank8x" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank20x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeContainer50x" />
+                <!-- <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeContainer50x" /> -->
             </Blocks>
         </BlockVariantGroup>
 
@@ -301,7 +301,8 @@
               <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer8x" />
               <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer8x" />
               <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer20x" />
-              <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeContainer50x" />
+              <!-- <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeBlockLargeContainer50x" /> -->
+              <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer50xReplace" />
             </Blocks>
         </BlockVariantGroup>
 
